@@ -44,9 +44,9 @@ tags:
 | Resource | URL |
 |---|---|
 | 🚀 Live Demo (HuggingFace Spaces) | [YOUR_HF_SPACE_URL] |
-| 📓 Training Notebook (Colab) | [Open in Colab](training/MedSentinel_GRPO_Training.ipynb) |
+| 📓 Training Notebook (Colab) | [Open in Colab](https://colab.research.google.com/drive/1jtTyo1IGMs11BDf6VaAHy2SAOzoWFtwo?usp=sharing) |
 | 📝 Full Blog Post | [HuggingFace Blog](YOUR_HF_BLOG_URL) |
-| 💻 GitHub Repository | [YOUR_GITHUB_URL] |
+| 💻 Live Demo | [[Medsentinal]](https://medsentinal-multiagentenvironmentformedicalscience.replit.app) |
 | 🤗 Trained Model Weights | [YOUR_HF_MODEL_URL] |
 
 > **Note for judges:** All materials are linked above. The HuggingFace Space is the live runnable environment. The blog post contains the full technical story including reward hacking analysis.

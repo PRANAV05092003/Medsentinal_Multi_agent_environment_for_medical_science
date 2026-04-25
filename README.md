@@ -3,6 +3,8 @@ title: MedSentinel
 emoji: 🏥
 colorFrom: blue
 colorTo: green
+sdk: docker
+app_file: app_hf.py
 pinned: true
 license: mit
 tags:
@@ -41,11 +43,11 @@ tags:
 
 | Resource | URL |
 |---|---|
-| 🚀 Live Demo (HuggingFace Spaces) | [YOUR_HF_SPACE_URL] |
+| 🚀 HuggingFace Space (live env) | Add after uploading to HF Spaces |
 | 📓 Training Notebook (Colab) | [Open in Colab](https://colab.research.google.com/drive/1jtTyo1IGMs11BDf6VaAHy2SAOzoWFtwo?usp=sharing) |
-| 📝 Full Blog Post | [HuggingFace Blog](YOUR_HF_BLOG_URL) |
-| 💻 Live Demo | [[Medsentinal]](https://medsentinal-multiagentenvironmentformedicalscience.replit.app) |
-| 🤗 Trained Model Weights | [YOUR_HF_MODEL_URL] |
+| 📝 Full Blog Post | Add after publishing HF blog |
+| 💻 Live Demo (Replit) | [MedSentinel Demo](https://medsentinal-multiagentenvironmentformedicalscience.replit.app) |
+| 🤗 Trained LoRA Weights | Add after HF Hub upload |
 
 > **Note for judges:** All materials are linked above. The HuggingFace Space is the live runnable environment. The blog post contains the full technical story including reward hacking analysis.
 
@@ -193,6 +195,59 @@ env = MedSentinelEnv(EnvConfig(
 ```
 
 ---
+
+
+---
+
+## API Keys: What They Are Used For
+
+MedSentinel uses the Anthropic API in **two separate, independent places**. Both are optional, the system runs without them using rule-based fallbacks.
+
+### 1. Doctor Agent (Qwen2.5-3B + Claude fallback)
+
+```
+ANTHROPIC_API_KEY → Doctor Agent → Diagnosis + Drug + Dose
+```
+
+The Doctor Agent is a Qwen2.5-3B model fine-tuned with GRPO. When running locally with the trained LoRA weights, no API key is needed.
+
+On HuggingFace Spaces (free tier), loading a 3B model requires significant VRAM that is not always available. When the local model cannot load, the Doctor Agent automatically falls back to **Claude API (claude-3-5-sonnet)** to perform the diagnosis.
+
+**Why Claude for the doctor?** Claude has strong medical reasoning out of the box, handles schema-drifted field names correctly, and outputs structured JSON reliably, the same interface our reward function expects.
+
+Without the API key: the doctor runs in **rule-based mode**, a deterministic keyword-scoring fallback that still exercises the full pipeline (drift, auditor, reward) but with simpler diagnosis logic.
+
+### 2. Clinical Verification Layer (CVL, the 2FA check)
+
+```
+ANTHROPIC_API_KEY → CVL → Senior clinician review → Verified output
+```
+
+After the Doctor Agent outputs a diagnosis, the CVL sends the full context, patient record, doctor's proposed output, auditor flags, to Claude API acting as a **senior clinician reviewer**.
+
+The CVL checks:
+- Does the prescribed drug actually make clinical sense for this diagnosis?
+- Is the dosage appropriate for this specific patient's weight, age, and condition?
+- Are there drug interactions with current medications that the rule-based auditor missed?
+- Does the clinical reasoning contain any dangerous assumptions?
+
+**Why a separate API call?** Because the doctor agent can hallucinate or make subtle errors that pass the rule-based auditor. The CVL is a second, independent LLM review, like a pharmacist double-checking a prescription.
+
+**Critical design:** CVL output does NOT affect the reward signal. The RL model trains on its own raw decisions. CVL is a production safety layer only, it runs after the reward is computed.
+
+Without the API key: CVL runs in **pass-through mode**, it returns the doctor's output unchanged with a `cvl_fallback: true` flag.
+
+### Setting the API Key
+
+**Locally:**
+```bash
+echo "ANTHROPIC_API_KEY=sk-ant-..." > .env
+```
+
+**HuggingFace Spaces:**
+Go to your Space → Settings → Variables and Secrets → Add secret: `ANTHROPIC_API_KEY`
+
+Without the key, the full pipeline still runs. With the key, you get the full Claude-backed doctor + CVL safety verification.
 
 ## Quick Start
 

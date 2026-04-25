@@ -77,15 +77,18 @@ A multi-agent RL environment where a doctor AI learns to diagnose patients under
 ```
 Patient Case (JSON)
        ↓
-💀 Schema Drift Attacker     ← renames vitals/lab field keys at 35% probability
-       ↓                        troponin_i → TROP | heart_rate → HR | spo2 → SpO2
-🩺 Doctor Agent (Qwen2.5-3B) ← calls 5 MCP tools, outputs ICD-10 + drug + dose
+💀 Schema Drift Attacker     ← renames vitals/lab field keys (35% probability)
+       ↓                        troponin_i → TROP | heart_rate → HR
+🩺 Doctor Agent              ← Claude API → Qwen2.5-3B LoRA → rule-based Python
+       ↓                        calls 5 MCP tools, outputs ICD-10 + drug + dose
+🛡️ Auditor Agent (pure Python) ← rule-based: ALLERGY_VIOLATION, DOSAGE_OUT_OF_RANGE
        ↓
-🛡️ Auditor Agent (rule-based) ← flags ALLERGY_VIOLATION, DOSAGE_OUT_OF_RANGE
+🏆 Deterministic Reward       ← computed here (used for RL training)
        ↓
-🏆 Deterministic Reward       ← no LLM judge, fully auditable
-       ↓
-🔐 CVL (Claude API)           ← 2FA safety layer, not in reward loop
+🔐 Clinical Verification Layer ← SEPARATE final pipeline, runs after reward
+                                  Claude API re-checks entire decision independently
+                                  overrides errors before output reaches environment
+                                  does NOT affect reward or training
 ```
 
 ### Doctor Agent
@@ -178,19 +181,69 @@ V2's numbers are lower. But every single point is honest.
 
 ---
 
-## Clinical Verification Layer (2FA)
+## Clinical Verification Layer: The Final Safety Pipeline
 
-In medicine, 0.1% error has consequences.
+In medicine, one wrong thing can cause irreversible damage.
 
-The CVL sits between the doctor agent's output and the final answer. Before any decision is returned, Claude API acts as a senior clinician reviewer, checking drug-diagnosis match, dose appropriateness, and missed interactions.
+One wrong drug. One wrong dose. One missed allergy.
 
-**Key design:** CVL does NOT affect the reward signal. The RL model trains on its own raw decisions. CVL is a production safety net only.
+That is why we added a completely separate final pipeline that runs after all agents are done, before the output reaches the environment.
+
+This is not the Doctor. This is not the Auditor. This is a third, independent pipeline that knows nothing about what the agents did and re-examines the entire decision from scratch.
+
+**How it works:**
+
+```
+Agents run independently:
+  Schema Drift Attacker  →  Doctor Agent  →  Auditor Agent
+                                  ↓
+                           Reward computed (for RL training)
+                                  ↓
+                    ┌─────────────────────────────────┐
+                    │  CLINICAL VERIFICATION LAYER     │
+                    │  (separate final pipeline)        │
+                    │                                   │
+                    │  Input:  patient record (original)│
+                    │          drifted record            │
+                    │          doctor output             │
+                    │          auditor flags             │
+                    │                                   │
+                    │  Claude API acts as senior        │
+                    │  clinician — re-checks everything  │
+                    │                                   │
+                    │  Output: verified final answer    │
+                    └─────────────────────────────────┘
+                                  ↓
+                         Clean, verified output
+                         returned to environment
+```
+
+**What the CVL re-checks independently:**
+- Does the prescribed drug actually match this diagnosis, not just pass the allergy list?
+- Is the dose appropriate for this specific patient's age, weight, and condition?
+- Are there drug interactions with current medications that the rule-based auditor cannot catch?
+- Does the clinical reasoning contain any dangerous assumptions or logical errors?
+- If something is wrong, it overrides it and explains what changed
+
+**Why we built this:**
+
+The Doctor agent can hallucinate. The Auditor catches rule violations but cannot understand clinical context. A patient with appendicitis who gets nitroglycerin passes the auditor's allergy check — but it is clinically wrong.
+
+The CVL is the difference between "technically not illegal" and "actually correct medicine."
+
+**The most important design decision:**
+
+The CVL runs **after** the reward is computed. The RL agents train on their own raw decisions. The CVL does not interfere with training at all.
+
+The agents are the student. The reward is the grade. The CVL is the doctor who checks the actual prescription before it reaches the patient — separate from the grading, separate from the training, purely for safety.
+
+Without `ANTHROPIC_API_KEY`: CVL skips silently, returns doctor output unchanged with `cvl_fallback: true`.
 
 ```python
-# Enable CVL for production (disable during training for speed)
+# CVL is disabled during GRPO training (speed), enabled for production
 env = MedSentinelEnv(EnvConfig(
     patient_dataset_path="data/patient_cases.json",
-    enable_cvl=True,  # False during GRPO training
+    enable_cvl=True,   # False during training, True in production
 ))
 ```
 
@@ -199,55 +252,45 @@ env = MedSentinelEnv(EnvConfig(
 
 ---
 
-## API Keys: What They Are Used For
-
-MedSentinel uses the Anthropic API in **two separate, independent places**. Both are optional, the system runs without them using rule-based fallbacks.
-
-### 1. Doctor Agent (Qwen2.5-3B + Claude fallback)
+### 1. Doctor Agent: Anthropic API first, then Qwen2.5-3B, then pure Python
 
 ```
-ANTHROPIC_API_KEY → Doctor Agent → Diagnosis + Drug + Dose
+WITH API KEY:    Anthropic API (Claude) → full clinical reasoning
+WITHOUT API KEY: Qwen2.5-3B LoRA (locally trained model) → if torch/GPU available
+FINAL FALLBACK:  Plain Python rule-based script → always works, no dependencies
 ```
 
-The Doctor Agent is a Qwen2.5-3B model fine-tuned with GRPO. When running locally with the trained LoRA weights, no API key is needed.
+The Doctor Agent has three layers, tried in order:
 
-On HuggingFace Spaces (free tier), loading a 3B model requires significant VRAM that is not always available. When the local model cannot load, the Doctor Agent automatically falls back to **Claude API (claude-3-5-sonnet)** to perform the diagnosis.
+**Layer 1: Anthropic API (Claude)**
+When `ANTHROPIC_API_KEY` is set, the doctor calls Claude (claude-3-5-sonnet) with the full patient record as context. Claude reasons about the symptoms, handles schema-drifted field names, and outputs structured JSON with diagnosis + drug + dose.
 
-**Why Claude for the doctor?** Claude has strong medical reasoning out of the box, handles schema-drifted field names correctly, and outputs structured JSON reliably, the same interface our reward function expects.
+**Layer 2: Qwen2.5-3B LoRA (our trained model)**
+When no API key is set but `torch` and GPU are available, the doctor loads our fine-tuned Qwen2.5-3B model with the LoRA adapter (`medsentinel_weights_to_share/`). This is the model we trained with GRPO for 300 steps. It runs fully locally, no network needed.
 
-Without the API key: the doctor runs in **rule-based mode**, a deterministic keyword-scoring fallback that still exercises the full pipeline (drift, auditor, reward) but with simpler diagnosis logic.
+**Layer 3: Pure Python rule-based script**
+When neither API key nor GPU is available (e.g., HuggingFace Spaces free CPU), a deterministic Python script uses keyword matching on the chief complaint and vital signs to produce a diagnosis. No model, no dependencies. The full pipeline (drift, auditor, reward) still runs correctly.
 
-### 2. Clinical Verification Layer (CVL, the 2FA check)
+### 2. Auditor Agent: Pure Python, no model, no API key
 
-```
-ANTHROPIC_API_KEY → CVL → Senior clinician review → Verified output
-```
+The Auditor is **completely deterministic**. It is not an LLM. It does not use Claude. It does not use Qwen.
 
-After the Doctor Agent outputs a diagnosis, the CVL sends the full context, patient record, doctor's proposed output, auditor flags, to Claude API acting as a **senior clinician reviewer**.
+It reads the doctor's output and checks three things:
+- Is the prescribed drug in the patient's allergy list? → `ALLERGY_VIOLATION`
+- Is the dose outside the clinical range in `emergency_drugs.json`? → `DOSAGE_OUT_OF_RANGE`
+- Is the drug appropriate for this diagnosis category? → `WRONG_DRUG_CLASS`
 
-The CVL checks:
-- Does the prescribed drug actually make clinical sense for this diagnosis?
-- Is the dosage appropriate for this specific patient's weight, age, and condition?
-- Are there drug interactions with current medications that the rule-based auditor missed?
-- Does the clinical reasoning contain any dangerous assumptions?
+No API key needed. No GPU needed. Just Python logic.
 
-**Why a separate API call?** Because the doctor agent can hallucinate or make subtle errors that pass the rule-based auditor. The CVL is a second, independent LLM review, like a pharmacist double-checking a prescription.
+### 3. Clinical Verification Layer: Anthropic API (second independent call)
 
-**Critical design:** CVL output does NOT affect the reward signal. The RL model trains on its own raw decisions. CVL is a production safety layer only, it runs after the reward is computed.
+After the Auditor runs, the CVL sends everything to Claude API as a **separate, independent call** acting as a senior clinician reviewer. It checks deeper clinical context the rule-based auditor cannot: drug-diagnosis match, patient-specific dose, missed interactions.
 
-Without the API key: CVL runs in **pass-through mode**, it returns the doctor's output unchanged with a `cvl_fallback: true` flag.
+CVL does **NOT** affect the reward signal. The RL model trains on raw doctor output only. CVL is a production safety net.
 
-### Setting the API Key
+Without API key: CVL skips (pass-through mode).
 
-**Locally:**
-```bash
-echo "ANTHROPIC_API_KEY=sk-ant-..." > .env
-```
-
-**HuggingFace Spaces:**
-Go to your Space → Settings → Variables and Secrets → Add secret: `ANTHROPIC_API_KEY`
-
-Without the key, the full pipeline still runs. With the key, you get the full Claude-backed doctor + CVL safety verification.
+---
 
 ## Quick Start
 

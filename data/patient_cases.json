@@ -1,0 +1,7571 @@
+[
+  {
+    "patient_id": "P0001",
+    "age": 32,
+    "gender": "male",
+    "chief_complaint": "crushing chest pain radiating to left arm with diaphoresis with sudden onset",
+    "vitals": {
+      "bp_systolic": 93,
+      "bp_diastolic": 77,
+      "heart_rate": 107,
+      "temperature": 36.6,
+      "spo2": 96,
+      "respiratory_rate": 18
+    },
+    "lab_results": {
+      "troponin_i": 2.79,
+      "bnp": 47,
+      "creatinine": 0.7,
+      "glucose": 87,
+      "wbc": 5.8,
+      "hemoglobin": 14.5
+    },
+    "known_allergies": [
+      "codeine"
+    ],
+    "current_medications": [],
+    "ground_truth_diagnosis": "I21.9",
+    "safe_drugs": [
+      "heparin",
+      "nitroglycerin",
+      "morphine"
+    ],
+    "unsafe_drugs": [
+      "aspirin",
+      "amiodarone",
+      "codeine"
+    ]
+  },
+  {
+    "patient_id": "P0002",
+    "age": 75,
+    "gender": "female",
+    "chief_complaint": "intermittent chest tightness worsening at rest",
+    "vitals": {
+      "bp_systolic": 168,
+      "bp_diastolic": 75,
+      "heart_rate": 78,
+      "temperature": 36.8,
+      "spo2": 97,
+      "respiratory_rate": 15
+    },
+    "lab_results": {
+      "troponin_i": 0.14,
+      "bnp": 41,
+      "creatinine": 0.8,
+      "glucose": 97,
+      "wbc": 5.1,
+      "hemoglobin": 15.9
+    },
+    "known_allergies": [],
+    "current_medications": [],
+    "ground_truth_diagnosis": "I20.0",
+    "safe_drugs": [
+      "nitroglycerin",
+      "metoprolol",
+      "heparin"
+    ],
+    "unsafe_drugs": [
+      "amiodarone",
+      "alteplase"
+    ]
+  },
+  {
+    "patient_id": "P0003",
+    "age": 33,
+    "gender": "female",
+    "chief_complaint": "progressive shortness of breath and leg swelling for 3 days worsening over past hour",
+    "vitals": {
+      "bp_systolic": 115,
+      "bp_diastolic": 87,
+      "heart_rate": 98,
+      "temperature": 37.3,
+      "spo2": 87,
+      "respiratory_rate": 18
+    },
+    "lab_results": {
+      "troponin_i": 0.025,
+      "bnp": 1378,
+      "creatinine": 0.7,
+      "glucose": 92,
+      "wbc": 9.1,
+      "hemoglobin": 16.4
+    },
+    "known_allergies": [
+      "NSAIDs"
+    ],
+    "current_medications": [
+      "amlodipine",
+      "atorvastatin"
+    ],
+    "ground_truth_diagnosis": "I50.9",
+    "safe_drugs": [
+      "furosemide",
+      "morphine",
+      "nitroglycerin"
+    ],
+    "unsafe_drugs": [
+      "aspirin",
+      "NSAIDs"
+    ]
+  },
+  {
+    "patient_id": "P0004",
+    "age": 65,
+    "gender": "female",
+    "chief_complaint": "sudden palpitations and irregular heartbeat with associated nausea",
+    "vitals": {
+      "bp_systolic": 123,
+      "bp_diastolic": 78,
+      "heart_rate": 145,
+      "temperature": 36.6,
+      "spo2": 97,
+      "respiratory_rate": 18
+    },
+    "lab_results": {
+      "troponin_i": 0.068,
+      "bnp": 30,
+      "creatinine": 0.9,
+      "glucose": 93,
+      "wbc": 10.4,
+      "hemoglobin": 15.1
+    },
+    "known_allergies": [],
+    "current_medications": [
+      "metformin"
+    ],
+    "ground_truth_diagnosis": "I48.0",
+    "safe_drugs": [
+      "metoprolol",
+      "amiodarone",
+      "adenosine"
+    ],
+    "unsafe_drugs": [
+      "alteplase"
+    ]
+  },
+  {
+    "patient_id": "P0005",
+    "age": 47,
+    "gender": "male",
+    "chief_complaint": "severe hypotension with cold clammy skin after MI worsening over past hour",
+    "vitals": {
+      "bp_systolic": 67,
+      "bp_diastolic": 82,
+      "heart_rate": 123,
+      "temperature": 36.6,
+      "spo2": 98,
+      "respiratory_rate": 15
+    },
+    "lab_results": {
+      "troponin_i": 8.05,
+      "bnp": 45,
+      "creatinine": 1.1,
+      "glucose": 105,
+      "wbc": 7.3,
+      "hemoglobin": 13.6
+    },
+    "known_allergies": [],
+    "current_medications": [
+      "omeprazole"
+    ],
+    "ground_truth_diagnosis": "R57.0",
+    "safe_drugs": [
+      "dopamine",
+      "norepinephrine",
+      "morphine"
+    ],
+    "unsafe_drugs": [
+      "metoprolol",
+      "labetalol"
+    ]
+  },
+  {
+    "patient_id": "P0006",
+    "age": 64,
+    "gender": "male",
+    "chief_complaint": "severe headache with blood pressure 220/130 with sudden onset",
+    "vitals": {
+      "bp_systolic": 238,
+      "bp_diastolic": 134,
+      "heart_rate": 80,
+      "temperature": 36.6,
+      "spo2": 96,
+      "respiratory_rate": 14
+    },
+    "lab_results": {
+      "troponin_i": 0.022,
+      "bnp": 30,
+      "creatinine": 1.1,
+      "glucose": 98,
+      "wbc": 8.1,
+      "hemoglobin": 14.0
+    },
+    "known_allergies": [
+      "contrast dye"
+    ],
+    "current_medications": [
+      "metformin",
+      "lisinopril"
+    ],
+    "ground_truth_diagnosis": "I10",
+    "safe_drugs": [
+      "labetalol",
+      "furosemide"
+    ],
+    "unsafe_drugs": [
+      "metoprolol",
+      "contrast dye",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0007",
+    "age": 52,
+    "gender": "female",
+    "chief_complaint": "severe shortness of breath unable to complete sentences with sudden onset",
+    "vitals": {
+      "bp_systolic": 117,
+      "bp_diastolic": 79,
+      "heart_rate": 78,
+      "temperature": 36.7,
+      "spo2": 88,
+      "respiratory_rate": 36
+    },
+    "lab_results": {
+      "troponin_i": 0.088,
+      "bnp": 68,
+      "creatinine": 0.8,
+      "glucose": 114,
+      "wbc": 5.1,
+      "hemoglobin": 15.0
+    },
+    "known_allergies": [
+      "latex"
+    ],
+    "current_medications": [],
+    "ground_truth_diagnosis": "J96.00",
+    "safe_drugs": [
+      "furosemide",
+      "morphine",
+      "methylprednisolone"
+    ],
+    "unsafe_drugs": [
+      "metoprolol",
+      "latex",
+      "labetalol",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0008",
+    "age": 65,
+    "gender": "male",
+    "chief_complaint": "fever cough with productive sputum and shortness of breath",
+    "vitals": {
+      "bp_systolic": 144,
+      "bp_diastolic": 86,
+      "heart_rate": 65,
+      "temperature": 38.9,
+      "spo2": 92,
+      "respiratory_rate": 14
+    },
+    "lab_results": {
+      "troponin_i": 0.019,
+      "bnp": 43,
+      "creatinine": 1.1,
+      "glucose": 111,
+      "wbc": 27.3,
+      "hemoglobin": 13.5
+    },
+    "known_allergies": [],
+    "current_medications": [
+      "lisinopril"
+    ],
+    "ground_truth_diagnosis": "J18.9",
+    "safe_drugs": [
+      "ceftriaxone",
+      "vancomycin",
+      "acetaminophen"
+    ],
+    "unsafe_drugs": [
+      "NSAIDs",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0009",
+    "age": 34,
+    "gender": "male",
+    "chief_complaint": "sudden wheezing difficulty breathing not responding to inhaler with sudden onset",
+    "vitals": {
+      "bp_systolic": 140,
+      "bp_diastolic": 87,
+      "heart_rate": 70,
+      "temperature": 36.8,
+      "spo2": 90,
+      "respiratory_rate": 31
+    },
+    "lab_results": {
+      "troponin_i": 0.084,
+      "bnp": 68,
+      "creatinine": 1.1,
+      "glucose": 91,
+      "wbc": 8.8,
+      "hemoglobin": 14.1
+    },
+    "known_allergies": [
+      "NSAIDs"
+    ],
+    "current_medications": [],
+    "ground_truth_diagnosis": "J45.901",
+    "safe_drugs": [
+      "methylprednisolone",
+      "epinephrine",
+      "magnesium-sulfate"
+    ],
+    "unsafe_drugs": [
+      "metoprolol",
+      "NSAIDs",
+      "aspirin",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0010",
+    "age": 49,
+    "gender": "male",
+    "chief_complaint": "sudden pleuritic chest pain shortness of breath after long flight with sudden onset",
+    "vitals": {
+      "bp_systolic": 114,
+      "bp_diastolic": 80,
+      "heart_rate": 102,
+      "temperature": 37.1,
+      "spo2": 87,
+      "respiratory_rate": 18
+    },
+    "lab_results": {
+      "troponin_i": 0.028,
+      "bnp": 24,
+      "creatinine": 1.1,
+      "glucose": 86,
+      "wbc": 5.9,
+      "hemoglobin": 16.1
+    },
+    "known_allergies": [
+      "latex"
+    ],
+    "current_medications": [
+      "levothyroxine"
+    ],
+    "ground_truth_diagnosis": "I26.99",
+    "safe_drugs": [
+      "heparin",
+      "alteplase",
+      "morphine"
+    ],
+    "unsafe_drugs": [
+      "aspirin",
+      "latex"
+    ]
+  },
+  {
+    "patient_id": "P0011",
+    "age": 45,
+    "gender": "male",
+    "chief_complaint": "sudden left-sided facial droop arm weakness and slurred speech with no prior history",
+    "vitals": {
+      "bp_systolic": 166,
+      "bp_diastolic": 77,
+      "heart_rate": 80,
+      "temperature": 37.3,
+      "spo2": 97,
+      "respiratory_rate": 14
+    },
+    "lab_results": {
+      "troponin_i": 0.018,
+      "bnp": 47,
+      "creatinine": 0.9,
+      "glucose": 97,
+      "wbc": 7.3,
+      "hemoglobin": 15.4
+    },
+    "known_allergies": [],
+    "current_medications": [
+      "lisinopril"
+    ],
+    "ground_truth_diagnosis": "I63.9",
+    "safe_drugs": [
+      "alteplase",
+      "labetalol",
+      "acetaminophen"
+    ],
+    "unsafe_drugs": [
+      "heparin",
+      "aspirin"
+    ]
+  },
+  {
+    "patient_id": "P0012",
+    "age": 49,
+    "gender": "male",
+    "chief_complaint": "sudden severe headache worst of life with focal neurological deficits",
+    "vitals": {
+      "bp_systolic": 186,
+      "bp_diastolic": 87,
+      "heart_rate": 79,
+      "temperature": 36.6,
+      "spo2": 97,
+      "respiratory_rate": 16
+    },
+    "lab_results": {
+      "troponin_i": 0.047,
+      "bnp": 75,
+      "creatinine": 1.2,
+      "glucose": 99,
+      "wbc": 9.3,
+      "hemoglobin": 15.9
+    },
+    "known_allergies": [],
+    "current_medications": [
+      "metformin",
+      "lisinopril"
+    ],
+    "ground_truth_diagnosis": "I61.9",
+    "safe_drugs": [
+      "labetalol",
+      "acetaminophen",
+      "tranexamic-acid"
+    ],
+    "unsafe_drugs": [
+      "heparin",
+      "aspirin",
+      "alteplase"
+    ]
+  },
+  {
+    "patient_id": "P0013",
+    "age": 48,
+    "gender": "male",
+    "chief_complaint": "generalized tonic-clonic seizure lasting 3 minutes with no prior history",
+    "vitals": {
+      "bp_systolic": 136,
+      "bp_diastolic": 85,
+      "heart_rate": 80,
+      "temperature": 38.1,
+      "spo2": 99,
+      "respiratory_rate": 14
+    },
+    "lab_results": {
+      "troponin_i": 0.023,
+      "bnp": 20,
+      "creatinine": 1.2,
+      "glucose": 75,
+      "wbc": 10.1,
+      "hemoglobin": 15.6
+    },
+    "known_allergies": [
+      "sulfa"
+    ],
+    "current_medications": [],
+    "ground_truth_diagnosis": "G40.909",
+    "safe_drugs": [
+      "diazepam",
+      "levetiracetam",
+      "acetaminophen"
+    ],
+    "unsafe_drugs": [
+      "metoprolol",
+      "sulfa",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0014",
+    "age": 55,
+    "gender": "male",
+    "chief_complaint": "fever confusion hypotension suspected infection source with associated nausea",
+    "vitals": {
+      "bp_systolic": 75,
+      "bp_diastolic": 88,
+      "heart_rate": 102,
+      "temperature": 39.7,
+      "spo2": 98,
+      "respiratory_rate": 14
+    },
+    "lab_results": {
+      "troponin_i": 0.014,
+      "bnp": 50,
+      "creatinine": 2.9,
+      "glucose": 112,
+      "wbc": 28.1,
+      "hemoglobin": 12.7
+    },
+    "known_allergies": [
+      "codeine"
+    ],
+    "current_medications": [],
+    "ground_truth_diagnosis": "A41.9",
+    "safe_drugs": [
+      "piperacillin-tazobactam",
+      "vancomycin",
+      "norepinephrine"
+    ],
+    "unsafe_drugs": [
+      "NSAIDs",
+      "codeine",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0015",
+    "age": 49,
+    "gender": "male",
+    "chief_complaint": "nausea vomiting abdominal pain fruity breath known diabetic",
+    "vitals": {
+      "bp_systolic": 115,
+      "bp_diastolic": 83,
+      "heart_rate": 109,
+      "temperature": 37.1,
+      "spo2": 98,
+      "respiratory_rate": 29
+    },
+    "lab_results": {
+      "troponin_i": 0.026,
+      "bnp": 65,
+      "creatinine": 0.9,
+      "glucose": 561,
+      "wbc": 6.9,
+      "hemoglobin": 15.2
+    },
+    "known_allergies": [
+      "aspirin"
+    ],
+    "current_medications": [
+      "lisinopril"
+    ],
+    "ground_truth_diagnosis": "E10.10",
+    "safe_drugs": [
+      "insulin",
+      "bicarbonate",
+      "furosemide"
+    ],
+    "unsafe_drugs": [
+      "metoprolol",
+      "aspirin",
+      "diazepam",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0016",
+    "age": 27,
+    "gender": "male",
+    "chief_complaint": "confusion diaphoresis shakiness in known diabetic",
+    "vitals": {
+      "bp_systolic": 142,
+      "bp_diastolic": 78,
+      "heart_rate": 115,
+      "temperature": 37.4,
+      "spo2": 96,
+      "respiratory_rate": 15
+    },
+    "lab_results": {
+      "troponin_i": 0.04,
+      "bnp": 30,
+      "creatinine": 0.9,
+      "glucose": 44,
+      "wbc": 8.7,
+      "hemoglobin": 14.9
+    },
+    "known_allergies": [],
+    "current_medications": [
+      "warfarin",
+      "lisinopril"
+    ],
+    "ground_truth_diagnosis": "E16.0",
+    "safe_drugs": [
+      "dextrose",
+      "glucagon"
+    ],
+    "unsafe_drugs": [
+      "insulin",
+      "metformin",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0017",
+    "age": 35,
+    "gender": "female",
+    "chief_complaint": "urticaria facial swelling throat tightness after eating shellfish",
+    "vitals": {
+      "bp_systolic": 78,
+      "bp_diastolic": 73,
+      "heart_rate": 138,
+      "temperature": 36.7,
+      "spo2": 98,
+      "respiratory_rate": 18
+    },
+    "lab_results": {
+      "troponin_i": 0.027,
+      "bnp": 41,
+      "creatinine": 0.8,
+      "glucose": 105,
+      "wbc": 9.6,
+      "hemoglobin": 14.5
+    },
+    "known_allergies": [
+      "penicillin"
+    ],
+    "current_medications": [
+      "omeprazole",
+      "warfarin"
+    ],
+    "ground_truth_diagnosis": "T78.2XXA",
+    "safe_drugs": [
+      "epinephrine",
+      "diphenhydramine",
+      "methylprednisolone"
+    ],
+    "unsafe_drugs": [
+      "metoprolol",
+      "NSAIDs",
+      "penicillin",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0018",
+    "age": 23,
+    "gender": "male",
+    "chief_complaint": "decreased urine output flank pain nausea with sudden onset",
+    "vitals": {
+      "bp_systolic": 131,
+      "bp_diastolic": 74,
+      "heart_rate": 85,
+      "temperature": 37.5,
+      "spo2": 97,
+      "respiratory_rate": 17
+    },
+    "lab_results": {
+      "troponin_i": 0.054,
+      "bnp": 47,
+      "creatinine": 7.5,
+      "glucose": 88,
+      "wbc": 5.0,
+      "hemoglobin": 16.0
+    },
+    "known_allergies": [
+      "aspirin"
+    ],
+    "current_medications": [],
+    "ground_truth_diagnosis": "N17.9",
+    "safe_drugs": [
+      "furosemide",
+      "bicarbonate",
+      "acetaminophen"
+    ],
+    "unsafe_drugs": [
+      "aspirin",
+      "NSAIDs",
+      "metformin",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0019",
+    "age": 36,
+    "gender": "female",
+    "chief_complaint": "periumbilical pain migrating to right lower quadrant with fever with associated nausea",
+    "vitals": {
+      "bp_systolic": 118,
+      "bp_diastolic": 71,
+      "heart_rate": 74,
+      "temperature": 38.7,
+      "spo2": 96,
+      "respiratory_rate": 16
+    },
+    "lab_results": {
+      "troponin_i": 0.027,
+      "bnp": 35,
+      "creatinine": 1.0,
+      "glucose": 96,
+      "wbc": 18.6,
+      "hemoglobin": 16.0
+    },
+    "known_allergies": [
+      "latex"
+    ],
+    "current_medications": [],
+    "ground_truth_diagnosis": "K35.80",
+    "safe_drugs": [
+      "piperacillin-tazobactam",
+      "morphine",
+      "ondansetron"
+    ],
+    "unsafe_drugs": [
+      "latex",
+      "NSAIDs",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0020",
+    "age": 40,
+    "gender": "female",
+    "chief_complaint": "severe epigastric pain radiating to back nausea vomiting with no prior history",
+    "vitals": {
+      "bp_systolic": 111,
+      "bp_diastolic": 75,
+      "heart_rate": 102,
+      "temperature": 37.3,
+      "spo2": 99,
+      "respiratory_rate": 15
+    },
+    "lab_results": {
+      "troponin_i": 0.031,
+      "bnp": 70,
+      "creatinine": 1.1,
+      "glucose": 231,
+      "wbc": 9.7,
+      "hemoglobin": 15.9
+    },
+    "known_allergies": [
+      "cephalosporins"
+    ],
+    "current_medications": [
+      "metoprolol"
+    ],
+    "ground_truth_diagnosis": "K85.9",
+    "safe_drugs": [
+      "morphine",
+      "ondansetron",
+      "acetaminophen"
+    ],
+    "unsafe_drugs": [
+      "opioids",
+      "cephalosporins",
+      "NSAIDs",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0021",
+    "age": 46,
+    "gender": "male",
+    "chief_complaint": "bloody vomit melena hematemesis with dizziness worsening over past hour",
+    "vitals": {
+      "bp_systolic": 83,
+      "bp_diastolic": 82,
+      "heart_rate": 113,
+      "temperature": 36.8,
+      "spo2": 96,
+      "respiratory_rate": 16
+    },
+    "lab_results": {
+      "troponin_i": 0.038,
+      "bnp": 52,
+      "creatinine": 0.9,
+      "glucose": 111,
+      "wbc": 7.7,
+      "hemoglobin": 5.7
+    },
+    "known_allergies": [
+      "aspirin"
+    ],
+    "current_medications": [],
+    "ground_truth_diagnosis": "K92.2",
+    "safe_drugs": [
+      "tranexamic-acid",
+      "ondansetron",
+      "furosemide"
+    ],
+    "unsafe_drugs": [
+      "aspirin",
+      "NSAIDs",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0022",
+    "age": 73,
+    "gender": "female",
+    "chief_complaint": "unresponsive pinpoint pupils slow shallow breathing with associated nausea",
+    "vitals": {
+      "bp_systolic": 130,
+      "bp_diastolic": 83,
+      "heart_rate": 84,
+      "temperature": 37.5,
+      "spo2": 84,
+      "respiratory_rate": 8
+    },
+    "lab_results": {
+      "troponin_i": 0.082,
+      "bnp": 32,
+      "creatinine": 0.8,
+      "glucose": 107,
+      "wbc": 7.1,
+      "hemoglobin": 14.6
+    },
+    "known_allergies": [
+      "cephalosporins"
+    ],
+    "current_medications": [
+      "lisinopril"
+    ],
+    "ground_truth_diagnosis": "T40.1",
+    "safe_drugs": [
+      "naloxone",
+      "dextrose",
+      "thiamine"
+    ],
+    "unsafe_drugs": [
+      "cephalosporins",
+      "morphine",
+      "diazepam",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0023",
+    "age": 60,
+    "gender": "female",
+    "chief_complaint": "severe headache visual changes elevated blood pressure in pregnancy with sudden onset",
+    "vitals": {
+      "bp_systolic": 171,
+      "bp_diastolic": 129,
+      "heart_rate": 81,
+      "temperature": 36.8,
+      "spo2": 99,
+      "respiratory_rate": 16
+    },
+    "lab_results": {
+      "troponin_i": 0.042,
+      "bnp": 38,
+      "creatinine": 1.0,
+      "glucose": 91,
+      "wbc": 7.0,
+      "hemoglobin": 16.3
+    },
+    "known_allergies": [
+      "contrast dye"
+    ],
+    "current_medications": [],
+    "ground_truth_diagnosis": "O14.10",
+    "safe_drugs": [
+      "magnesium-sulfate",
+      "labetalol",
+      "methylprednisolone"
+    ],
+    "unsafe_drugs": [
+      "contrast dye",
+      "NSAIDs",
+      "ACE inhibitors",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0024",
+    "age": 18,
+    "gender": "female",
+    "chief_complaint": "tearing chest pain radiating to back sudden onset with associated nausea",
+    "vitals": {
+      "bp_systolic": 207,
+      "bp_diastolic": 76,
+      "heart_rate": 78,
+      "temperature": 37.3,
+      "spo2": 98,
+      "respiratory_rate": 17
+    },
+    "lab_results": {
+      "troponin_i": 0.045,
+      "bnp": 63,
+      "creatinine": 0.8,
+      "glucose": 100,
+      "wbc": 9.3,
+      "hemoglobin": 16.3
+    },
+    "known_allergies": [],
+    "current_medications": [],
+    "ground_truth_diagnosis": "I71.0",
+    "safe_drugs": [
+      "labetalol",
+      "morphine",
+      "esmolol"
+    ],
+    "unsafe_drugs": [
+      "thrombolytics",
+      "aspirin"
+    ]
+  },
+  {
+    "patient_id": "P0025",
+    "age": 54,
+    "gender": "female",
+    "chief_complaint": "severe colicky flank pain radiating to groin hematuria with sudden onset",
+    "vitals": {
+      "bp_systolic": 115,
+      "bp_diastolic": 77,
+      "heart_rate": 108,
+      "temperature": 36.7,
+      "spo2": 97,
+      "respiratory_rate": 15
+    },
+    "lab_results": {
+      "troponin_i": 0.012,
+      "bnp": 35,
+      "creatinine": 1.2,
+      "glucose": 104,
+      "wbc": 9.6,
+      "hemoglobin": 12.8
+    },
+    "known_allergies": [
+      "latex"
+    ],
+    "current_medications": [
+      "omeprazole",
+      "levothyroxine"
+    ],
+    "ground_truth_diagnosis": "N20.0",
+    "safe_drugs": [
+      "ketorolac",
+      "morphine",
+      "ondansetron"
+    ],
+    "unsafe_drugs": [
+      "latex",
+      "metformin",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0026",
+    "age": 69,
+    "gender": "male",
+    "chief_complaint": "crushing chest pain radiating to left arm with diaphoresis with no prior history",
+    "vitals": {
+      "bp_systolic": 105,
+      "bp_diastolic": 90,
+      "heart_rate": 104,
+      "temperature": 37.4,
+      "spo2": 96,
+      "respiratory_rate": 17
+    },
+    "lab_results": {
+      "troponin_i": 2.37,
+      "bnp": 71,
+      "creatinine": 1.2,
+      "glucose": 101,
+      "wbc": 7.3,
+      "hemoglobin": 14.7
+    },
+    "known_allergies": [],
+    "current_medications": [
+      "amlodipine"
+    ],
+    "ground_truth_diagnosis": "I21.9",
+    "safe_drugs": [
+      "heparin",
+      "nitroglycerin",
+      "morphine"
+    ],
+    "unsafe_drugs": [
+      "aspirin",
+      "amiodarone"
+    ]
+  },
+  {
+    "patient_id": "P0027",
+    "age": 74,
+    "gender": "female",
+    "chief_complaint": "intermittent chest tightness worsening at rest with no prior history",
+    "vitals": {
+      "bp_systolic": 170,
+      "bp_diastolic": 84,
+      "heart_rate": 70,
+      "temperature": 37.2,
+      "spo2": 99,
+      "respiratory_rate": 17
+    },
+    "lab_results": {
+      "troponin_i": 0.127,
+      "bnp": 35,
+      "creatinine": 1.1,
+      "glucose": 93,
+      "wbc": 9.1,
+      "hemoglobin": 14.6
+    },
+    "known_allergies": [
+      "penicillin"
+    ],
+    "current_medications": [
+      "warfarin",
+      "metoprolol"
+    ],
+    "ground_truth_diagnosis": "I20.0",
+    "safe_drugs": [
+      "nitroglycerin",
+      "metoprolol",
+      "heparin"
+    ],
+    "unsafe_drugs": [
+      "penicillin",
+      "amiodarone",
+      "alteplase"
+    ]
+  },
+  {
+    "patient_id": "P0028",
+    "age": 52,
+    "gender": "female",
+    "chief_complaint": "progressive shortness of breath and leg swelling for 3 days with no prior history",
+    "vitals": {
+      "bp_systolic": 130,
+      "bp_diastolic": 87,
+      "heart_rate": 96,
+      "temperature": 36.6,
+      "spo2": 90,
+      "respiratory_rate": 17
+    },
+    "lab_results": {
+      "troponin_i": 0.066,
+      "bnp": 1023,
+      "creatinine": 0.8,
+      "glucose": 98,
+      "wbc": 6.9,
+      "hemoglobin": 14.7
+    },
+    "known_allergies": [
+      "codeine"
+    ],
+    "current_medications": [
+      "metformin",
+      "omeprazole"
+    ],
+    "ground_truth_diagnosis": "I50.9",
+    "safe_drugs": [
+      "furosemide",
+      "morphine",
+      "nitroglycerin"
+    ],
+    "unsafe_drugs": [
+      "aspirin",
+      "NSAIDs",
+      "codeine"
+    ]
+  },
+  {
+    "patient_id": "P0029",
+    "age": 79,
+    "gender": "male",
+    "chief_complaint": "sudden palpitations and irregular heartbeat with no prior history",
+    "vitals": {
+      "bp_systolic": 132,
+      "bp_diastolic": 79,
+      "heart_rate": 137,
+      "temperature": 37.4,
+      "spo2": 99,
+      "respiratory_rate": 18
+    },
+    "lab_results": {
+      "troponin_i": 0.07,
+      "bnp": 54,
+      "creatinine": 1.1,
+      "glucose": 113,
+      "wbc": 5.8,
+      "hemoglobin": 13.4
+    },
+    "known_allergies": [
+      "aspirin"
+    ],
+    "current_medications": [
+      "amlodipine"
+    ],
+    "ground_truth_diagnosis": "I48.0",
+    "safe_drugs": [
+      "metoprolol",
+      "amiodarone",
+      "adenosine"
+    ],
+    "unsafe_drugs": [
+      "aspirin",
+      "alteplase"
+    ]
+  },
+  {
+    "patient_id": "P0030",
+    "age": 69,
+    "gender": "male",
+    "chief_complaint": "severe hypotension with cold clammy skin after MI with associated nausea",
+    "vitals": {
+      "bp_systolic": 61,
+      "bp_diastolic": 74,
+      "heart_rate": 108,
+      "temperature": 37.0,
+      "spo2": 99,
+      "respiratory_rate": 18
+    },
+    "lab_results": {
+      "troponin_i": 6.41,
+      "bnp": 21,
+      "creatinine": 0.7,
+      "glucose": 98,
+      "wbc": 5.3,
+      "hemoglobin": 14.3
+    },
+    "known_allergies": [
+      "NSAIDs"
+    ],
+    "current_medications": [
+      "amlodipine"
+    ],
+    "ground_truth_diagnosis": "R57.0",
+    "safe_drugs": [
+      "dopamine",
+      "norepinephrine",
+      "morphine"
+    ],
+    "unsafe_drugs": [
+      "metoprolol",
+      "NSAIDs",
+      "labetalol"
+    ]
+  },
+  {
+    "patient_id": "P0031",
+    "age": 66,
+    "gender": "female",
+    "chief_complaint": "severe headache with blood pressure 220/130",
+    "vitals": {
+      "bp_systolic": 215,
+      "bp_diastolic": 126,
+      "heart_rate": 67,
+      "temperature": 37.0,
+      "spo2": 96,
+      "respiratory_rate": 16
+    },
+    "lab_results": {
+      "troponin_i": 0.028,
+      "bnp": 24,
+      "creatinine": 1.1,
+      "glucose": 105,
+      "wbc": 4.7,
+      "hemoglobin": 12.6
+    },
+    "known_allergies": [
+      "vancomycin"
+    ],
+    "current_medications": [],
+    "ground_truth_diagnosis": "I10",
+    "safe_drugs": [
+      "labetalol",
+      "furosemide"
+    ],
+    "unsafe_drugs": [
+      "metoprolol",
+      "vancomycin",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0032",
+    "age": 48,
+    "gender": "male",
+    "chief_complaint": "severe shortness of breath unable to complete sentences",
+    "vitals": {
+      "bp_systolic": 140,
+      "bp_diastolic": 73,
+      "heart_rate": 83,
+      "temperature": 37.4,
+      "spo2": 80,
+      "respiratory_rate": 32
+    },
+    "lab_results": {
+      "troponin_i": 0.071,
+      "bnp": 30,
+      "creatinine": 1.0,
+      "glucose": 115,
+      "wbc": 9.0,
+      "hemoglobin": 13.0
+    },
+    "known_allergies": [
+      "vancomycin"
+    ],
+    "current_medications": [],
+    "ground_truth_diagnosis": "J96.00",
+    "safe_drugs": [
+      "furosemide",
+      "morphine",
+      "methylprednisolone"
+    ],
+    "unsafe_drugs": [
+      "metoprolol",
+      "vancomycin",
+      "labetalol",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0033",
+    "age": 57,
+    "gender": "female",
+    "chief_complaint": "fever cough with productive sputum and shortness of breath with no prior history",
+    "vitals": {
+      "bp_systolic": 135,
+      "bp_diastolic": 76,
+      "heart_rate": 67,
+      "temperature": 39.3,
+      "spo2": 88,
+      "respiratory_rate": 14
+    },
+    "lab_results": {
+      "troponin_i": 0.066,
+      "bnp": 39,
+      "creatinine": 1.1,
+      "glucose": 104,
+      "wbc": 19.5,
+      "hemoglobin": 15.7
+    },
+    "known_allergies": [],
+    "current_medications": [
+      "lisinopril"
+    ],
+    "ground_truth_diagnosis": "J18.9",
+    "safe_drugs": [
+      "ceftriaxone",
+      "vancomycin",
+      "acetaminophen"
+    ],
+    "unsafe_drugs": [
+      "NSAIDs",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0034",
+    "age": 82,
+    "gender": "female",
+    "chief_complaint": "sudden wheezing difficulty breathing not responding to inhaler with no prior history",
+    "vitals": {
+      "bp_systolic": 110,
+      "bp_diastolic": 83,
+      "heart_rate": 80,
+      "temperature": 36.6,
+      "spo2": 92,
+      "respiratory_rate": 31
+    },
+    "lab_results": {
+      "troponin_i": 0.067,
+      "bnp": 47,
+      "creatinine": 0.8,
+      "glucose": 101,
+      "wbc": 10.3,
+      "hemoglobin": 13.6
+    },
+    "known_allergies": [],
+    "current_medications": [
+      "warfarin",
+      "amlodipine"
+    ],
+    "ground_truth_diagnosis": "J45.901",
+    "safe_drugs": [
+      "methylprednisolone",
+      "epinephrine",
+      "magnesium-sulfate"
+    ],
+    "unsafe_drugs": [
+      "metoprolol",
+      "aspirin",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0035",
+    "age": 49,
+    "gender": "male",
+    "chief_complaint": "sudden pleuritic chest pain shortness of breath after long flight with sudden onset",
+    "vitals": {
+      "bp_systolic": 127,
+      "bp_diastolic": 84,
+      "heart_rate": 108,
+      "temperature": 37.3,
+      "spo2": 87,
+      "respiratory_rate": 16
+    },
+    "lab_results": {
+      "troponin_i": 0.012,
+      "bnp": 74,
+      "creatinine": 0.9,
+      "glucose": 100,
+      "wbc": 5.8,
+      "hemoglobin": 15.7
+    },
+    "known_allergies": [],
+    "current_medications": [],
+    "ground_truth_diagnosis": "I26.99",
+    "safe_drugs": [
+      "heparin",
+      "alteplase",
+      "morphine"
+    ],
+    "unsafe_drugs": [
+      "aspirin"
+    ]
+  },
+  {
+    "patient_id": "P0036",
+    "age": 19,
+    "gender": "male",
+    "chief_complaint": "sudden left-sided facial droop arm weakness and slurred speech with sudden onset",
+    "vitals": {
+      "bp_systolic": 175,
+      "bp_diastolic": 77,
+      "heart_rate": 78,
+      "temperature": 37.0,
+      "spo2": 97,
+      "respiratory_rate": 17
+    },
+    "lab_results": {
+      "troponin_i": 0.062,
+      "bnp": 51,
+      "creatinine": 0.9,
+      "glucose": 129,
+      "wbc": 5.1,
+      "hemoglobin": 13.4
+    },
+    "known_allergies": [
+      "cephalosporins"
+    ],
+    "current_medications": [],
+    "ground_truth_diagnosis": "I63.9",
+    "safe_drugs": [
+      "alteplase",
+      "labetalol",
+      "acetaminophen"
+    ],
+    "unsafe_drugs": [
+      "aspirin",
+      "cephalosporins",
+      "heparin"
+    ]
+  },
+  {
+    "patient_id": "P0037",
+    "age": 85,
+    "gender": "female",
+    "chief_complaint": "sudden severe headache worst of life with focal neurological deficits with associated nausea",
+    "vitals": {
+      "bp_systolic": 191,
+      "bp_diastolic": 87,
+      "heart_rate": 75,
+      "temperature": 36.9,
+      "spo2": 99,
+      "respiratory_rate": 16
+    },
+    "lab_results": {
+      "troponin_i": 0.035,
+      "bnp": 34,
+      "creatinine": 0.8,
+      "glucose": 91,
+      "wbc": 6.4,
+      "hemoglobin": 15.5
+    },
+    "known_allergies": [
+      "latex"
+    ],
+    "current_medications": [
+      "levothyroxine",
+      "warfarin"
+    ],
+    "ground_truth_diagnosis": "I61.9",
+    "safe_drugs": [
+      "labetalol",
+      "acetaminophen",
+      "tranexamic-acid"
+    ],
+    "unsafe_drugs": [
+      "aspirin",
+      "heparin",
+      "latex",
+      "alteplase"
+    ]
+  },
+  {
+    "patient_id": "P0038",
+    "age": 85,
+    "gender": "female",
+    "chief_complaint": "generalized tonic-clonic seizure lasting 3 minutes with no prior history",
+    "vitals": {
+      "bp_systolic": 116,
+      "bp_diastolic": 76,
+      "heart_rate": 74,
+      "temperature": 38.9,
+      "spo2": 97,
+      "respiratory_rate": 16
+    },
+    "lab_results": {
+      "troponin_i": 0.011,
+      "bnp": 54,
+      "creatinine": 0.8,
+      "glucose": 48,
+      "wbc": 10.3,
+      "hemoglobin": 14.7
+    },
+    "known_allergies": [
+      "penicillin"
+    ],
+    "current_medications": [],
+    "ground_truth_diagnosis": "G40.909",
+    "safe_drugs": [
+      "diazepam",
+      "levetiracetam",
+      "acetaminophen"
+    ],
+    "unsafe_drugs": [
+      "metoprolol",
+      "penicillin",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0039",
+    "age": 54,
+    "gender": "female",
+    "chief_complaint": "fever confusion hypotension suspected infection source worsening over past hour",
+    "vitals": {
+      "bp_systolic": 71,
+      "bp_diastolic": 84,
+      "heart_rate": 104,
+      "temperature": 39.9,
+      "spo2": 96,
+      "respiratory_rate": 16
+    },
+    "lab_results": {
+      "troponin_i": 0.085,
+      "bnp": 50,
+      "creatinine": 2.6,
+      "glucose": 87,
+      "wbc": 20.5,
+      "hemoglobin": 12.8
+    },
+    "known_allergies": [
+      "penicillin"
+    ],
+    "current_medications": [],
+    "ground_truth_diagnosis": "A41.9",
+    "safe_drugs": [
+      "piperacillin-tazobactam",
+      "vancomycin",
+      "norepinephrine"
+    ],
+    "unsafe_drugs": [
+      "penicillin",
+      "NSAIDs",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0040",
+    "age": 33,
+    "gender": "female",
+    "chief_complaint": "nausea vomiting abdominal pain fruity breath known diabetic with associated nausea",
+    "vitals": {
+      "bp_systolic": 124,
+      "bp_diastolic": 86,
+      "heart_rate": 103,
+      "temperature": 37.0,
+      "spo2": 99,
+      "respiratory_rate": 25
+    },
+    "lab_results": {
+      "troponin_i": 0.079,
+      "bnp": 47,
+      "creatinine": 0.9,
+      "glucose": 720,
+      "wbc": 4.9,
+      "hemoglobin": 16.3
+    },
+    "known_allergies": [
+      "contrast dye"
+    ],
+    "current_medications": [
+      "lisinopril",
+      "atorvastatin"
+    ],
+    "ground_truth_diagnosis": "E10.10",
+    "safe_drugs": [
+      "insulin",
+      "bicarbonate",
+      "furosemide"
+    ],
+    "unsafe_drugs": [
+      "metoprolol",
+      "contrast dye",
+      "diazepam",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0041",
+    "age": 48,
+    "gender": "male",
+    "chief_complaint": "confusion diaphoresis shakiness in known diabetic with associated nausea",
+    "vitals": {
+      "bp_systolic": 145,
+      "bp_diastolic": 72,
+      "heart_rate": 97,
+      "temperature": 36.5,
+      "spo2": 99,
+      "respiratory_rate": 18
+    },
+    "lab_results": {
+      "troponin_i": 0.048,
+      "bnp": 22,
+      "creatinine": 0.8,
+      "glucose": 49,
+      "wbc": 6.2,
+      "hemoglobin": 15.9
+    },
+    "known_allergies": [
+      "contrast dye"
+    ],
+    "current_medications": [
+      "metoprolol",
+      "omeprazole"
+    ],
+    "ground_truth_diagnosis": "E16.0",
+    "safe_drugs": [
+      "dextrose",
+      "glucagon"
+    ],
+    "unsafe_drugs": [
+      "insulin",
+      "contrast dye",
+      "metformin",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0042",
+    "age": 32,
+    "gender": "male",
+    "chief_complaint": "urticaria facial swelling throat tightness after eating shellfish with no prior history",
+    "vitals": {
+      "bp_systolic": 79,
+      "bp_diastolic": 78,
+      "heart_rate": 132,
+      "temperature": 36.6,
+      "spo2": 97,
+      "respiratory_rate": 16
+    },
+    "lab_results": {
+      "troponin_i": 0.058,
+      "bnp": 72,
+      "creatinine": 1.0,
+      "glucose": 94,
+      "wbc": 7.1,
+      "hemoglobin": 14.4
+    },
+    "known_allergies": [
+      "contrast dye"
+    ],
+    "current_medications": [
+      "levothyroxine"
+    ],
+    "ground_truth_diagnosis": "T78.2XXA",
+    "safe_drugs": [
+      "epinephrine",
+      "diphenhydramine",
+      "methylprednisolone"
+    ],
+    "unsafe_drugs": [
+      "metoprolol",
+      "contrast dye",
+      "NSAIDs",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0043",
+    "age": 74,
+    "gender": "male",
+    "chief_complaint": "decreased urine output flank pain nausea worsening over past hour",
+    "vitals": {
+      "bp_systolic": 112,
+      "bp_diastolic": 83,
+      "heart_rate": 75,
+      "temperature": 37.1,
+      "spo2": 96,
+      "respiratory_rate": 14
+    },
+    "lab_results": {
+      "troponin_i": 0.028,
+      "bnp": 63,
+      "creatinine": 6.8,
+      "glucose": 103,
+      "wbc": 8.0,
+      "hemoglobin": 12.6
+    },
+    "known_allergies": [
+      "vancomycin"
+    ],
+    "current_medications": [],
+    "ground_truth_diagnosis": "N17.9",
+    "safe_drugs": [
+      "furosemide",
+      "bicarbonate",
+      "acetaminophen"
+    ],
+    "unsafe_drugs": [
+      "vancomycin",
+      "NSAIDs",
+      "metformin",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0044",
+    "age": 40,
+    "gender": "female",
+    "chief_complaint": "periumbilical pain migrating to right lower quadrant with fever with associated nausea",
+    "vitals": {
+      "bp_systolic": 143,
+      "bp_diastolic": 90,
+      "heart_rate": 79,
+      "temperature": 38.6,
+      "spo2": 97,
+      "respiratory_rate": 18
+    },
+    "lab_results": {
+      "troponin_i": 0.045,
+      "bnp": 72,
+      "creatinine": 0.9,
+      "glucose": 87,
+      "wbc": 13.9,
+      "hemoglobin": 14.1
+    },
+    "known_allergies": [
+      "cephalosporins"
+    ],
+    "current_medications": [
+      "levothyroxine"
+    ],
+    "ground_truth_diagnosis": "K35.80",
+    "safe_drugs": [
+      "piperacillin-tazobactam",
+      "morphine",
+      "ondansetron"
+    ],
+    "unsafe_drugs": [
+      "cephalosporins",
+      "NSAIDs",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0045",
+    "age": 54,
+    "gender": "female",
+    "chief_complaint": "severe epigastric pain radiating to back nausea vomiting with no prior history",
+    "vitals": {
+      "bp_systolic": 145,
+      "bp_diastolic": 71,
+      "heart_rate": 112,
+      "temperature": 36.6,
+      "spo2": 98,
+      "respiratory_rate": 16
+    },
+    "lab_results": {
+      "troponin_i": 0.019,
+      "bnp": 69,
+      "creatinine": 0.9,
+      "glucose": 298,
+      "wbc": 9.4,
+      "hemoglobin": 12.5
+    },
+    "known_allergies": [
+      "aspirin"
+    ],
+    "current_medications": [],
+    "ground_truth_diagnosis": "K85.9",
+    "safe_drugs": [
+      "morphine",
+      "ondansetron",
+      "acetaminophen"
+    ],
+    "unsafe_drugs": [
+      "opioids",
+      "NSAIDs",
+      "aspirin",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0046",
+    "age": 84,
+    "gender": "female",
+    "chief_complaint": "bloody vomit melena hematemesis with dizziness with associated nausea",
+    "vitals": {
+      "bp_systolic": 100,
+      "bp_diastolic": 90,
+      "heart_rate": 124,
+      "temperature": 37.3,
+      "spo2": 97,
+      "respiratory_rate": 16
+    },
+    "lab_results": {
+      "troponin_i": 0.054,
+      "bnp": 79,
+      "creatinine": 0.8,
+      "glucose": 113,
+      "wbc": 8.7,
+      "hemoglobin": 8.2
+    },
+    "known_allergies": [
+      "contrast dye"
+    ],
+    "current_medications": [
+      "metformin",
+      "omeprazole"
+    ],
+    "ground_truth_diagnosis": "K92.2",
+    "safe_drugs": [
+      "tranexamic-acid",
+      "ondansetron",
+      "furosemide"
+    ],
+    "unsafe_drugs": [
+      "aspirin",
+      "contrast dye",
+      "NSAIDs",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0047",
+    "age": 29,
+    "gender": "male",
+    "chief_complaint": "unresponsive pinpoint pupils slow shallow breathing with no prior history",
+    "vitals": {
+      "bp_systolic": 117,
+      "bp_diastolic": 84,
+      "heart_rate": 68,
+      "temperature": 37.1,
+      "spo2": 79,
+      "respiratory_rate": 5
+    },
+    "lab_results": {
+      "troponin_i": 0.085,
+      "bnp": 38,
+      "creatinine": 1.0,
+      "glucose": 93,
+      "wbc": 7.0,
+      "hemoglobin": 14.4
+    },
+    "known_allergies": [
+      "morphine"
+    ],
+    "current_medications": [],
+    "ground_truth_diagnosis": "T40.1",
+    "safe_drugs": [
+      "naloxone",
+      "dextrose",
+      "thiamine"
+    ],
+    "unsafe_drugs": [
+      "morphine",
+      "diazepam",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0048",
+    "age": 67,
+    "gender": "male",
+    "chief_complaint": "severe headache visual changes elevated blood pressure in pregnancy with no prior history",
+    "vitals": {
+      "bp_systolic": 197,
+      "bp_diastolic": 128,
+      "heart_rate": 67,
+      "temperature": 36.8,
+      "spo2": 99,
+      "respiratory_rate": 16
+    },
+    "lab_results": {
+      "troponin_i": 0.085,
+      "bnp": 52,
+      "creatinine": 0.8,
+      "glucose": 85,
+      "wbc": 6.2,
+      "hemoglobin": 13.7
+    },
+    "known_allergies": [],
+    "current_medications": [],
+    "ground_truth_diagnosis": "O14.10",
+    "safe_drugs": [
+      "magnesium-sulfate",
+      "labetalol",
+      "methylprednisolone"
+    ],
+    "unsafe_drugs": [
+      "NSAIDs",
+      "ACE inhibitors",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0049",
+    "age": 75,
+    "gender": "female",
+    "chief_complaint": "tearing chest pain radiating to back sudden onset with no prior history",
+    "vitals": {
+      "bp_systolic": 214,
+      "bp_diastolic": 80,
+      "heart_rate": 82,
+      "temperature": 37.3,
+      "spo2": 99,
+      "respiratory_rate": 17
+    },
+    "lab_results": {
+      "troponin_i": 0.085,
+      "bnp": 75,
+      "creatinine": 0.8,
+      "glucose": 107,
+      "wbc": 5.9,
+      "hemoglobin": 14.0
+    },
+    "known_allergies": [
+      "aspirin"
+    ],
+    "current_medications": [
+      "levothyroxine"
+    ],
+    "ground_truth_diagnosis": "I71.0",
+    "safe_drugs": [
+      "labetalol",
+      "morphine",
+      "esmolol"
+    ],
+    "unsafe_drugs": [
+      "aspirin",
+      "thrombolytics"
+    ]
+  },
+  {
+    "patient_id": "P0050",
+    "age": 66,
+    "gender": "female",
+    "chief_complaint": "severe colicky flank pain radiating to groin hematuria with associated nausea",
+    "vitals": {
+      "bp_systolic": 119,
+      "bp_diastolic": 85,
+      "heart_rate": 108,
+      "temperature": 36.6,
+      "spo2": 98,
+      "respiratory_rate": 14
+    },
+    "lab_results": {
+      "troponin_i": 0.08,
+      "bnp": 48,
+      "creatinine": 0.7,
+      "glucose": 114,
+      "wbc": 7.2,
+      "hemoglobin": 15.4
+    },
+    "known_allergies": [
+      "penicillin"
+    ],
+    "current_medications": [
+      "warfarin"
+    ],
+    "ground_truth_diagnosis": "N20.0",
+    "safe_drugs": [
+      "ketorolac",
+      "morphine",
+      "ondansetron"
+    ],
+    "unsafe_drugs": [
+      "penicillin",
+      "metformin",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0051",
+    "age": 61,
+    "gender": "female",
+    "chief_complaint": "crushing chest pain radiating to left arm with diaphoresis",
+    "vitals": {
+      "bp_systolic": 119,
+      "bp_diastolic": 80,
+      "heart_rate": 113,
+      "temperature": 36.9,
+      "spo2": 98,
+      "respiratory_rate": 17
+    },
+    "lab_results": {
+      "troponin_i": 2.09,
+      "bnp": 22,
+      "creatinine": 1.0,
+      "glucose": 92,
+      "wbc": 8.3,
+      "hemoglobin": 16.2
+    },
+    "known_allergies": [],
+    "current_medications": [
+      "lisinopril",
+      "levothyroxine"
+    ],
+    "ground_truth_diagnosis": "I21.9",
+    "safe_drugs": [
+      "heparin",
+      "nitroglycerin",
+      "morphine"
+    ],
+    "unsafe_drugs": [
+      "aspirin",
+      "amiodarone"
+    ]
+  },
+  {
+    "patient_id": "P0052",
+    "age": 39,
+    "gender": "female",
+    "chief_complaint": "intermittent chest tightness worsening at rest with sudden onset",
+    "vitals": {
+      "bp_systolic": 140,
+      "bp_diastolic": 71,
+      "heart_rate": 75,
+      "temperature": 37.3,
+      "spo2": 98,
+      "respiratory_rate": 16
+    },
+    "lab_results": {
+      "troponin_i": 0.096,
+      "bnp": 29,
+      "creatinine": 0.8,
+      "glucose": 98,
+      "wbc": 7.9,
+      "hemoglobin": 15.7
+    },
+    "known_allergies": [],
+    "current_medications": [
+      "metoprolol"
+    ],
+    "ground_truth_diagnosis": "I20.0",
+    "safe_drugs": [
+      "nitroglycerin",
+      "metoprolol",
+      "heparin"
+    ],
+    "unsafe_drugs": [
+      "amiodarone",
+      "alteplase"
+    ]
+  },
+  {
+    "patient_id": "P0053",
+    "age": 81,
+    "gender": "male",
+    "chief_complaint": "progressive shortness of breath and leg swelling for 3 days with no prior history",
+    "vitals": {
+      "bp_systolic": 124,
+      "bp_diastolic": 84,
+      "heart_rate": 113,
+      "temperature": 36.8,
+      "spo2": 89,
+      "respiratory_rate": 14
+    },
+    "lab_results": {
+      "troponin_i": 0.082,
+      "bnp": 1212,
+      "creatinine": 1.2,
+      "glucose": 106,
+      "wbc": 7.8,
+      "hemoglobin": 12.8
+    },
+    "known_allergies": [],
+    "current_medications": [
+      "levothyroxine"
+    ],
+    "ground_truth_diagnosis": "I50.9",
+    "safe_drugs": [
+      "furosemide",
+      "morphine",
+      "nitroglycerin"
+    ],
+    "unsafe_drugs": [
+      "NSAIDs",
+      "aspirin"
+    ]
+  },
+  {
+    "patient_id": "P0054",
+    "age": 56,
+    "gender": "male",
+    "chief_complaint": "sudden palpitations and irregular heartbeat",
+    "vitals": {
+      "bp_systolic": 134,
+      "bp_diastolic": 85,
+      "heart_rate": 146,
+      "temperature": 36.7,
+      "spo2": 98,
+      "respiratory_rate": 18
+    },
+    "lab_results": {
+      "troponin_i": 0.034,
+      "bnp": 64,
+      "creatinine": 0.8,
+      "glucose": 111,
+      "wbc": 8.4,
+      "hemoglobin": 13.6
+    },
+    "known_allergies": [
+      "vancomycin"
+    ],
+    "current_medications": [
+      "levothyroxine",
+      "warfarin"
+    ],
+    "ground_truth_diagnosis": "I48.0",
+    "safe_drugs": [
+      "metoprolol",
+      "amiodarone",
+      "adenosine"
+    ],
+    "unsafe_drugs": [
+      "vancomycin",
+      "alteplase"
+    ]
+  },
+  {
+    "patient_id": "P0055",
+    "age": 47,
+    "gender": "female",
+    "chief_complaint": "severe hypotension with cold clammy skin after MI worsening over past hour",
+    "vitals": {
+      "bp_systolic": 83,
+      "bp_diastolic": 90,
+      "heart_rate": 104,
+      "temperature": 37.1,
+      "spo2": 97,
+      "respiratory_rate": 14
+    },
+    "lab_results": {
+      "troponin_i": 3.81,
+      "bnp": 61,
+      "creatinine": 0.7,
+      "glucose": 110,
+      "wbc": 7.1,
+      "hemoglobin": 14.8
+    },
+    "known_allergies": [
+      "cephalosporins"
+    ],
+    "current_medications": [
+      "omeprazole",
+      "atorvastatin"
+    ],
+    "ground_truth_diagnosis": "R57.0",
+    "safe_drugs": [
+      "dopamine",
+      "norepinephrine",
+      "morphine"
+    ],
+    "unsafe_drugs": [
+      "metoprolol",
+      "cephalosporins",
+      "labetalol"
+    ]
+  },
+  {
+    "patient_id": "P0056",
+    "age": 43,
+    "gender": "male",
+    "chief_complaint": "severe headache with blood pressure 220/130 with no prior history",
+    "vitals": {
+      "bp_systolic": 221,
+      "bp_diastolic": 123,
+      "heart_rate": 81,
+      "temperature": 37.0,
+      "spo2": 98,
+      "respiratory_rate": 15
+    },
+    "lab_results": {
+      "troponin_i": 0.031,
+      "bnp": 72,
+      "creatinine": 1.2,
+      "glucose": 115,
+      "wbc": 9.3,
+      "hemoglobin": 15.5
+    },
+    "known_allergies": [
+      "penicillin"
+    ],
+    "current_medications": [],
+    "ground_truth_diagnosis": "I10",
+    "safe_drugs": [
+      "labetalol",
+      "furosemide"
+    ],
+    "unsafe_drugs": [
+      "metoprolol",
+      "penicillin",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0057",
+    "age": 46,
+    "gender": "female",
+    "chief_complaint": "severe shortness of breath unable to complete sentences",
+    "vitals": {
+      "bp_systolic": 145,
+      "bp_diastolic": 81,
+      "heart_rate": 67,
+      "temperature": 37.3,
+      "spo2": 88,
+      "respiratory_rate": 33
+    },
+    "lab_results": {
+      "troponin_i": 0.053,
+      "bnp": 49,
+      "creatinine": 0.9,
+      "glucose": 108,
+      "wbc": 8.5,
+      "hemoglobin": 14.8
+    },
+    "known_allergies": [],
+    "current_medications": [],
+    "ground_truth_diagnosis": "J96.00",
+    "safe_drugs": [
+      "furosemide",
+      "morphine",
+      "methylprednisolone"
+    ],
+    "unsafe_drugs": [
+      "metoprolol",
+      "labetalol",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0058",
+    "age": 78,
+    "gender": "male",
+    "chief_complaint": "fever cough with productive sputum and shortness of breath with associated nausea",
+    "vitals": {
+      "bp_systolic": 145,
+      "bp_diastolic": 80,
+      "heart_rate": 84,
+      "temperature": 39.0,
+      "spo2": 91,
+      "respiratory_rate": 17
+    },
+    "lab_results": {
+      "troponin_i": 0.083,
+      "bnp": 39,
+      "creatinine": 1.0,
+      "glucose": 88,
+      "wbc": 16.5,
+      "hemoglobin": 16.3
+    },
+    "known_allergies": [
+      "morphine"
+    ],
+    "current_medications": [],
+    "ground_truth_diagnosis": "J18.9",
+    "safe_drugs": [
+      "ceftriaxone",
+      "vancomycin",
+      "acetaminophen"
+    ],
+    "unsafe_drugs": [
+      "NSAIDs",
+      "morphine",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0059",
+    "age": 67,
+    "gender": "female",
+    "chief_complaint": "sudden wheezing difficulty breathing not responding to inhaler with no prior history",
+    "vitals": {
+      "bp_systolic": 133,
+      "bp_diastolic": 87,
+      "heart_rate": 78,
+      "temperature": 37.1,
+      "spo2": 90,
+      "respiratory_rate": 27
+    },
+    "lab_results": {
+      "troponin_i": 0.062,
+      "bnp": 73,
+      "creatinine": 0.9,
+      "glucose": 98,
+      "wbc": 10.1,
+      "hemoglobin": 13.6
+    },
+    "known_allergies": [
+      "NSAIDs"
+    ],
+    "current_medications": [],
+    "ground_truth_diagnosis": "J45.901",
+    "safe_drugs": [
+      "methylprednisolone",
+      "epinephrine",
+      "magnesium-sulfate"
+    ],
+    "unsafe_drugs": [
+      "metoprolol",
+      "NSAIDs",
+      "aspirin",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0060",
+    "age": 64,
+    "gender": "male",
+    "chief_complaint": "sudden pleuritic chest pain shortness of breath after long flight worsening over past hour",
+    "vitals": {
+      "bp_systolic": 133,
+      "bp_diastolic": 87,
+      "heart_rate": 101,
+      "temperature": 36.9,
+      "spo2": 82,
+      "respiratory_rate": 16
+    },
+    "lab_results": {
+      "troponin_i": 0.025,
+      "bnp": 27,
+      "creatinine": 1.2,
+      "glucose": 111,
+      "wbc": 7.2,
+      "hemoglobin": 15.2
+    },
+    "known_allergies": [
+      "latex"
+    ],
+    "current_medications": [],
+    "ground_truth_diagnosis": "I26.99",
+    "safe_drugs": [
+      "heparin",
+      "alteplase",
+      "morphine"
+    ],
+    "unsafe_drugs": [
+      "aspirin",
+      "latex"
+    ]
+  },
+  {
+    "patient_id": "P0061",
+    "age": 44,
+    "gender": "male",
+    "chief_complaint": "sudden left-sided facial droop arm weakness and slurred speech worsening over past hour",
+    "vitals": {
+      "bp_systolic": 168,
+      "bp_diastolic": 76,
+      "heart_rate": 83,
+      "temperature": 36.7,
+      "spo2": 97,
+      "respiratory_rate": 16
+    },
+    "lab_results": {
+      "troponin_i": 0.072,
+      "bnp": 70,
+      "creatinine": 1.2,
+      "glucose": 159,
+      "wbc": 6.2,
+      "hemoglobin": 16.4
+    },
+    "known_allergies": [],
+    "current_medications": [],
+    "ground_truth_diagnosis": "I63.9",
+    "safe_drugs": [
+      "alteplase",
+      "labetalol",
+      "acetaminophen"
+    ],
+    "unsafe_drugs": [
+      "heparin",
+      "aspirin"
+    ]
+  },
+  {
+    "patient_id": "P0062",
+    "age": 32,
+    "gender": "male",
+    "chief_complaint": "sudden severe headache worst of life with focal neurological deficits with no prior history",
+    "vitals": {
+      "bp_systolic": 184,
+      "bp_diastolic": 70,
+      "heart_rate": 76,
+      "temperature": 37.3,
+      "spo2": 97,
+      "respiratory_rate": 18
+    },
+    "lab_results": {
+      "troponin_i": 0.036,
+      "bnp": 31,
+      "creatinine": 0.8,
+      "glucose": 89,
+      "wbc": 9.0,
+      "hemoglobin": 14.6
+    },
+    "known_allergies": [
+      "NSAIDs"
+    ],
+    "current_medications": [],
+    "ground_truth_diagnosis": "I61.9",
+    "safe_drugs": [
+      "labetalol",
+      "acetaminophen",
+      "tranexamic-acid"
+    ],
+    "unsafe_drugs": [
+      "aspirin",
+      "heparin",
+      "NSAIDs",
+      "alteplase"
+    ]
+  },
+  {
+    "patient_id": "P0063",
+    "age": 31,
+    "gender": "female",
+    "chief_complaint": "generalized tonic-clonic seizure lasting 3 minutes",
+    "vitals": {
+      "bp_systolic": 142,
+      "bp_diastolic": 77,
+      "heart_rate": 84,
+      "temperature": 37.7,
+      "spo2": 98,
+      "respiratory_rate": 17
+    },
+    "lab_results": {
+      "troponin_i": 0.061,
+      "bnp": 21,
+      "creatinine": 0.7,
+      "glucose": 68,
+      "wbc": 9.6,
+      "hemoglobin": 14.2
+    },
+    "known_allergies": [
+      "penicillin"
+    ],
+    "current_medications": [
+      "atorvastatin"
+    ],
+    "ground_truth_diagnosis": "G40.909",
+    "safe_drugs": [
+      "diazepam",
+      "levetiracetam",
+      "acetaminophen"
+    ],
+    "unsafe_drugs": [
+      "metoprolol",
+      "penicillin",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0064",
+    "age": 26,
+    "gender": "male",
+    "chief_complaint": "fever confusion hypotension suspected infection source with associated nausea",
+    "vitals": {
+      "bp_systolic": 90,
+      "bp_diastolic": 89,
+      "heart_rate": 120,
+      "temperature": 40.0,
+      "spo2": 98,
+      "respiratory_rate": 17
+    },
+    "lab_results": {
+      "troponin_i": 0.09,
+      "bnp": 53,
+      "creatinine": 2.6,
+      "glucose": 101,
+      "wbc": 32.9,
+      "hemoglobin": 12.9
+    },
+    "known_allergies": [
+      "codeine"
+    ],
+    "current_medications": [
+      "metoprolol"
+    ],
+    "ground_truth_diagnosis": "A41.9",
+    "safe_drugs": [
+      "piperacillin-tazobactam",
+      "vancomycin",
+      "norepinephrine"
+    ],
+    "unsafe_drugs": [
+      "NSAIDs",
+      "codeine",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0065",
+    "age": 70,
+    "gender": "female",
+    "chief_complaint": "nausea vomiting abdominal pain fruity breath known diabetic with no prior history",
+    "vitals": {
+      "bp_systolic": 139,
+      "bp_diastolic": 82,
+      "heart_rate": 102,
+      "temperature": 37.2,
+      "spo2": 98,
+      "respiratory_rate": 23
+    },
+    "lab_results": {
+      "troponin_i": 0.035,
+      "bnp": 36,
+      "creatinine": 0.9,
+      "glucose": 447,
+      "wbc": 8.6,
+      "hemoglobin": 14.4
+    },
+    "known_allergies": [
+      "penicillin"
+    ],
+    "current_medications": [
+      "amlodipine",
+      "atorvastatin"
+    ],
+    "ground_truth_diagnosis": "E10.10",
+    "safe_drugs": [
+      "insulin",
+      "bicarbonate",
+      "furosemide"
+    ],
+    "unsafe_drugs": [
+      "metoprolol",
+      "penicillin",
+      "diazepam",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0066",
+    "age": 25,
+    "gender": "female",
+    "chief_complaint": "confusion diaphoresis shakiness in known diabetic",
+    "vitals": {
+      "bp_systolic": 117,
+      "bp_diastolic": 83,
+      "heart_rate": 110,
+      "temperature": 37.4,
+      "spo2": 99,
+      "respiratory_rate": 14
+    },
+    "lab_results": {
+      "troponin_i": 0.087,
+      "bnp": 58,
+      "creatinine": 0.9,
+      "glucose": 35,
+      "wbc": 8.0,
+      "hemoglobin": 13.4
+    },
+    "known_allergies": [
+      "cephalosporins"
+    ],
+    "current_medications": [
+      "amlodipine",
+      "lisinopril"
+    ],
+    "ground_truth_diagnosis": "E16.0",
+    "safe_drugs": [
+      "dextrose",
+      "glucagon"
+    ],
+    "unsafe_drugs": [
+      "cephalosporins",
+      "insulin",
+      "metformin",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0067",
+    "age": 53,
+    "gender": "male",
+    "chief_complaint": "urticaria facial swelling throat tightness after eating shellfish worsening over past hour",
+    "vitals": {
+      "bp_systolic": 79,
+      "bp_diastolic": 87,
+      "heart_rate": 139,
+      "temperature": 37.1,
+      "spo2": 96,
+      "respiratory_rate": 18
+    },
+    "lab_results": {
+      "troponin_i": 0.084,
+      "bnp": 73,
+      "creatinine": 1.0,
+      "glucose": 85,
+      "wbc": 5.6,
+      "hemoglobin": 15.3
+    },
+    "known_allergies": [
+      "cephalosporins"
+    ],
+    "current_medications": [],
+    "ground_truth_diagnosis": "T78.2XXA",
+    "safe_drugs": [
+      "epinephrine",
+      "diphenhydramine",
+      "methylprednisolone"
+    ],
+    "unsafe_drugs": [
+      "metoprolol",
+      "cephalosporins",
+      "NSAIDs",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0068",
+    "age": 41,
+    "gender": "male",
+    "chief_complaint": "decreased urine output flank pain nausea with sudden onset",
+    "vitals": {
+      "bp_systolic": 135,
+      "bp_diastolic": 72,
+      "heart_rate": 69,
+      "temperature": 37.2,
+      "spo2": 96,
+      "respiratory_rate": 14
+    },
+    "lab_results": {
+      "troponin_i": 0.07,
+      "bnp": 33,
+      "creatinine": 6.6,
+      "glucose": 99,
+      "wbc": 6.5,
+      "hemoglobin": 14.0
+    },
+    "known_allergies": [
+      "vancomycin"
+    ],
+    "current_medications": [],
+    "ground_truth_diagnosis": "N17.9",
+    "safe_drugs": [
+      "furosemide",
+      "bicarbonate",
+      "acetaminophen"
+    ],
+    "unsafe_drugs": [
+      "vancomycin",
+      "NSAIDs",
+      "metformin",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0069",
+    "age": 24,
+    "gender": "male",
+    "chief_complaint": "periumbilical pain migrating to right lower quadrant with fever worsening over past hour",
+    "vitals": {
+      "bp_systolic": 120,
+      "bp_diastolic": 89,
+      "heart_rate": 66,
+      "temperature": 38.3,
+      "spo2": 98,
+      "respiratory_rate": 17
+    },
+    "lab_results": {
+      "troponin_i": 0.063,
+      "bnp": 51,
+      "creatinine": 1.0,
+      "glucose": 98,
+      "wbc": 16.9,
+      "hemoglobin": 15.5
+    },
+    "known_allergies": [],
+    "current_medications": [
+      "levothyroxine",
+      "warfarin"
+    ],
+    "ground_truth_diagnosis": "K35.80",
+    "safe_drugs": [
+      "piperacillin-tazobactam",
+      "morphine",
+      "ondansetron"
+    ],
+    "unsafe_drugs": [
+      "NSAIDs",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0070",
+    "age": 23,
+    "gender": "male",
+    "chief_complaint": "severe epigastric pain radiating to back nausea vomiting with associated nausea",
+    "vitals": {
+      "bp_systolic": 135,
+      "bp_diastolic": 89,
+      "heart_rate": 108,
+      "temperature": 36.5,
+      "spo2": 98,
+      "respiratory_rate": 15
+    },
+    "lab_results": {
+      "troponin_i": 0.071,
+      "bnp": 68,
+      "creatinine": 0.8,
+      "glucose": 224,
+      "wbc": 5.2,
+      "hemoglobin": 14.5
+    },
+    "known_allergies": [
+      "codeine"
+    ],
+    "current_medications": [
+      "metoprolol",
+      "amlodipine"
+    ],
+    "ground_truth_diagnosis": "K85.9",
+    "safe_drugs": [
+      "morphine",
+      "ondansetron",
+      "acetaminophen"
+    ],
+    "unsafe_drugs": [
+      "opioids",
+      "NSAIDs",
+      "codeine",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0071",
+    "age": 27,
+    "gender": "female",
+    "chief_complaint": "bloody vomit melena hematemesis with dizziness with sudden onset",
+    "vitals": {
+      "bp_systolic": 80,
+      "bp_diastolic": 83,
+      "heart_rate": 115,
+      "temperature": 37.0,
+      "spo2": 96,
+      "respiratory_rate": 16
+    },
+    "lab_results": {
+      "troponin_i": 0.056,
+      "bnp": 56,
+      "creatinine": 0.9,
+      "glucose": 105,
+      "wbc": 7.0,
+      "hemoglobin": 5.7
+    },
+    "known_allergies": [
+      "NSAIDs"
+    ],
+    "current_medications": [
+      "amlodipine",
+      "lisinopril"
+    ],
+    "ground_truth_diagnosis": "K92.2",
+    "safe_drugs": [
+      "tranexamic-acid",
+      "ondansetron",
+      "furosemide"
+    ],
+    "unsafe_drugs": [
+      "aspirin",
+      "NSAIDs",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0072",
+    "age": 73,
+    "gender": "male",
+    "chief_complaint": "unresponsive pinpoint pupils slow shallow breathing with sudden onset",
+    "vitals": {
+      "bp_systolic": 125,
+      "bp_diastolic": 83,
+      "heart_rate": 83,
+      "temperature": 36.9,
+      "spo2": 82,
+      "respiratory_rate": 4
+    },
+    "lab_results": {
+      "troponin_i": 0.08,
+      "bnp": 67,
+      "creatinine": 0.9,
+      "glucose": 95,
+      "wbc": 9.2,
+      "hemoglobin": 12.8
+    },
+    "known_allergies": [
+      "morphine"
+    ],
+    "current_medications": [],
+    "ground_truth_diagnosis": "T40.1",
+    "safe_drugs": [
+      "naloxone",
+      "dextrose",
+      "thiamine"
+    ],
+    "unsafe_drugs": [
+      "morphine",
+      "diazepam",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0073",
+    "age": 62,
+    "gender": "female",
+    "chief_complaint": "severe headache visual changes elevated blood pressure in pregnancy with sudden onset",
+    "vitals": {
+      "bp_systolic": 191,
+      "bp_diastolic": 124,
+      "heart_rate": 68,
+      "temperature": 36.6,
+      "spo2": 97,
+      "respiratory_rate": 15
+    },
+    "lab_results": {
+      "troponin_i": 0.058,
+      "bnp": 68,
+      "creatinine": 1.1,
+      "glucose": 87,
+      "wbc": 5.6,
+      "hemoglobin": 15.6
+    },
+    "known_allergies": [],
+    "current_medications": [
+      "levothyroxine",
+      "amlodipine"
+    ],
+    "ground_truth_diagnosis": "O14.10",
+    "safe_drugs": [
+      "magnesium-sulfate",
+      "labetalol",
+      "methylprednisolone"
+    ],
+    "unsafe_drugs": [
+      "NSAIDs",
+      "ACE inhibitors",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0074",
+    "age": 58,
+    "gender": "male",
+    "chief_complaint": "tearing chest pain radiating to back sudden onset worsening over past hour",
+    "vitals": {
+      "bp_systolic": 183,
+      "bp_diastolic": 72,
+      "heart_rate": 80,
+      "temperature": 36.9,
+      "spo2": 98,
+      "respiratory_rate": 16
+    },
+    "lab_results": {
+      "troponin_i": 0.057,
+      "bnp": 42,
+      "creatinine": 1.0,
+      "glucose": 94,
+      "wbc": 7.3,
+      "hemoglobin": 12.7
+    },
+    "known_allergies": [
+      "penicillin"
+    ],
+    "current_medications": [
+      "lisinopril",
+      "omeprazole"
+    ],
+    "ground_truth_diagnosis": "I71.0",
+    "safe_drugs": [
+      "labetalol",
+      "morphine",
+      "esmolol"
+    ],
+    "unsafe_drugs": [
+      "aspirin",
+      "thrombolytics",
+      "penicillin"
+    ]
+  },
+  {
+    "patient_id": "P0075",
+    "age": 77,
+    "gender": "male",
+    "chief_complaint": "severe colicky flank pain radiating to groin hematuria",
+    "vitals": {
+      "bp_systolic": 138,
+      "bp_diastolic": 88,
+      "heart_rate": 117,
+      "temperature": 36.7,
+      "spo2": 99,
+      "respiratory_rate": 18
+    },
+    "lab_results": {
+      "troponin_i": 0.022,
+      "bnp": 23,
+      "creatinine": 0.9,
+      "glucose": 110,
+      "wbc": 9.9,
+      "hemoglobin": 13.9
+    },
+    "known_allergies": [
+      "morphine"
+    ],
+    "current_medications": [
+      "atorvastatin",
+      "metformin"
+    ],
+    "ground_truth_diagnosis": "N20.0",
+    "safe_drugs": [
+      "ketorolac",
+      "ondansetron"
+    ],
+    "unsafe_drugs": [
+      "morphine",
+      "metformin",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0076",
+    "age": 49,
+    "gender": "female",
+    "chief_complaint": "crushing chest pain radiating to left arm with diaphoresis with sudden onset",
+    "vitals": {
+      "bp_systolic": 132,
+      "bp_diastolic": 86,
+      "heart_rate": 92,
+      "temperature": 37.1,
+      "spo2": 98,
+      "respiratory_rate": 16
+    },
+    "lab_results": {
+      "troponin_i": 3.64,
+      "bnp": 44,
+      "creatinine": 0.9,
+      "glucose": 95,
+      "wbc": 8.6,
+      "hemoglobin": 12.7
+    },
+    "known_allergies": [],
+    "current_medications": [
+      "warfarin"
+    ],
+    "ground_truth_diagnosis": "I21.9",
+    "safe_drugs": [
+      "heparin",
+      "nitroglycerin",
+      "morphine"
+    ],
+    "unsafe_drugs": [
+      "aspirin",
+      "amiodarone"
+    ]
+  },
+  {
+    "patient_id": "P0077",
+    "age": 50,
+    "gender": "male",
+    "chief_complaint": "intermittent chest tightness worsening at rest worsening over past hour",
+    "vitals": {
+      "bp_systolic": 149,
+      "bp_diastolic": 72,
+      "heart_rate": 83,
+      "temperature": 37.2,
+      "spo2": 98,
+      "respiratory_rate": 16
+    },
+    "lab_results": {
+      "troponin_i": 0.284,
+      "bnp": 64,
+      "creatinine": 1.0,
+      "glucose": 89,
+      "wbc": 8.1,
+      "hemoglobin": 16.3
+    },
+    "known_allergies": [],
+    "current_medications": [],
+    "ground_truth_diagnosis": "I20.0",
+    "safe_drugs": [
+      "nitroglycerin",
+      "metoprolol",
+      "heparin"
+    ],
+    "unsafe_drugs": [
+      "amiodarone",
+      "alteplase"
+    ]
+  },
+  {
+    "patient_id": "P0078",
+    "age": 85,
+    "gender": "male",
+    "chief_complaint": "progressive shortness of breath and leg swelling for 3 days",
+    "vitals": {
+      "bp_systolic": 137,
+      "bp_diastolic": 86,
+      "heart_rate": 97,
+      "temperature": 36.5,
+      "spo2": 86,
+      "respiratory_rate": 15
+    },
+    "lab_results": {
+      "troponin_i": 0.086,
+      "bnp": 1205,
+      "creatinine": 1.2,
+      "glucose": 100,
+      "wbc": 5.7,
+      "hemoglobin": 16.5
+    },
+    "known_allergies": [
+      "morphine"
+    ],
+    "current_medications": [
+      "metformin"
+    ],
+    "ground_truth_diagnosis": "I50.9",
+    "safe_drugs": [
+      "furosemide",
+      "nitroglycerin"
+    ],
+    "unsafe_drugs": [
+      "aspirin",
+      "NSAIDs",
+      "morphine"
+    ]
+  },
+  {
+    "patient_id": "P0079",
+    "age": 61,
+    "gender": "male",
+    "chief_complaint": "sudden palpitations and irregular heartbeat with no prior history",
+    "vitals": {
+      "bp_systolic": 134,
+      "bp_diastolic": 74,
+      "heart_rate": 158,
+      "temperature": 36.7,
+      "spo2": 97,
+      "respiratory_rate": 17
+    },
+    "lab_results": {
+      "troponin_i": 0.013,
+      "bnp": 43,
+      "creatinine": 1.0,
+      "glucose": 92,
+      "wbc": 10.3,
+      "hemoglobin": 14.9
+    },
+    "known_allergies": [
+      "latex"
+    ],
+    "current_medications": [
+      "metoprolol",
+      "warfarin"
+    ],
+    "ground_truth_diagnosis": "I48.0",
+    "safe_drugs": [
+      "metoprolol",
+      "amiodarone",
+      "adenosine"
+    ],
+    "unsafe_drugs": [
+      "latex",
+      "alteplase"
+    ]
+  },
+  {
+    "patient_id": "P0080",
+    "age": 78,
+    "gender": "male",
+    "chief_complaint": "severe hypotension with cold clammy skin after MI worsening over past hour",
+    "vitals": {
+      "bp_systolic": 68,
+      "bp_diastolic": 88,
+      "heart_rate": 101,
+      "temperature": 37.0,
+      "spo2": 98,
+      "respiratory_rate": 17
+    },
+    "lab_results": {
+      "troponin_i": 8.77,
+      "bnp": 46,
+      "creatinine": 1.2,
+      "glucose": 111,
+      "wbc": 5.7,
+      "hemoglobin": 14.9
+    },
+    "known_allergies": [
+      "morphine"
+    ],
+    "current_medications": [],
+    "ground_truth_diagnosis": "R57.0",
+    "safe_drugs": [
+      "dopamine",
+      "norepinephrine"
+    ],
+    "unsafe_drugs": [
+      "metoprolol",
+      "labetalol",
+      "morphine"
+    ]
+  },
+  {
+    "patient_id": "P0081",
+    "age": 84,
+    "gender": "male",
+    "chief_complaint": "severe headache with blood pressure 220/130 with no prior history",
+    "vitals": {
+      "bp_systolic": 226,
+      "bp_diastolic": 121,
+      "heart_rate": 70,
+      "temperature": 36.8,
+      "spo2": 97,
+      "respiratory_rate": 17
+    },
+    "lab_results": {
+      "troponin_i": 0.017,
+      "bnp": 78,
+      "creatinine": 0.8,
+      "glucose": 99,
+      "wbc": 9.8,
+      "hemoglobin": 16.2
+    },
+    "known_allergies": [
+      "morphine"
+    ],
+    "current_medications": [
+      "metoprolol"
+    ],
+    "ground_truth_diagnosis": "I10",
+    "safe_drugs": [
+      "labetalol",
+      "furosemide"
+    ],
+    "unsafe_drugs": [
+      "metoprolol",
+      "morphine",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0082",
+    "age": 67,
+    "gender": "male",
+    "chief_complaint": "severe shortness of breath unable to complete sentences with no prior history",
+    "vitals": {
+      "bp_systolic": 133,
+      "bp_diastolic": 77,
+      "heart_rate": 65,
+      "temperature": 36.8,
+      "spo2": 80,
+      "respiratory_rate": 40
+    },
+    "lab_results": {
+      "troponin_i": 0.073,
+      "bnp": 28,
+      "creatinine": 0.7,
+      "glucose": 114,
+      "wbc": 9.5,
+      "hemoglobin": 15.3
+    },
+    "known_allergies": [
+      "NSAIDs"
+    ],
+    "current_medications": [
+      "metformin",
+      "lisinopril"
+    ],
+    "ground_truth_diagnosis": "J96.00",
+    "safe_drugs": [
+      "furosemide",
+      "morphine",
+      "methylprednisolone"
+    ],
+    "unsafe_drugs": [
+      "metoprolol",
+      "NSAIDs",
+      "labetalol",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0083",
+    "age": 20,
+    "gender": "female",
+    "chief_complaint": "fever cough with productive sputum and shortness of breath with no prior history",
+    "vitals": {
+      "bp_systolic": 123,
+      "bp_diastolic": 74,
+      "heart_rate": 82,
+      "temperature": 39.4,
+      "spo2": 88,
+      "respiratory_rate": 14
+    },
+    "lab_results": {
+      "troponin_i": 0.072,
+      "bnp": 35,
+      "creatinine": 0.9,
+      "glucose": 86,
+      "wbc": 16.4,
+      "hemoglobin": 15.1
+    },
+    "known_allergies": [
+      "vancomycin"
+    ],
+    "current_medications": [
+      "metformin",
+      "metoprolol"
+    ],
+    "ground_truth_diagnosis": "J18.9",
+    "safe_drugs": [
+      "ceftriaxone",
+      "acetaminophen"
+    ],
+    "unsafe_drugs": [
+      "vancomycin",
+      "NSAIDs",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0084",
+    "age": 36,
+    "gender": "female",
+    "chief_complaint": "sudden wheezing difficulty breathing not responding to inhaler with no prior history",
+    "vitals": {
+      "bp_systolic": 137,
+      "bp_diastolic": 70,
+      "heart_rate": 84,
+      "temperature": 36.9,
+      "spo2": 85,
+      "respiratory_rate": 30
+    },
+    "lab_results": {
+      "troponin_i": 0.063,
+      "bnp": 25,
+      "creatinine": 1.0,
+      "glucose": 96,
+      "wbc": 4.9,
+      "hemoglobin": 14.6
+    },
+    "known_allergies": [
+      "aspirin"
+    ],
+    "current_medications": [
+      "omeprazole",
+      "amlodipine"
+    ],
+    "ground_truth_diagnosis": "J45.901",
+    "safe_drugs": [
+      "methylprednisolone",
+      "epinephrine",
+      "magnesium-sulfate"
+    ],
+    "unsafe_drugs": [
+      "metoprolol",
+      "aspirin",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0085",
+    "age": 50,
+    "gender": "male",
+    "chief_complaint": "sudden pleuritic chest pain shortness of breath after long flight with no prior history",
+    "vitals": {
+      "bp_systolic": 132,
+      "bp_diastolic": 72,
+      "heart_rate": 126,
+      "temperature": 36.7,
+      "spo2": 84,
+      "respiratory_rate": 18
+    },
+    "lab_results": {
+      "troponin_i": 0.069,
+      "bnp": 41,
+      "creatinine": 0.8,
+      "glucose": 96,
+      "wbc": 7.8,
+      "hemoglobin": 15.8
+    },
+    "known_allergies": [],
+    "current_medications": [
+      "atorvastatin"
+    ],
+    "ground_truth_diagnosis": "I26.99",
+    "safe_drugs": [
+      "heparin",
+      "alteplase",
+      "morphine"
+    ],
+    "unsafe_drugs": [
+      "aspirin"
+    ]
+  },
+  {
+    "patient_id": "P0086",
+    "age": 35,
+    "gender": "male",
+    "chief_complaint": "sudden left-sided facial droop arm weakness and slurred speech worsening over past hour",
+    "vitals": {
+      "bp_systolic": 172,
+      "bp_diastolic": 71,
+      "heart_rate": 74,
+      "temperature": 36.7,
+      "spo2": 97,
+      "respiratory_rate": 14
+    },
+    "lab_results": {
+      "troponin_i": 0.035,
+      "bnp": 39,
+      "creatinine": 1.0,
+      "glucose": 126,
+      "wbc": 7.8,
+      "hemoglobin": 13.5
+    },
+    "known_allergies": [],
+    "current_medications": [],
+    "ground_truth_diagnosis": "I63.9",
+    "safe_drugs": [
+      "alteplase",
+      "labetalol",
+      "acetaminophen"
+    ],
+    "unsafe_drugs": [
+      "heparin",
+      "aspirin"
+    ]
+  },
+  {
+    "patient_id": "P0087",
+    "age": 60,
+    "gender": "female",
+    "chief_complaint": "sudden severe headache worst of life with focal neurological deficits",
+    "vitals": {
+      "bp_systolic": 197,
+      "bp_diastolic": 81,
+      "heart_rate": 78,
+      "temperature": 37.4,
+      "spo2": 99,
+      "respiratory_rate": 17
+    },
+    "lab_results": {
+      "troponin_i": 0.037,
+      "bnp": 31,
+      "creatinine": 0.9,
+      "glucose": 100,
+      "wbc": 6.7,
+      "hemoglobin": 15.7
+    },
+    "known_allergies": [],
+    "current_medications": [
+      "lisinopril"
+    ],
+    "ground_truth_diagnosis": "I61.9",
+    "safe_drugs": [
+      "labetalol",
+      "acetaminophen",
+      "tranexamic-acid"
+    ],
+    "unsafe_drugs": [
+      "heparin",
+      "aspirin",
+      "alteplase"
+    ]
+  },
+  {
+    "patient_id": "P0088",
+    "age": 73,
+    "gender": "male",
+    "chief_complaint": "generalized tonic-clonic seizure lasting 3 minutes with sudden onset",
+    "vitals": {
+      "bp_systolic": 144,
+      "bp_diastolic": 79,
+      "heart_rate": 75,
+      "temperature": 37.6,
+      "spo2": 98,
+      "respiratory_rate": 16
+    },
+    "lab_results": {
+      "troponin_i": 0.035,
+      "bnp": 58,
+      "creatinine": 1.1,
+      "glucose": 62,
+      "wbc": 8.6,
+      "hemoglobin": 13.9
+    },
+    "known_allergies": [
+      "codeine"
+    ],
+    "current_medications": [
+      "metformin"
+    ],
+    "ground_truth_diagnosis": "G40.909",
+    "safe_drugs": [
+      "diazepam",
+      "levetiracetam",
+      "acetaminophen"
+    ],
+    "unsafe_drugs": [
+      "metoprolol",
+      "codeine",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0089",
+    "age": 27,
+    "gender": "female",
+    "chief_complaint": "fever confusion hypotension suspected infection source worsening over past hour",
+    "vitals": {
+      "bp_systolic": 88,
+      "bp_diastolic": 86,
+      "heart_rate": 101,
+      "temperature": 39.4,
+      "spo2": 97,
+      "respiratory_rate": 18
+    },
+    "lab_results": {
+      "troponin_i": 0.064,
+      "bnp": 48,
+      "creatinine": 2.9,
+      "glucose": 87,
+      "wbc": 28.3,
+      "hemoglobin": 15.1
+    },
+    "known_allergies": [
+      "cephalosporins"
+    ],
+    "current_medications": [
+      "lisinopril"
+    ],
+    "ground_truth_diagnosis": "A41.9",
+    "safe_drugs": [
+      "piperacillin-tazobactam",
+      "vancomycin",
+      "norepinephrine"
+    ],
+    "unsafe_drugs": [
+      "cephalosporins",
+      "NSAIDs",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0090",
+    "age": 35,
+    "gender": "female",
+    "chief_complaint": "nausea vomiting abdominal pain fruity breath known diabetic with sudden onset",
+    "vitals": {
+      "bp_systolic": 135,
+      "bp_diastolic": 80,
+      "heart_rate": 108,
+      "temperature": 36.8,
+      "spo2": 96,
+      "respiratory_rate": 29
+    },
+    "lab_results": {
+      "troponin_i": 0.069,
+      "bnp": 51,
+      "creatinine": 1.0,
+      "glucose": 509,
+      "wbc": 7.9,
+      "hemoglobin": 13.5
+    },
+    "known_allergies": [
+      "contrast dye"
+    ],
+    "current_medications": [
+      "levothyroxine",
+      "metoprolol"
+    ],
+    "ground_truth_diagnosis": "E10.10",
+    "safe_drugs": [
+      "insulin",
+      "bicarbonate",
+      "furosemide"
+    ],
+    "unsafe_drugs": [
+      "metoprolol",
+      "contrast dye",
+      "diazepam",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0091",
+    "age": 33,
+    "gender": "male",
+    "chief_complaint": "confusion diaphoresis shakiness in known diabetic worsening over past hour",
+    "vitals": {
+      "bp_systolic": 114,
+      "bp_diastolic": 84,
+      "heart_rate": 112,
+      "temperature": 37.4,
+      "spo2": 99,
+      "respiratory_rate": 14
+    },
+    "lab_results": {
+      "troponin_i": 0.075,
+      "bnp": 74,
+      "creatinine": 1.2,
+      "glucose": 37,
+      "wbc": 6.6,
+      "hemoglobin": 12.8
+    },
+    "known_allergies": [],
+    "current_medications": [],
+    "ground_truth_diagnosis": "E16.0",
+    "safe_drugs": [
+      "dextrose",
+      "glucagon"
+    ],
+    "unsafe_drugs": [
+      "insulin",
+      "metformin",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0092",
+    "age": 40,
+    "gender": "female",
+    "chief_complaint": "urticaria facial swelling throat tightness after eating shellfish with sudden onset",
+    "vitals": {
+      "bp_systolic": 87,
+      "bp_diastolic": 77,
+      "heart_rate": 114,
+      "temperature": 37.5,
+      "spo2": 97,
+      "respiratory_rate": 15
+    },
+    "lab_results": {
+      "troponin_i": 0.073,
+      "bnp": 21,
+      "creatinine": 0.9,
+      "glucose": 103,
+      "wbc": 6.7,
+      "hemoglobin": 15.7
+    },
+    "known_allergies": [
+      "penicillin"
+    ],
+    "current_medications": [],
+    "ground_truth_diagnosis": "T78.2XXA",
+    "safe_drugs": [
+      "epinephrine",
+      "diphenhydramine",
+      "methylprednisolone"
+    ],
+    "unsafe_drugs": [
+      "metoprolol",
+      "NSAIDs",
+      "penicillin",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0093",
+    "age": 57,
+    "gender": "female",
+    "chief_complaint": "decreased urine output flank pain nausea with sudden onset",
+    "vitals": {
+      "bp_systolic": 140,
+      "bp_diastolic": 86,
+      "heart_rate": 78,
+      "temperature": 37.3,
+      "spo2": 96,
+      "respiratory_rate": 15
+    },
+    "lab_results": {
+      "troponin_i": 0.088,
+      "bnp": 61,
+      "creatinine": 7.4,
+      "glucose": 99,
+      "wbc": 8.6,
+      "hemoglobin": 13.9
+    },
+    "known_allergies": [],
+    "current_medications": [
+      "atorvastatin"
+    ],
+    "ground_truth_diagnosis": "N17.9",
+    "safe_drugs": [
+      "furosemide",
+      "bicarbonate",
+      "acetaminophen"
+    ],
+    "unsafe_drugs": [
+      "NSAIDs",
+      "metformin",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0094",
+    "age": 73,
+    "gender": "male",
+    "chief_complaint": "periumbilical pain migrating to right lower quadrant with fever with sudden onset",
+    "vitals": {
+      "bp_systolic": 117,
+      "bp_diastolic": 86,
+      "heart_rate": 69,
+      "temperature": 38.3,
+      "spo2": 97,
+      "respiratory_rate": 16
+    },
+    "lab_results": {
+      "troponin_i": 0.085,
+      "bnp": 34,
+      "creatinine": 0.9,
+      "glucose": 115,
+      "wbc": 14.8,
+      "hemoglobin": 13.6
+    },
+    "known_allergies": [
+      "contrast dye"
+    ],
+    "current_medications": [],
+    "ground_truth_diagnosis": "K35.80",
+    "safe_drugs": [
+      "piperacillin-tazobactam",
+      "morphine",
+      "ondansetron"
+    ],
+    "unsafe_drugs": [
+      "contrast dye",
+      "NSAIDs",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0095",
+    "age": 56,
+    "gender": "male",
+    "chief_complaint": "severe epigastric pain radiating to back nausea vomiting",
+    "vitals": {
+      "bp_systolic": 142,
+      "bp_diastolic": 90,
+      "heart_rate": 95,
+      "temperature": 37.1,
+      "spo2": 97,
+      "respiratory_rate": 15
+    },
+    "lab_results": {
+      "troponin_i": 0.063,
+      "bnp": 66,
+      "creatinine": 1.2,
+      "glucose": 200,
+      "wbc": 9.6,
+      "hemoglobin": 14.8
+    },
+    "known_allergies": [],
+    "current_medications": [
+      "warfarin",
+      "metoprolol"
+    ],
+    "ground_truth_diagnosis": "K85.9",
+    "safe_drugs": [
+      "morphine",
+      "ondansetron",
+      "acetaminophen"
+    ],
+    "unsafe_drugs": [
+      "NSAIDs",
+      "opioids",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0096",
+    "age": 71,
+    "gender": "male",
+    "chief_complaint": "bloody vomit melena hematemesis with dizziness with no prior history",
+    "vitals": {
+      "bp_systolic": 85,
+      "bp_diastolic": 90,
+      "heart_rate": 119,
+      "temperature": 36.8,
+      "spo2": 98,
+      "respiratory_rate": 17
+    },
+    "lab_results": {
+      "troponin_i": 0.03,
+      "bnp": 71,
+      "creatinine": 1.0,
+      "glucose": 94,
+      "wbc": 7.2,
+      "hemoglobin": 6.7
+    },
+    "known_allergies": [
+      "latex"
+    ],
+    "current_medications": [
+      "atorvastatin"
+    ],
+    "ground_truth_diagnosis": "K92.2",
+    "safe_drugs": [
+      "tranexamic-acid",
+      "ondansetron",
+      "furosemide"
+    ],
+    "unsafe_drugs": [
+      "aspirin",
+      "latex",
+      "NSAIDs",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0097",
+    "age": 58,
+    "gender": "female",
+    "chief_complaint": "unresponsive pinpoint pupils slow shallow breathing with sudden onset",
+    "vitals": {
+      "bp_systolic": 132,
+      "bp_diastolic": 82,
+      "heart_rate": 69,
+      "temperature": 37.3,
+      "spo2": 78,
+      "respiratory_rate": 10
+    },
+    "lab_results": {
+      "troponin_i": 0.029,
+      "bnp": 27,
+      "creatinine": 0.8,
+      "glucose": 92,
+      "wbc": 5.3,
+      "hemoglobin": 12.7
+    },
+    "known_allergies": [
+      "codeine"
+    ],
+    "current_medications": [],
+    "ground_truth_diagnosis": "T40.1",
+    "safe_drugs": [
+      "naloxone",
+      "dextrose",
+      "thiamine"
+    ],
+    "unsafe_drugs": [
+      "morphine",
+      "codeine",
+      "diazepam",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0098",
+    "age": 38,
+    "gender": "female",
+    "chief_complaint": "severe headache visual changes elevated blood pressure in pregnancy with sudden onset",
+    "vitals": {
+      "bp_systolic": 175,
+      "bp_diastolic": 116,
+      "heart_rate": 70,
+      "temperature": 37.0,
+      "spo2": 99,
+      "respiratory_rate": 17
+    },
+    "lab_results": {
+      "troponin_i": 0.08,
+      "bnp": 51,
+      "creatinine": 0.7,
+      "glucose": 115,
+      "wbc": 6.9,
+      "hemoglobin": 14.3
+    },
+    "known_allergies": [
+      "cephalosporins"
+    ],
+    "current_medications": [],
+    "ground_truth_diagnosis": "O14.10",
+    "safe_drugs": [
+      "magnesium-sulfate",
+      "labetalol",
+      "methylprednisolone"
+    ],
+    "unsafe_drugs": [
+      "cephalosporins",
+      "NSAIDs",
+      "ACE inhibitors",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0099",
+    "age": 24,
+    "gender": "female",
+    "chief_complaint": "tearing chest pain radiating to back sudden onset worsening over past hour",
+    "vitals": {
+      "bp_systolic": 185,
+      "bp_diastolic": 89,
+      "heart_rate": 85,
+      "temperature": 37.2,
+      "spo2": 98,
+      "respiratory_rate": 18
+    },
+    "lab_results": {
+      "troponin_i": 0.011,
+      "bnp": 26,
+      "creatinine": 0.9,
+      "glucose": 113,
+      "wbc": 6.1,
+      "hemoglobin": 14.0
+    },
+    "known_allergies": [
+      "aspirin"
+    ],
+    "current_medications": [
+      "metformin"
+    ],
+    "ground_truth_diagnosis": "I71.0",
+    "safe_drugs": [
+      "labetalol",
+      "morphine",
+      "esmolol"
+    ],
+    "unsafe_drugs": [
+      "aspirin",
+      "thrombolytics"
+    ]
+  },
+  {
+    "patient_id": "P0100",
+    "age": 42,
+    "gender": "female",
+    "chief_complaint": "severe colicky flank pain radiating to groin hematuria worsening over past hour",
+    "vitals": {
+      "bp_systolic": 145,
+      "bp_diastolic": 79,
+      "heart_rate": 106,
+      "temperature": 36.9,
+      "spo2": 99,
+      "respiratory_rate": 18
+    },
+    "lab_results": {
+      "troponin_i": 0.032,
+      "bnp": 59,
+      "creatinine": 1.0,
+      "glucose": 88,
+      "wbc": 5.3,
+      "hemoglobin": 12.9
+    },
+    "known_allergies": [
+      "morphine"
+    ],
+    "current_medications": [
+      "atorvastatin"
+    ],
+    "ground_truth_diagnosis": "N20.0",
+    "safe_drugs": [
+      "ketorolac",
+      "ondansetron"
+    ],
+    "unsafe_drugs": [
+      "morphine",
+      "metformin",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0101",
+    "age": 43,
+    "gender": "female",
+    "chief_complaint": "crushing chest pain radiating to left arm with diaphoresis with sudden onset",
+    "vitals": {
+      "bp_systolic": 130,
+      "bp_diastolic": 71,
+      "heart_rate": 95,
+      "temperature": 36.5,
+      "spo2": 98,
+      "respiratory_rate": 17
+    },
+    "lab_results": {
+      "troponin_i": 4.05,
+      "bnp": 29,
+      "creatinine": 1.0,
+      "glucose": 101,
+      "wbc": 5.3,
+      "hemoglobin": 16.2
+    },
+    "known_allergies": [],
+    "current_medications": [
+      "amlodipine"
+    ],
+    "ground_truth_diagnosis": "I21.9",
+    "safe_drugs": [
+      "heparin",
+      "nitroglycerin",
+      "morphine"
+    ],
+    "unsafe_drugs": [
+      "aspirin",
+      "amiodarone"
+    ]
+  },
+  {
+    "patient_id": "P0102",
+    "age": 82,
+    "gender": "female",
+    "chief_complaint": "intermittent chest tightness worsening at rest with sudden onset",
+    "vitals": {
+      "bp_systolic": 160,
+      "bp_diastolic": 85,
+      "heart_rate": 65,
+      "temperature": 36.9,
+      "spo2": 96,
+      "respiratory_rate": 17
+    },
+    "lab_results": {
+      "troponin_i": 0.14,
+      "bnp": 70,
+      "creatinine": 1.1,
+      "glucose": 112,
+      "wbc": 8.6,
+      "hemoglobin": 12.6
+    },
+    "known_allergies": [
+      "vancomycin"
+    ],
+    "current_medications": [],
+    "ground_truth_diagnosis": "I20.0",
+    "safe_drugs": [
+      "nitroglycerin",
+      "metoprolol",
+      "heparin"
+    ],
+    "unsafe_drugs": [
+      "vancomycin",
+      "amiodarone",
+      "alteplase"
+    ]
+  },
+  {
+    "patient_id": "P0103",
+    "age": 24,
+    "gender": "female",
+    "chief_complaint": "progressive shortness of breath and leg swelling for 3 days with associated nausea",
+    "vitals": {
+      "bp_systolic": 120,
+      "bp_diastolic": 86,
+      "heart_rate": 105,
+      "temperature": 37.2,
+      "spo2": 91,
+      "respiratory_rate": 15
+    },
+    "lab_results": {
+      "troponin_i": 0.076,
+      "bnp": 1457,
+      "creatinine": 0.7,
+      "glucose": 115,
+      "wbc": 8.7,
+      "hemoglobin": 13.3
+    },
+    "known_allergies": [
+      "codeine"
+    ],
+    "current_medications": [
+      "metoprolol",
+      "omeprazole"
+    ],
+    "ground_truth_diagnosis": "I50.9",
+    "safe_drugs": [
+      "furosemide",
+      "morphine",
+      "nitroglycerin"
+    ],
+    "unsafe_drugs": [
+      "aspirin",
+      "NSAIDs",
+      "codeine"
+    ]
+  },
+  {
+    "patient_id": "P0104",
+    "age": 82,
+    "gender": "female",
+    "chief_complaint": "sudden palpitations and irregular heartbeat worsening over past hour",
+    "vitals": {
+      "bp_systolic": 113,
+      "bp_diastolic": 74,
+      "heart_rate": 132,
+      "temperature": 36.7,
+      "spo2": 98,
+      "respiratory_rate": 17
+    },
+    "lab_results": {
+      "troponin_i": 0.052,
+      "bnp": 40,
+      "creatinine": 1.2,
+      "glucose": 99,
+      "wbc": 10.0,
+      "hemoglobin": 13.9
+    },
+    "known_allergies": [
+      "vancomycin"
+    ],
+    "current_medications": [
+      "metoprolol"
+    ],
+    "ground_truth_diagnosis": "I48.0",
+    "safe_drugs": [
+      "metoprolol",
+      "amiodarone",
+      "adenosine"
+    ],
+    "unsafe_drugs": [
+      "vancomycin",
+      "alteplase"
+    ]
+  },
+  {
+    "patient_id": "P0105",
+    "age": 49,
+    "gender": "female",
+    "chief_complaint": "severe hypotension with cold clammy skin after MI",
+    "vitals": {
+      "bp_systolic": 85,
+      "bp_diastolic": 79,
+      "heart_rate": 123,
+      "temperature": 37.4,
+      "spo2": 98,
+      "respiratory_rate": 16
+    },
+    "lab_results": {
+      "troponin_i": 5.46,
+      "bnp": 64,
+      "creatinine": 1.1,
+      "glucose": 95,
+      "wbc": 7.4,
+      "hemoglobin": 14.7
+    },
+    "known_allergies": [
+      "vancomycin"
+    ],
+    "current_medications": [
+      "omeprazole"
+    ],
+    "ground_truth_diagnosis": "R57.0",
+    "safe_drugs": [
+      "dopamine",
+      "norepinephrine",
+      "morphine"
+    ],
+    "unsafe_drugs": [
+      "metoprolol",
+      "vancomycin",
+      "labetalol"
+    ]
+  },
+  {
+    "patient_id": "P0106",
+    "age": 68,
+    "gender": "female",
+    "chief_complaint": "severe headache with blood pressure 220/130 worsening over past hour",
+    "vitals": {
+      "bp_systolic": 217,
+      "bp_diastolic": 137,
+      "heart_rate": 66,
+      "temperature": 36.8,
+      "spo2": 96,
+      "respiratory_rate": 16
+    },
+    "lab_results": {
+      "troponin_i": 0.084,
+      "bnp": 61,
+      "creatinine": 0.8,
+      "glucose": 100,
+      "wbc": 5.8,
+      "hemoglobin": 15.8
+    },
+    "known_allergies": [
+      "sulfa"
+    ],
+    "current_medications": [],
+    "ground_truth_diagnosis": "I10",
+    "safe_drugs": [
+      "labetalol",
+      "furosemide"
+    ],
+    "unsafe_drugs": [
+      "metoprolol",
+      "sulfa",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0107",
+    "age": 48,
+    "gender": "male",
+    "chief_complaint": "severe shortness of breath unable to complete sentences with no prior history",
+    "vitals": {
+      "bp_systolic": 113,
+      "bp_diastolic": 86,
+      "heart_rate": 72,
+      "temperature": 37.1,
+      "spo2": 86,
+      "respiratory_rate": 30
+    },
+    "lab_results": {
+      "troponin_i": 0.043,
+      "bnp": 65,
+      "creatinine": 0.9,
+      "glucose": 106,
+      "wbc": 9.1,
+      "hemoglobin": 12.5
+    },
+    "known_allergies": [],
+    "current_medications": [
+      "levothyroxine"
+    ],
+    "ground_truth_diagnosis": "J96.00",
+    "safe_drugs": [
+      "furosemide",
+      "morphine",
+      "methylprednisolone"
+    ],
+    "unsafe_drugs": [
+      "metoprolol",
+      "labetalol",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0108",
+    "age": 43,
+    "gender": "female",
+    "chief_complaint": "fever cough with productive sputum and shortness of breath",
+    "vitals": {
+      "bp_systolic": 130,
+      "bp_diastolic": 79,
+      "heart_rate": 85,
+      "temperature": 39.1,
+      "spo2": 94,
+      "respiratory_rate": 18
+    },
+    "lab_results": {
+      "troponin_i": 0.029,
+      "bnp": 67,
+      "creatinine": 1.1,
+      "glucose": 114,
+      "wbc": 17.3,
+      "hemoglobin": 16.2
+    },
+    "known_allergies": [],
+    "current_medications": [
+      "levothyroxine"
+    ],
+    "ground_truth_diagnosis": "J18.9",
+    "safe_drugs": [
+      "ceftriaxone",
+      "vancomycin",
+      "acetaminophen"
+    ],
+    "unsafe_drugs": [
+      "NSAIDs",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0109",
+    "age": 41,
+    "gender": "female",
+    "chief_complaint": "sudden wheezing difficulty breathing not responding to inhaler with associated nausea",
+    "vitals": {
+      "bp_systolic": 112,
+      "bp_diastolic": 70,
+      "heart_rate": 74,
+      "temperature": 37.1,
+      "spo2": 92,
+      "respiratory_rate": 28
+    },
+    "lab_results": {
+      "troponin_i": 0.033,
+      "bnp": 61,
+      "creatinine": 1.0,
+      "glucose": 100,
+      "wbc": 9.8,
+      "hemoglobin": 13.0
+    },
+    "known_allergies": [],
+    "current_medications": [],
+    "ground_truth_diagnosis": "J45.901",
+    "safe_drugs": [
+      "methylprednisolone",
+      "epinephrine",
+      "magnesium-sulfate"
+    ],
+    "unsafe_drugs": [
+      "metoprolol",
+      "aspirin",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0110",
+    "age": 60,
+    "gender": "male",
+    "chief_complaint": "sudden pleuritic chest pain shortness of breath after long flight with no prior history",
+    "vitals": {
+      "bp_systolic": 139,
+      "bp_diastolic": 90,
+      "heart_rate": 126,
+      "temperature": 37.2,
+      "spo2": 88,
+      "respiratory_rate": 16
+    },
+    "lab_results": {
+      "troponin_i": 0.073,
+      "bnp": 56,
+      "creatinine": 1.0,
+      "glucose": 91,
+      "wbc": 5.6,
+      "hemoglobin": 15.9
+    },
+    "known_allergies": [
+      "morphine"
+    ],
+    "current_medications": [
+      "lisinopril"
+    ],
+    "ground_truth_diagnosis": "I26.99",
+    "safe_drugs": [
+      "heparin",
+      "alteplase"
+    ],
+    "unsafe_drugs": [
+      "aspirin",
+      "morphine"
+    ]
+  },
+  {
+    "patient_id": "P0111",
+    "age": 69,
+    "gender": "male",
+    "chief_complaint": "sudden left-sided facial droop arm weakness and slurred speech worsening over past hour",
+    "vitals": {
+      "bp_systolic": 196,
+      "bp_diastolic": 74,
+      "heart_rate": 80,
+      "temperature": 36.8,
+      "spo2": 97,
+      "respiratory_rate": 14
+    },
+    "lab_results": {
+      "troponin_i": 0.031,
+      "bnp": 35,
+      "creatinine": 0.9,
+      "glucose": 91,
+      "wbc": 10.2,
+      "hemoglobin": 13.7
+    },
+    "known_allergies": [],
+    "current_medications": [
+      "metoprolol"
+    ],
+    "ground_truth_diagnosis": "I63.9",
+    "safe_drugs": [
+      "alteplase",
+      "labetalol",
+      "acetaminophen"
+    ],
+    "unsafe_drugs": [
+      "heparin",
+      "aspirin"
+    ]
+  },
+  {
+    "patient_id": "P0112",
+    "age": 25,
+    "gender": "male",
+    "chief_complaint": "sudden severe headache worst of life with focal neurological deficits with associated nausea",
+    "vitals": {
+      "bp_systolic": 210,
+      "bp_diastolic": 79,
+      "heart_rate": 70,
+      "temperature": 36.9,
+      "spo2": 98,
+      "respiratory_rate": 14
+    },
+    "lab_results": {
+      "troponin_i": 0.061,
+      "bnp": 80,
+      "creatinine": 0.8,
+      "glucose": 104,
+      "wbc": 5.8,
+      "hemoglobin": 16.3
+    },
+    "known_allergies": [
+      "NSAIDs"
+    ],
+    "current_medications": [
+      "amlodipine",
+      "omeprazole"
+    ],
+    "ground_truth_diagnosis": "I61.9",
+    "safe_drugs": [
+      "labetalol",
+      "acetaminophen",
+      "tranexamic-acid"
+    ],
+    "unsafe_drugs": [
+      "aspirin",
+      "heparin",
+      "NSAIDs",
+      "alteplase"
+    ]
+  },
+  {
+    "patient_id": "P0113",
+    "age": 78,
+    "gender": "male",
+    "chief_complaint": "generalized tonic-clonic seizure lasting 3 minutes worsening over past hour",
+    "vitals": {
+      "bp_systolic": 125,
+      "bp_diastolic": 89,
+      "heart_rate": 67,
+      "temperature": 38.6,
+      "spo2": 98,
+      "respiratory_rate": 14
+    },
+    "lab_results": {
+      "troponin_i": 0.083,
+      "bnp": 27,
+      "creatinine": 0.7,
+      "glucose": 50,
+      "wbc": 9.9,
+      "hemoglobin": 13.3
+    },
+    "known_allergies": [],
+    "current_medications": [
+      "levothyroxine",
+      "lisinopril"
+    ],
+    "ground_truth_diagnosis": "G40.909",
+    "safe_drugs": [
+      "diazepam",
+      "levetiracetam",
+      "acetaminophen"
+    ],
+    "unsafe_drugs": [
+      "metoprolol",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0114",
+    "age": 44,
+    "gender": "female",
+    "chief_complaint": "fever confusion hypotension suspected infection source with sudden onset",
+    "vitals": {
+      "bp_systolic": 82,
+      "bp_diastolic": 86,
+      "heart_rate": 108,
+      "temperature": 40.0,
+      "spo2": 99,
+      "respiratory_rate": 15
+    },
+    "lab_results": {
+      "troponin_i": 0.051,
+      "bnp": 49,
+      "creatinine": 3.0,
+      "glucose": 102,
+      "wbc": 31.9,
+      "hemoglobin": 15.7
+    },
+    "known_allergies": [
+      "penicillin"
+    ],
+    "current_medications": [],
+    "ground_truth_diagnosis": "A41.9",
+    "safe_drugs": [
+      "piperacillin-tazobactam",
+      "vancomycin",
+      "norepinephrine"
+    ],
+    "unsafe_drugs": [
+      "penicillin",
+      "NSAIDs",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0115",
+    "age": 72,
+    "gender": "female",
+    "chief_complaint": "nausea vomiting abdominal pain fruity breath known diabetic with no prior history",
+    "vitals": {
+      "bp_systolic": 114,
+      "bp_diastolic": 87,
+      "heart_rate": 120,
+      "temperature": 37.4,
+      "spo2": 96,
+      "respiratory_rate": 28
+    },
+    "lab_results": {
+      "troponin_i": 0.013,
+      "bnp": 46,
+      "creatinine": 0.8,
+      "glucose": 591,
+      "wbc": 9.1,
+      "hemoglobin": 16.4
+    },
+    "known_allergies": [
+      "NSAIDs"
+    ],
+    "current_medications": [
+      "omeprazole"
+    ],
+    "ground_truth_diagnosis": "E10.10",
+    "safe_drugs": [
+      "insulin",
+      "bicarbonate",
+      "furosemide"
+    ],
+    "unsafe_drugs": [
+      "metoprolol",
+      "NSAIDs",
+      "diazepam",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0116",
+    "age": 28,
+    "gender": "male",
+    "chief_complaint": "confusion diaphoresis shakiness in known diabetic with sudden onset",
+    "vitals": {
+      "bp_systolic": 132,
+      "bp_diastolic": 73,
+      "heart_rate": 112,
+      "temperature": 37.5,
+      "spo2": 99,
+      "respiratory_rate": 18
+    },
+    "lab_results": {
+      "troponin_i": 0.02,
+      "bnp": 34,
+      "creatinine": 1.1,
+      "glucose": 41,
+      "wbc": 4.6,
+      "hemoglobin": 13.7
+    },
+    "known_allergies": [
+      "codeine"
+    ],
+    "current_medications": [],
+    "ground_truth_diagnosis": "E16.0",
+    "safe_drugs": [
+      "dextrose",
+      "glucagon"
+    ],
+    "unsafe_drugs": [
+      "insulin",
+      "codeine",
+      "metformin",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0117",
+    "age": 49,
+    "gender": "female",
+    "chief_complaint": "urticaria facial swelling throat tightness after eating shellfish",
+    "vitals": {
+      "bp_systolic": 76,
+      "bp_diastolic": 74,
+      "heart_rate": 112,
+      "temperature": 36.7,
+      "spo2": 96,
+      "respiratory_rate": 14
+    },
+    "lab_results": {
+      "troponin_i": 0.075,
+      "bnp": 46,
+      "creatinine": 1.0,
+      "glucose": 114,
+      "wbc": 9.8,
+      "hemoglobin": 12.6
+    },
+    "known_allergies": [
+      "vancomycin"
+    ],
+    "current_medications": [],
+    "ground_truth_diagnosis": "T78.2XXA",
+    "safe_drugs": [
+      "epinephrine",
+      "diphenhydramine",
+      "methylprednisolone"
+    ],
+    "unsafe_drugs": [
+      "metoprolol",
+      "vancomycin",
+      "NSAIDs",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0118",
+    "age": 75,
+    "gender": "male",
+    "chief_complaint": "decreased urine output flank pain nausea worsening over past hour",
+    "vitals": {
+      "bp_systolic": 125,
+      "bp_diastolic": 71,
+      "heart_rate": 77,
+      "temperature": 36.9,
+      "spo2": 97,
+      "respiratory_rate": 14
+    },
+    "lab_results": {
+      "troponin_i": 0.021,
+      "bnp": 38,
+      "creatinine": 6.0,
+      "glucose": 114,
+      "wbc": 8.9,
+      "hemoglobin": 13.8
+    },
+    "known_allergies": [
+      "latex"
+    ],
+    "current_medications": [
+      "atorvastatin"
+    ],
+    "ground_truth_diagnosis": "N17.9",
+    "safe_drugs": [
+      "furosemide",
+      "bicarbonate",
+      "acetaminophen"
+    ],
+    "unsafe_drugs": [
+      "latex",
+      "NSAIDs",
+      "metformin",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0119",
+    "age": 84,
+    "gender": "male",
+    "chief_complaint": "periumbilical pain migrating to right lower quadrant with fever with no prior history",
+    "vitals": {
+      "bp_systolic": 136,
+      "bp_diastolic": 79,
+      "heart_rate": 73,
+      "temperature": 38.9,
+      "spo2": 97,
+      "respiratory_rate": 17
+    },
+    "lab_results": {
+      "troponin_i": 0.054,
+      "bnp": 23,
+      "creatinine": 1.2,
+      "glucose": 115,
+      "wbc": 19.3,
+      "hemoglobin": 14.0
+    },
+    "known_allergies": [
+      "sulfa"
+    ],
+    "current_medications": [
+      "omeprazole"
+    ],
+    "ground_truth_diagnosis": "K35.80",
+    "safe_drugs": [
+      "piperacillin-tazobactam",
+      "morphine",
+      "ondansetron"
+    ],
+    "unsafe_drugs": [
+      "NSAIDs",
+      "sulfa",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0120",
+    "age": 41,
+    "gender": "female",
+    "chief_complaint": "severe epigastric pain radiating to back nausea vomiting with associated nausea",
+    "vitals": {
+      "bp_systolic": 125,
+      "bp_diastolic": 77,
+      "heart_rate": 102,
+      "temperature": 37.4,
+      "spo2": 97,
+      "respiratory_rate": 17
+    },
+    "lab_results": {
+      "troponin_i": 0.083,
+      "bnp": 55,
+      "creatinine": 0.9,
+      "glucose": 245,
+      "wbc": 7.8,
+      "hemoglobin": 13.0
+    },
+    "known_allergies": [
+      "cephalosporins"
+    ],
+    "current_medications": [
+      "lisinopril",
+      "levothyroxine"
+    ],
+    "ground_truth_diagnosis": "K85.9",
+    "safe_drugs": [
+      "morphine",
+      "ondansetron",
+      "acetaminophen"
+    ],
+    "unsafe_drugs": [
+      "opioids",
+      "cephalosporins",
+      "NSAIDs",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0121",
+    "age": 65,
+    "gender": "male",
+    "chief_complaint": "bloody vomit melena hematemesis with dizziness",
+    "vitals": {
+      "bp_systolic": 90,
+      "bp_diastolic": 76,
+      "heart_rate": 114,
+      "temperature": 36.8,
+      "spo2": 96,
+      "respiratory_rate": 14
+    },
+    "lab_results": {
+      "troponin_i": 0.025,
+      "bnp": 68,
+      "creatinine": 1.0,
+      "glucose": 106,
+      "wbc": 7.9,
+      "hemoglobin": 8.8
+    },
+    "known_allergies": [
+      "latex"
+    ],
+    "current_medications": [],
+    "ground_truth_diagnosis": "K92.2",
+    "safe_drugs": [
+      "tranexamic-acid",
+      "ondansetron",
+      "furosemide"
+    ],
+    "unsafe_drugs": [
+      "aspirin",
+      "latex",
+      "NSAIDs",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0122",
+    "age": 33,
+    "gender": "female",
+    "chief_complaint": "unresponsive pinpoint pupils slow shallow breathing with no prior history",
+    "vitals": {
+      "bp_systolic": 125,
+      "bp_diastolic": 89,
+      "heart_rate": 71,
+      "temperature": 36.9,
+      "spo2": 77,
+      "respiratory_rate": 8
+    },
+    "lab_results": {
+      "troponin_i": 0.036,
+      "bnp": 38,
+      "creatinine": 0.9,
+      "glucose": 102,
+      "wbc": 8.4,
+      "hemoglobin": 13.7
+    },
+    "known_allergies": [
+      "NSAIDs"
+    ],
+    "current_medications": [],
+    "ground_truth_diagnosis": "T40.1",
+    "safe_drugs": [
+      "naloxone",
+      "dextrose",
+      "thiamine"
+    ],
+    "unsafe_drugs": [
+      "NSAIDs",
+      "morphine",
+      "diazepam",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0123",
+    "age": 78,
+    "gender": "female",
+    "chief_complaint": "severe headache visual changes elevated blood pressure in pregnancy with associated nausea",
+    "vitals": {
+      "bp_systolic": 172,
+      "bp_diastolic": 120,
+      "heart_rate": 75,
+      "temperature": 36.9,
+      "spo2": 97,
+      "respiratory_rate": 15
+    },
+    "lab_results": {
+      "troponin_i": 0.011,
+      "bnp": 55,
+      "creatinine": 1.2,
+      "glucose": 103,
+      "wbc": 8.8,
+      "hemoglobin": 13.7
+    },
+    "known_allergies": [
+      "codeine"
+    ],
+    "current_medications": [
+      "metoprolol",
+      "levothyroxine"
+    ],
+    "ground_truth_diagnosis": "O14.10",
+    "safe_drugs": [
+      "magnesium-sulfate",
+      "labetalol",
+      "methylprednisolone"
+    ],
+    "unsafe_drugs": [
+      "NSAIDs",
+      "codeine",
+      "ACE inhibitors",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0124",
+    "age": 61,
+    "gender": "female",
+    "chief_complaint": "tearing chest pain radiating to back sudden onset with sudden onset",
+    "vitals": {
+      "bp_systolic": 163,
+      "bp_diastolic": 90,
+      "heart_rate": 80,
+      "temperature": 37.0,
+      "spo2": 98,
+      "respiratory_rate": 15
+    },
+    "lab_results": {
+      "troponin_i": 0.021,
+      "bnp": 54,
+      "creatinine": 0.9,
+      "glucose": 114,
+      "wbc": 9.8,
+      "hemoglobin": 16.5
+    },
+    "known_allergies": [
+      "aspirin"
+    ],
+    "current_medications": [],
+    "ground_truth_diagnosis": "I71.0",
+    "safe_drugs": [
+      "labetalol",
+      "morphine",
+      "esmolol"
+    ],
+    "unsafe_drugs": [
+      "aspirin",
+      "thrombolytics"
+    ]
+  },
+  {
+    "patient_id": "P0125",
+    "age": 24,
+    "gender": "male",
+    "chief_complaint": "severe colicky flank pain radiating to groin hematuria with no prior history",
+    "vitals": {
+      "bp_systolic": 136,
+      "bp_diastolic": 74,
+      "heart_rate": 110,
+      "temperature": 36.7,
+      "spo2": 97,
+      "respiratory_rate": 14
+    },
+    "lab_results": {
+      "troponin_i": 0.027,
+      "bnp": 49,
+      "creatinine": 0.9,
+      "glucose": 104,
+      "wbc": 8.3,
+      "hemoglobin": 16.2
+    },
+    "known_allergies": [
+      "aspirin"
+    ],
+    "current_medications": [],
+    "ground_truth_diagnosis": "N20.0",
+    "safe_drugs": [
+      "ketorolac",
+      "morphine",
+      "ondansetron"
+    ],
+    "unsafe_drugs": [
+      "aspirin",
+      "metformin",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0126",
+    "age": 70,
+    "gender": "male",
+    "chief_complaint": "crushing chest pain radiating to left arm with diaphoresis with associated nausea",
+    "vitals": {
+      "bp_systolic": 102,
+      "bp_diastolic": 86,
+      "heart_rate": 106,
+      "temperature": 37.0,
+      "spo2": 98,
+      "respiratory_rate": 14
+    },
+    "lab_results": {
+      "troponin_i": 2.47,
+      "bnp": 64,
+      "creatinine": 1.0,
+      "glucose": 110,
+      "wbc": 10.1,
+      "hemoglobin": 13.2
+    },
+    "known_allergies": [
+      "vancomycin"
+    ],
+    "current_medications": [
+      "warfarin",
+      "amlodipine"
+    ],
+    "ground_truth_diagnosis": "I21.9",
+    "safe_drugs": [
+      "heparin",
+      "nitroglycerin",
+      "morphine"
+    ],
+    "unsafe_drugs": [
+      "aspirin",
+      "vancomycin",
+      "amiodarone"
+    ]
+  },
+  {
+    "patient_id": "P0127",
+    "age": 52,
+    "gender": "female",
+    "chief_complaint": "intermittent chest tightness worsening at rest with no prior history",
+    "vitals": {
+      "bp_systolic": 132,
+      "bp_diastolic": 81,
+      "heart_rate": 77,
+      "temperature": 37.0,
+      "spo2": 97,
+      "respiratory_rate": 15
+    },
+    "lab_results": {
+      "troponin_i": 0.056,
+      "bnp": 72,
+      "creatinine": 1.1,
+      "glucose": 105,
+      "wbc": 10.5,
+      "hemoglobin": 15.1
+    },
+    "known_allergies": [
+      "codeine"
+    ],
+    "current_medications": [
+      "levothyroxine",
+      "metformin"
+    ],
+    "ground_truth_diagnosis": "I20.0",
+    "safe_drugs": [
+      "nitroglycerin",
+      "metoprolol",
+      "heparin"
+    ],
+    "unsafe_drugs": [
+      "amiodarone",
+      "codeine",
+      "alteplase"
+    ]
+  },
+  {
+    "patient_id": "P0128",
+    "age": 19,
+    "gender": "male",
+    "chief_complaint": "progressive shortness of breath and leg swelling for 3 days",
+    "vitals": {
+      "bp_systolic": 115,
+      "bp_diastolic": 85,
+      "heart_rate": 103,
+      "temperature": 37.1,
+      "spo2": 91,
+      "respiratory_rate": 18
+    },
+    "lab_results": {
+      "troponin_i": 0.088,
+      "bnp": 695,
+      "creatinine": 1.1,
+      "glucose": 114,
+      "wbc": 4.8,
+      "hemoglobin": 13.3
+    },
+    "known_allergies": [],
+    "current_medications": [],
+    "ground_truth_diagnosis": "I50.9",
+    "safe_drugs": [
+      "furosemide",
+      "morphine",
+      "nitroglycerin"
+    ],
+    "unsafe_drugs": [
+      "NSAIDs",
+      "aspirin"
+    ]
+  },
+  {
+    "patient_id": "P0129",
+    "age": 22,
+    "gender": "male",
+    "chief_complaint": "sudden palpitations and irregular heartbeat worsening over past hour",
+    "vitals": {
+      "bp_systolic": 130,
+      "bp_diastolic": 70,
+      "heart_rate": 144,
+      "temperature": 37.1,
+      "spo2": 99,
+      "respiratory_rate": 14
+    },
+    "lab_results": {
+      "troponin_i": 0.034,
+      "bnp": 56,
+      "creatinine": 0.8,
+      "glucose": 111,
+      "wbc": 9.6,
+      "hemoglobin": 15.2
+    },
+    "known_allergies": [
+      "codeine"
+    ],
+    "current_medications": [
+      "atorvastatin",
+      "lisinopril"
+    ],
+    "ground_truth_diagnosis": "I48.0",
+    "safe_drugs": [
+      "metoprolol",
+      "amiodarone",
+      "adenosine"
+    ],
+    "unsafe_drugs": [
+      "codeine",
+      "alteplase"
+    ]
+  },
+  {
+    "patient_id": "P0130",
+    "age": 82,
+    "gender": "female",
+    "chief_complaint": "severe hypotension with cold clammy skin after MI with no prior history",
+    "vitals": {
+      "bp_systolic": 80,
+      "bp_diastolic": 73,
+      "heart_rate": 108,
+      "temperature": 36.7,
+      "spo2": 96,
+      "respiratory_rate": 16
+    },
+    "lab_results": {
+      "troponin_i": 10.05,
+      "bnp": 59,
+      "creatinine": 1.2,
+      "glucose": 97,
+      "wbc": 10.3,
+      "hemoglobin": 13.8
+    },
+    "known_allergies": [
+      "NSAIDs"
+    ],
+    "current_medications": [],
+    "ground_truth_diagnosis": "R57.0",
+    "safe_drugs": [
+      "dopamine",
+      "norepinephrine",
+      "morphine"
+    ],
+    "unsafe_drugs": [
+      "metoprolol",
+      "NSAIDs",
+      "labetalol"
+    ]
+  },
+  {
+    "patient_id": "P0131",
+    "age": 63,
+    "gender": "female",
+    "chief_complaint": "severe headache with blood pressure 220/130 with no prior history",
+    "vitals": {
+      "bp_systolic": 240,
+      "bp_diastolic": 124,
+      "heart_rate": 83,
+      "temperature": 37.2,
+      "spo2": 96,
+      "respiratory_rate": 18
+    },
+    "lab_results": {
+      "troponin_i": 0.034,
+      "bnp": 35,
+      "creatinine": 1.1,
+      "glucose": 87,
+      "wbc": 6.1,
+      "hemoglobin": 14.0
+    },
+    "known_allergies": [
+      "cephalosporins"
+    ],
+    "current_medications": [
+      "lisinopril"
+    ],
+    "ground_truth_diagnosis": "I10",
+    "safe_drugs": [
+      "labetalol",
+      "furosemide"
+    ],
+    "unsafe_drugs": [
+      "metoprolol",
+      "cephalosporins",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0132",
+    "age": 29,
+    "gender": "male",
+    "chief_complaint": "severe shortness of breath unable to complete sentences with sudden onset",
+    "vitals": {
+      "bp_systolic": 129,
+      "bp_diastolic": 84,
+      "heart_rate": 76,
+      "temperature": 37.3,
+      "spo2": 79,
+      "respiratory_rate": 33
+    },
+    "lab_results": {
+      "troponin_i": 0.017,
+      "bnp": 47,
+      "creatinine": 0.9,
+      "glucose": 102,
+      "wbc": 7.6,
+      "hemoglobin": 12.9
+    },
+    "known_allergies": [
+      "penicillin"
+    ],
+    "current_medications": [
+      "amlodipine",
+      "omeprazole"
+    ],
+    "ground_truth_diagnosis": "J96.00",
+    "safe_drugs": [
+      "furosemide",
+      "morphine",
+      "methylprednisolone"
+    ],
+    "unsafe_drugs": [
+      "metoprolol",
+      "labetalol",
+      "penicillin",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0133",
+    "age": 19,
+    "gender": "female",
+    "chief_complaint": "fever cough with productive sputum and shortness of breath with no prior history",
+    "vitals": {
+      "bp_systolic": 136,
+      "bp_diastolic": 82,
+      "heart_rate": 67,
+      "temperature": 38.7,
+      "spo2": 89,
+      "respiratory_rate": 18
+    },
+    "lab_results": {
+      "troponin_i": 0.052,
+      "bnp": 63,
+      "creatinine": 0.9,
+      "glucose": 89,
+      "wbc": 20.7,
+      "hemoglobin": 13.6
+    },
+    "known_allergies": [
+      "contrast dye"
+    ],
+    "current_medications": [
+      "lisinopril"
+    ],
+    "ground_truth_diagnosis": "J18.9",
+    "safe_drugs": [
+      "ceftriaxone",
+      "vancomycin",
+      "acetaminophen"
+    ],
+    "unsafe_drugs": [
+      "contrast dye",
+      "NSAIDs",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0134",
+    "age": 64,
+    "gender": "female",
+    "chief_complaint": "sudden wheezing difficulty breathing not responding to inhaler worsening over past hour",
+    "vitals": {
+      "bp_systolic": 125,
+      "bp_diastolic": 90,
+      "heart_rate": 80,
+      "temperature": 37.1,
+      "spo2": 90,
+      "respiratory_rate": 31
+    },
+    "lab_results": {
+      "troponin_i": 0.019,
+      "bnp": 39,
+      "creatinine": 0.7,
+      "glucose": 97,
+      "wbc": 6.5,
+      "hemoglobin": 15.0
+    },
+    "known_allergies": [
+      "codeine"
+    ],
+    "current_medications": [
+      "atorvastatin",
+      "warfarin"
+    ],
+    "ground_truth_diagnosis": "J45.901",
+    "safe_drugs": [
+      "methylprednisolone",
+      "epinephrine",
+      "magnesium-sulfate"
+    ],
+    "unsafe_drugs": [
+      "metoprolol",
+      "aspirin",
+      "codeine",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0135",
+    "age": 59,
+    "gender": "male",
+    "chief_complaint": "sudden pleuritic chest pain shortness of breath after long flight with no prior history",
+    "vitals": {
+      "bp_systolic": 140,
+      "bp_diastolic": 80,
+      "heart_rate": 126,
+      "temperature": 37.5,
+      "spo2": 86,
+      "respiratory_rate": 16
+    },
+    "lab_results": {
+      "troponin_i": 0.069,
+      "bnp": 60,
+      "creatinine": 0.9,
+      "glucose": 103,
+      "wbc": 9.2,
+      "hemoglobin": 13.8
+    },
+    "known_allergies": [
+      "cephalosporins"
+    ],
+    "current_medications": [],
+    "ground_truth_diagnosis": "I26.99",
+    "safe_drugs": [
+      "heparin",
+      "alteplase",
+      "morphine"
+    ],
+    "unsafe_drugs": [
+      "aspirin",
+      "cephalosporins"
+    ]
+  },
+  {
+    "patient_id": "P0136",
+    "age": 43,
+    "gender": "male",
+    "chief_complaint": "sudden left-sided facial droop arm weakness and slurred speech worsening over past hour",
+    "vitals": {
+      "bp_systolic": 191,
+      "bp_diastolic": 70,
+      "heart_rate": 79,
+      "temperature": 37.4,
+      "spo2": 97,
+      "respiratory_rate": 17
+    },
+    "lab_results": {
+      "troponin_i": 0.074,
+      "bnp": 73,
+      "creatinine": 1.0,
+      "glucose": 107,
+      "wbc": 9.6,
+      "hemoglobin": 15.7
+    },
+    "known_allergies": [
+      "latex"
+    ],
+    "current_medications": [
+      "atorvastatin"
+    ],
+    "ground_truth_diagnosis": "I63.9",
+    "safe_drugs": [
+      "alteplase",
+      "labetalol",
+      "acetaminophen"
+    ],
+    "unsafe_drugs": [
+      "aspirin",
+      "heparin",
+      "latex"
+    ]
+  },
+  {
+    "patient_id": "P0137",
+    "age": 72,
+    "gender": "female",
+    "chief_complaint": "sudden severe headache worst of life with focal neurological deficits with sudden onset",
+    "vitals": {
+      "bp_systolic": 203,
+      "bp_diastolic": 84,
+      "heart_rate": 84,
+      "temperature": 37.0,
+      "spo2": 99,
+      "respiratory_rate": 18
+    },
+    "lab_results": {
+      "troponin_i": 0.051,
+      "bnp": 78,
+      "creatinine": 1.1,
+      "glucose": 98,
+      "wbc": 7.8,
+      "hemoglobin": 15.7
+    },
+    "known_allergies": [
+      "vancomycin"
+    ],
+    "current_medications": [
+      "lisinopril"
+    ],
+    "ground_truth_diagnosis": "I61.9",
+    "safe_drugs": [
+      "labetalol",
+      "acetaminophen",
+      "tranexamic-acid"
+    ],
+    "unsafe_drugs": [
+      "aspirin",
+      "heparin",
+      "vancomycin",
+      "alteplase"
+    ]
+  },
+  {
+    "patient_id": "P0138",
+    "age": 49,
+    "gender": "female",
+    "chief_complaint": "generalized tonic-clonic seizure lasting 3 minutes with sudden onset",
+    "vitals": {
+      "bp_systolic": 120,
+      "bp_diastolic": 90,
+      "heart_rate": 84,
+      "temperature": 38.5,
+      "spo2": 99,
+      "respiratory_rate": 16
+    },
+    "lab_results": {
+      "troponin_i": 0.087,
+      "bnp": 47,
+      "creatinine": 0.8,
+      "glucose": 77,
+      "wbc": 6.1,
+      "hemoglobin": 14.5
+    },
+    "known_allergies": [
+      "latex"
+    ],
+    "current_medications": [
+      "amlodipine"
+    ],
+    "ground_truth_diagnosis": "G40.909",
+    "safe_drugs": [
+      "diazepam",
+      "levetiracetam",
+      "acetaminophen"
+    ],
+    "unsafe_drugs": [
+      "metoprolol",
+      "latex",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0139",
+    "age": 68,
+    "gender": "female",
+    "chief_complaint": "fever confusion hypotension suspected infection source worsening over past hour",
+    "vitals": {
+      "bp_systolic": 80,
+      "bp_diastolic": 74,
+      "heart_rate": 114,
+      "temperature": 39.4,
+      "spo2": 99,
+      "respiratory_rate": 14
+    },
+    "lab_results": {
+      "troponin_i": 0.034,
+      "bnp": 78,
+      "creatinine": 2.5,
+      "glucose": 88,
+      "wbc": 31.3,
+      "hemoglobin": 15.4
+    },
+    "known_allergies": [
+      "NSAIDs"
+    ],
+    "current_medications": [],
+    "ground_truth_diagnosis": "A41.9",
+    "safe_drugs": [
+      "piperacillin-tazobactam",
+      "vancomycin",
+      "norepinephrine"
+    ],
+    "unsafe_drugs": [
+      "NSAIDs",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0140",
+    "age": 74,
+    "gender": "female",
+    "chief_complaint": "nausea vomiting abdominal pain fruity breath known diabetic with sudden onset",
+    "vitals": {
+      "bp_systolic": 130,
+      "bp_diastolic": 72,
+      "heart_rate": 107,
+      "temperature": 36.5,
+      "spo2": 96,
+      "respiratory_rate": 30
+    },
+    "lab_results": {
+      "troponin_i": 0.078,
+      "bnp": 61,
+      "creatinine": 0.8,
+      "glucose": 489,
+      "wbc": 5.5,
+      "hemoglobin": 16.4
+    },
+    "known_allergies": [
+      "sulfa"
+    ],
+    "current_medications": [],
+    "ground_truth_diagnosis": "E10.10",
+    "safe_drugs": [
+      "insulin",
+      "bicarbonate",
+      "furosemide"
+    ],
+    "unsafe_drugs": [
+      "metoprolol",
+      "sulfa",
+      "diazepam",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0141",
+    "age": 72,
+    "gender": "female",
+    "chief_complaint": "confusion diaphoresis shakiness in known diabetic worsening over past hour",
+    "vitals": {
+      "bp_systolic": 124,
+      "bp_diastolic": 82,
+      "heart_rate": 101,
+      "temperature": 36.7,
+      "spo2": 99,
+      "respiratory_rate": 17
+    },
+    "lab_results": {
+      "troponin_i": 0.012,
+      "bnp": 59,
+      "creatinine": 1.1,
+      "glucose": 34,
+      "wbc": 8.1,
+      "hemoglobin": 14.1
+    },
+    "known_allergies": [],
+    "current_medications": [
+      "lisinopril"
+    ],
+    "ground_truth_diagnosis": "E16.0",
+    "safe_drugs": [
+      "dextrose",
+      "glucagon"
+    ],
+    "unsafe_drugs": [
+      "insulin",
+      "metformin",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0142",
+    "age": 41,
+    "gender": "female",
+    "chief_complaint": "urticaria facial swelling throat tightness after eating shellfish with no prior history",
+    "vitals": {
+      "bp_systolic": 81,
+      "bp_diastolic": 76,
+      "heart_rate": 137,
+      "temperature": 36.6,
+      "spo2": 99,
+      "respiratory_rate": 18
+    },
+    "lab_results": {
+      "troponin_i": 0.087,
+      "bnp": 40,
+      "creatinine": 1.0,
+      "glucose": 104,
+      "wbc": 6.9,
+      "hemoglobin": 13.0
+    },
+    "known_allergies": [
+      "vancomycin"
+    ],
+    "current_medications": [],
+    "ground_truth_diagnosis": "T78.2XXA",
+    "safe_drugs": [
+      "epinephrine",
+      "diphenhydramine",
+      "methylprednisolone"
+    ],
+    "unsafe_drugs": [
+      "metoprolol",
+      "vancomycin",
+      "NSAIDs",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0143",
+    "age": 56,
+    "gender": "male",
+    "chief_complaint": "decreased urine output flank pain nausea with no prior history",
+    "vitals": {
+      "bp_systolic": 118,
+      "bp_diastolic": 80,
+      "heart_rate": 68,
+      "temperature": 36.7,
+      "spo2": 96,
+      "respiratory_rate": 15
+    },
+    "lab_results": {
+      "troponin_i": 0.04,
+      "bnp": 29,
+      "creatinine": 5.1,
+      "glucose": 98,
+      "wbc": 8.1,
+      "hemoglobin": 14.8
+    },
+    "known_allergies": [],
+    "current_medications": [
+      "atorvastatin"
+    ],
+    "ground_truth_diagnosis": "N17.9",
+    "safe_drugs": [
+      "furosemide",
+      "bicarbonate",
+      "acetaminophen"
+    ],
+    "unsafe_drugs": [
+      "NSAIDs",
+      "metformin",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0144",
+    "age": 80,
+    "gender": "female",
+    "chief_complaint": "periumbilical pain migrating to right lower quadrant with fever with no prior history",
+    "vitals": {
+      "bp_systolic": 118,
+      "bp_diastolic": 75,
+      "heart_rate": 75,
+      "temperature": 39.0,
+      "spo2": 96,
+      "respiratory_rate": 16
+    },
+    "lab_results": {
+      "troponin_i": 0.086,
+      "bnp": 51,
+      "creatinine": 0.8,
+      "glucose": 111,
+      "wbc": 16.7,
+      "hemoglobin": 14.7
+    },
+    "known_allergies": [
+      "codeine"
+    ],
+    "current_medications": [
+      "levothyroxine"
+    ],
+    "ground_truth_diagnosis": "K35.80",
+    "safe_drugs": [
+      "piperacillin-tazobactam",
+      "morphine",
+      "ondansetron"
+    ],
+    "unsafe_drugs": [
+      "NSAIDs",
+      "codeine",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0145",
+    "age": 39,
+    "gender": "male",
+    "chief_complaint": "severe epigastric pain radiating to back nausea vomiting with sudden onset",
+    "vitals": {
+      "bp_systolic": 111,
+      "bp_diastolic": 77,
+      "heart_rate": 111,
+      "temperature": 36.5,
+      "spo2": 97,
+      "respiratory_rate": 18
+    },
+    "lab_results": {
+      "troponin_i": 0.033,
+      "bnp": 69,
+      "creatinine": 0.9,
+      "glucose": 208,
+      "wbc": 9.1,
+      "hemoglobin": 14.5
+    },
+    "known_allergies": [
+      "penicillin"
+    ],
+    "current_medications": [],
+    "ground_truth_diagnosis": "K85.9",
+    "safe_drugs": [
+      "morphine",
+      "ondansetron",
+      "acetaminophen"
+    ],
+    "unsafe_drugs": [
+      "opioids",
+      "NSAIDs",
+      "penicillin",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0146",
+    "age": 64,
+    "gender": "male",
+    "chief_complaint": "bloody vomit melena hematemesis with dizziness with associated nausea",
+    "vitals": {
+      "bp_systolic": 83,
+      "bp_diastolic": 87,
+      "heart_rate": 129,
+      "temperature": 37.5,
+      "spo2": 96,
+      "respiratory_rate": 15
+    },
+    "lab_results": {
+      "troponin_i": 0.034,
+      "bnp": 22,
+      "creatinine": 0.9,
+      "glucose": 96,
+      "wbc": 9.7,
+      "hemoglobin": 8.2
+    },
+    "known_allergies": [],
+    "current_medications": [
+      "amlodipine",
+      "omeprazole"
+    ],
+    "ground_truth_diagnosis": "K92.2",
+    "safe_drugs": [
+      "tranexamic-acid",
+      "ondansetron",
+      "furosemide"
+    ],
+    "unsafe_drugs": [
+      "NSAIDs",
+      "aspirin",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0147",
+    "age": 39,
+    "gender": "male",
+    "chief_complaint": "unresponsive pinpoint pupils slow shallow breathing",
+    "vitals": {
+      "bp_systolic": 123,
+      "bp_diastolic": 76,
+      "heart_rate": 66,
+      "temperature": 37.1,
+      "spo2": 85,
+      "respiratory_rate": 8
+    },
+    "lab_results": {
+      "troponin_i": 0.053,
+      "bnp": 40,
+      "creatinine": 1.2,
+      "glucose": 94,
+      "wbc": 6.2,
+      "hemoglobin": 13.6
+    },
+    "known_allergies": [
+      "sulfa"
+    ],
+    "current_medications": [
+      "metformin"
+    ],
+    "ground_truth_diagnosis": "T40.1",
+    "safe_drugs": [
+      "naloxone",
+      "dextrose",
+      "thiamine"
+    ],
+    "unsafe_drugs": [
+      "morphine",
+      "sulfa",
+      "diazepam",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0148",
+    "age": 53,
+    "gender": "male",
+    "chief_complaint": "severe headache visual changes elevated blood pressure in pregnancy with no prior history",
+    "vitals": {
+      "bp_systolic": 200,
+      "bp_diastolic": 112,
+      "heart_rate": 69,
+      "temperature": 37.2,
+      "spo2": 97,
+      "respiratory_rate": 17
+    },
+    "lab_results": {
+      "troponin_i": 0.049,
+      "bnp": 56,
+      "creatinine": 1.0,
+      "glucose": 105,
+      "wbc": 7.0,
+      "hemoglobin": 14.3
+    },
+    "known_allergies": [
+      "morphine"
+    ],
+    "current_medications": [
+      "warfarin",
+      "amlodipine"
+    ],
+    "ground_truth_diagnosis": "O14.10",
+    "safe_drugs": [
+      "magnesium-sulfate",
+      "labetalol",
+      "methylprednisolone"
+    ],
+    "unsafe_drugs": [
+      "NSAIDs",
+      "morphine",
+      "ACE inhibitors",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0149",
+    "age": 76,
+    "gender": "female",
+    "chief_complaint": "tearing chest pain radiating to back sudden onset with associated nausea",
+    "vitals": {
+      "bp_systolic": 187,
+      "bp_diastolic": 88,
+      "heart_rate": 65,
+      "temperature": 37.4,
+      "spo2": 96,
+      "respiratory_rate": 17
+    },
+    "lab_results": {
+      "troponin_i": 0.061,
+      "bnp": 64,
+      "creatinine": 0.9,
+      "glucose": 87,
+      "wbc": 9.3,
+      "hemoglobin": 14.1
+    },
+    "known_allergies": [
+      "NSAIDs"
+    ],
+    "current_medications": [
+      "amlodipine"
+    ],
+    "ground_truth_diagnosis": "I71.0",
+    "safe_drugs": [
+      "labetalol",
+      "morphine",
+      "esmolol"
+    ],
+    "unsafe_drugs": [
+      "aspirin",
+      "NSAIDs",
+      "thrombolytics"
+    ]
+  },
+  {
+    "patient_id": "P0150",
+    "age": 54,
+    "gender": "female",
+    "chief_complaint": "severe colicky flank pain radiating to groin hematuria",
+    "vitals": {
+      "bp_systolic": 145,
+      "bp_diastolic": 88,
+      "heart_rate": 95,
+      "temperature": 37.1,
+      "spo2": 99,
+      "respiratory_rate": 16
+    },
+    "lab_results": {
+      "troponin_i": 0.082,
+      "bnp": 68,
+      "creatinine": 0.7,
+      "glucose": 88,
+      "wbc": 8.3,
+      "hemoglobin": 15.8
+    },
+    "known_allergies": [],
+    "current_medications": [],
+    "ground_truth_diagnosis": "N20.0",
+    "safe_drugs": [
+      "ketorolac",
+      "morphine",
+      "ondansetron"
+    ],
+    "unsafe_drugs": [
+      "metformin",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0151",
+    "age": 74,
+    "gender": "female",
+    "chief_complaint": "crushing chest pain radiating to left arm with diaphoresis with associated nausea",
+    "vitals": {
+      "bp_systolic": 137,
+      "bp_diastolic": 83,
+      "heart_rate": 111,
+      "temperature": 37.5,
+      "spo2": 97,
+      "respiratory_rate": 16
+    },
+    "lab_results": {
+      "troponin_i": 7.37,
+      "bnp": 79,
+      "creatinine": 1.1,
+      "glucose": 87,
+      "wbc": 8.4,
+      "hemoglobin": 13.5
+    },
+    "known_allergies": [
+      "aspirin"
+    ],
+    "current_medications": [
+      "warfarin"
+    ],
+    "ground_truth_diagnosis": "I21.9",
+    "safe_drugs": [
+      "heparin",
+      "nitroglycerin",
+      "morphine"
+    ],
+    "unsafe_drugs": [
+      "aspirin",
+      "amiodarone"
+    ]
+  },
+  {
+    "patient_id": "P0152",
+    "age": 47,
+    "gender": "female",
+    "chief_complaint": "intermittent chest tightness worsening at rest with no prior history",
+    "vitals": {
+      "bp_systolic": 137,
+      "bp_diastolic": 73,
+      "heart_rate": 65,
+      "temperature": 36.7,
+      "spo2": 96,
+      "respiratory_rate": 15
+    },
+    "lab_results": {
+      "troponin_i": 0.494,
+      "bnp": 53,
+      "creatinine": 1.0,
+      "glucose": 85,
+      "wbc": 4.5,
+      "hemoglobin": 13.9
+    },
+    "known_allergies": [],
+    "current_medications": [],
+    "ground_truth_diagnosis": "I20.0",
+    "safe_drugs": [
+      "nitroglycerin",
+      "metoprolol",
+      "heparin"
+    ],
+    "unsafe_drugs": [
+      "amiodarone",
+      "alteplase"
+    ]
+  },
+  {
+    "patient_id": "P0153",
+    "age": 79,
+    "gender": "male",
+    "chief_complaint": "progressive shortness of breath and leg swelling for 3 days with associated nausea",
+    "vitals": {
+      "bp_systolic": 124,
+      "bp_diastolic": 82,
+      "heart_rate": 115,
+      "temperature": 37.2,
+      "spo2": 86,
+      "respiratory_rate": 14
+    },
+    "lab_results": {
+      "troponin_i": 0.035,
+      "bnp": 1986,
+      "creatinine": 0.8,
+      "glucose": 97,
+      "wbc": 9.1,
+      "hemoglobin": 15.5
+    },
+    "known_allergies": [
+      "penicillin"
+    ],
+    "current_medications": [
+      "metformin",
+      "atorvastatin"
+    ],
+    "ground_truth_diagnosis": "I50.9",
+    "safe_drugs": [
+      "furosemide",
+      "morphine",
+      "nitroglycerin"
+    ],
+    "unsafe_drugs": [
+      "aspirin",
+      "NSAIDs",
+      "penicillin"
+    ]
+  },
+  {
+    "patient_id": "P0154",
+    "age": 74,
+    "gender": "female",
+    "chief_complaint": "sudden palpitations and irregular heartbeat worsening over past hour",
+    "vitals": {
+      "bp_systolic": 123,
+      "bp_diastolic": 90,
+      "heart_rate": 137,
+      "temperature": 37.4,
+      "spo2": 99,
+      "respiratory_rate": 15
+    },
+    "lab_results": {
+      "troponin_i": 0.017,
+      "bnp": 26,
+      "creatinine": 0.8,
+      "glucose": 88,
+      "wbc": 8.0,
+      "hemoglobin": 14.0
+    },
+    "known_allergies": [],
+    "current_medications": [],
+    "ground_truth_diagnosis": "I48.0",
+    "safe_drugs": [
+      "metoprolol",
+      "amiodarone",
+      "adenosine"
+    ],
+    "unsafe_drugs": [
+      "alteplase"
+    ]
+  },
+  {
+    "patient_id": "P0155",
+    "age": 49,
+    "gender": "female",
+    "chief_complaint": "severe hypotension with cold clammy skin after MI",
+    "vitals": {
+      "bp_systolic": 83,
+      "bp_diastolic": 77,
+      "heart_rate": 112,
+      "temperature": 37.1,
+      "spo2": 98,
+      "respiratory_rate": 14
+    },
+    "lab_results": {
+      "troponin_i": 5.66,
+      "bnp": 62,
+      "creatinine": 1.1,
+      "glucose": 91,
+      "wbc": 7.6,
+      "hemoglobin": 14.5
+    },
+    "known_allergies": [],
+    "current_medications": [],
+    "ground_truth_diagnosis": "R57.0",
+    "safe_drugs": [
+      "dopamine",
+      "norepinephrine",
+      "morphine"
+    ],
+    "unsafe_drugs": [
+      "metoprolol",
+      "labetalol"
+    ]
+  },
+  {
+    "patient_id": "P0156",
+    "age": 81,
+    "gender": "female",
+    "chief_complaint": "severe headache with blood pressure 220/130 worsening over past hour",
+    "vitals": {
+      "bp_systolic": 236,
+      "bp_diastolic": 133,
+      "heart_rate": 80,
+      "temperature": 37.1,
+      "spo2": 96,
+      "respiratory_rate": 18
+    },
+    "lab_results": {
+      "troponin_i": 0.081,
+      "bnp": 20,
+      "creatinine": 1.2,
+      "glucose": 114,
+      "wbc": 6.4,
+      "hemoglobin": 14.0
+    },
+    "known_allergies": [
+      "morphine"
+    ],
+    "current_medications": [
+      "atorvastatin",
+      "levothyroxine"
+    ],
+    "ground_truth_diagnosis": "I10",
+    "safe_drugs": [
+      "labetalol",
+      "furosemide"
+    ],
+    "unsafe_drugs": [
+      "metoprolol",
+      "morphine",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0157",
+    "age": 27,
+    "gender": "male",
+    "chief_complaint": "severe shortness of breath unable to complete sentences with sudden onset",
+    "vitals": {
+      "bp_systolic": 114,
+      "bp_diastolic": 70,
+      "heart_rate": 73,
+      "temperature": 36.7,
+      "spo2": 79,
+      "respiratory_rate": 38
+    },
+    "lab_results": {
+      "troponin_i": 0.051,
+      "bnp": 60,
+      "creatinine": 1.1,
+      "glucose": 109,
+      "wbc": 7.0,
+      "hemoglobin": 15.3
+    },
+    "known_allergies": [
+      "morphine"
+    ],
+    "current_medications": [
+      "atorvastatin",
+      "warfarin"
+    ],
+    "ground_truth_diagnosis": "J96.00",
+    "safe_drugs": [
+      "furosemide",
+      "methylprednisolone"
+    ],
+    "unsafe_drugs": [
+      "metoprolol",
+      "labetalol",
+      "morphine",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0158",
+    "age": 28,
+    "gender": "female",
+    "chief_complaint": "fever cough with productive sputum and shortness of breath with associated nausea",
+    "vitals": {
+      "bp_systolic": 115,
+      "bp_diastolic": 86,
+      "heart_rate": 71,
+      "temperature": 39.0,
+      "spo2": 91,
+      "respiratory_rate": 18
+    },
+    "lab_results": {
+      "troponin_i": 0.036,
+      "bnp": 57,
+      "creatinine": 1.0,
+      "glucose": 111,
+      "wbc": 24.5,
+      "hemoglobin": 15.1
+    },
+    "known_allergies": [
+      "aspirin"
+    ],
+    "current_medications": [],
+    "ground_truth_diagnosis": "J18.9",
+    "safe_drugs": [
+      "ceftriaxone",
+      "vancomycin",
+      "acetaminophen"
+    ],
+    "unsafe_drugs": [
+      "aspirin",
+      "NSAIDs",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0159",
+    "age": 29,
+    "gender": "female",
+    "chief_complaint": "sudden wheezing difficulty breathing not responding to inhaler worsening over past hour",
+    "vitals": {
+      "bp_systolic": 117,
+      "bp_diastolic": 84,
+      "heart_rate": 84,
+      "temperature": 37.1,
+      "spo2": 89,
+      "respiratory_rate": 26
+    },
+    "lab_results": {
+      "troponin_i": 0.02,
+      "bnp": 65,
+      "creatinine": 0.8,
+      "glucose": 85,
+      "wbc": 5.5,
+      "hemoglobin": 16.3
+    },
+    "known_allergies": [
+      "sulfa"
+    ],
+    "current_medications": [
+      "warfarin",
+      "lisinopril"
+    ],
+    "ground_truth_diagnosis": "J45.901",
+    "safe_drugs": [
+      "methylprednisolone",
+      "epinephrine"
+    ],
+    "unsafe_drugs": [
+      "metoprolol",
+      "sulfa",
+      "aspirin",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0160",
+    "age": 21,
+    "gender": "female",
+    "chief_complaint": "sudden pleuritic chest pain shortness of breath after long flight",
+    "vitals": {
+      "bp_systolic": 137,
+      "bp_diastolic": 78,
+      "heart_rate": 124,
+      "temperature": 36.6,
+      "spo2": 86,
+      "respiratory_rate": 17
+    },
+    "lab_results": {
+      "troponin_i": 0.046,
+      "bnp": 43,
+      "creatinine": 0.7,
+      "glucose": 112,
+      "wbc": 7.9,
+      "hemoglobin": 14.0
+    },
+    "known_allergies": [
+      "vancomycin"
+    ],
+    "current_medications": [
+      "lisinopril",
+      "metoprolol"
+    ],
+    "ground_truth_diagnosis": "I26.99",
+    "safe_drugs": [
+      "heparin",
+      "alteplase",
+      "morphine"
+    ],
+    "unsafe_drugs": [
+      "aspirin",
+      "vancomycin"
+    ]
+  },
+  {
+    "patient_id": "P0161",
+    "age": 83,
+    "gender": "male",
+    "chief_complaint": "sudden left-sided facial droop arm weakness and slurred speech worsening over past hour",
+    "vitals": {
+      "bp_systolic": 186,
+      "bp_diastolic": 70,
+      "heart_rate": 72,
+      "temperature": 36.5,
+      "spo2": 98,
+      "respiratory_rate": 17
+    },
+    "lab_results": {
+      "troponin_i": 0.084,
+      "bnp": 31,
+      "creatinine": 1.2,
+      "glucose": 118,
+      "wbc": 4.7,
+      "hemoglobin": 15.7
+    },
+    "known_allergies": [
+      "latex"
+    ],
+    "current_medications": [
+      "amlodipine"
+    ],
+    "ground_truth_diagnosis": "I63.9",
+    "safe_drugs": [
+      "alteplase",
+      "labetalol",
+      "acetaminophen"
+    ],
+    "unsafe_drugs": [
+      "aspirin",
+      "heparin",
+      "latex"
+    ]
+  },
+  {
+    "patient_id": "P0162",
+    "age": 52,
+    "gender": "male",
+    "chief_complaint": "sudden severe headache worst of life with focal neurological deficits worsening over past hour",
+    "vitals": {
+      "bp_systolic": 198,
+      "bp_diastolic": 73,
+      "heart_rate": 81,
+      "temperature": 37.2,
+      "spo2": 96,
+      "respiratory_rate": 15
+    },
+    "lab_results": {
+      "troponin_i": 0.028,
+      "bnp": 53,
+      "creatinine": 1.2,
+      "glucose": 115,
+      "wbc": 6.9,
+      "hemoglobin": 16.0
+    },
+    "known_allergies": [
+      "cephalosporins"
+    ],
+    "current_medications": [],
+    "ground_truth_diagnosis": "I61.9",
+    "safe_drugs": [
+      "labetalol",
+      "acetaminophen",
+      "tranexamic-acid"
+    ],
+    "unsafe_drugs": [
+      "aspirin",
+      "cephalosporins",
+      "heparin",
+      "alteplase"
+    ]
+  },
+  {
+    "patient_id": "P0163",
+    "age": 76,
+    "gender": "male",
+    "chief_complaint": "generalized tonic-clonic seizure lasting 3 minutes with associated nausea",
+    "vitals": {
+      "bp_systolic": 133,
+      "bp_diastolic": 76,
+      "heart_rate": 74,
+      "temperature": 39.0,
+      "spo2": 98,
+      "respiratory_rate": 18
+    },
+    "lab_results": {
+      "troponin_i": 0.029,
+      "bnp": 43,
+      "creatinine": 1.0,
+      "glucose": 74,
+      "wbc": 10.5,
+      "hemoglobin": 15.6
+    },
+    "known_allergies": [
+      "sulfa"
+    ],
+    "current_medications": [],
+    "ground_truth_diagnosis": "G40.909",
+    "safe_drugs": [
+      "diazepam",
+      "levetiracetam",
+      "acetaminophen"
+    ],
+    "unsafe_drugs": [
+      "metoprolol",
+      "sulfa",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0164",
+    "age": 70,
+    "gender": "male",
+    "chief_complaint": "fever confusion hypotension suspected infection source with associated nausea",
+    "vitals": {
+      "bp_systolic": 77,
+      "bp_diastolic": 87,
+      "heart_rate": 113,
+      "temperature": 39.7,
+      "spo2": 96,
+      "respiratory_rate": 16
+    },
+    "lab_results": {
+      "troponin_i": 0.01,
+      "bnp": 62,
+      "creatinine": 1.6,
+      "glucose": 108,
+      "wbc": 26.4,
+      "hemoglobin": 12.9
+    },
+    "known_allergies": [],
+    "current_medications": [
+      "lisinopril"
+    ],
+    "ground_truth_diagnosis": "A41.9",
+    "safe_drugs": [
+      "piperacillin-tazobactam",
+      "vancomycin",
+      "norepinephrine"
+    ],
+    "unsafe_drugs": [
+      "NSAIDs",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0165",
+    "age": 23,
+    "gender": "male",
+    "chief_complaint": "nausea vomiting abdominal pain fruity breath known diabetic with associated nausea",
+    "vitals": {
+      "bp_systolic": 143,
+      "bp_diastolic": 83,
+      "heart_rate": 113,
+      "temperature": 37.0,
+      "spo2": 96,
+      "respiratory_rate": 32
+    },
+    "lab_results": {
+      "troponin_i": 0.018,
+      "bnp": 28,
+      "creatinine": 1.0,
+      "glucose": 466,
+      "wbc": 4.9,
+      "hemoglobin": 14.8
+    },
+    "known_allergies": [
+      "contrast dye"
+    ],
+    "current_medications": [
+      "amlodipine"
+    ],
+    "ground_truth_diagnosis": "E10.10",
+    "safe_drugs": [
+      "insulin",
+      "bicarbonate",
+      "furosemide"
+    ],
+    "unsafe_drugs": [
+      "metoprolol",
+      "contrast dye",
+      "diazepam",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0166",
+    "age": 68,
+    "gender": "female",
+    "chief_complaint": "confusion diaphoresis shakiness in known diabetic with sudden onset",
+    "vitals": {
+      "bp_systolic": 130,
+      "bp_diastolic": 84,
+      "heart_rate": 108,
+      "temperature": 36.7,
+      "spo2": 97,
+      "respiratory_rate": 15
+    },
+    "lab_results": {
+      "troponin_i": 0.072,
+      "bnp": 57,
+      "creatinine": 0.8,
+      "glucose": 31,
+      "wbc": 5.5,
+      "hemoglobin": 14.4
+    },
+    "known_allergies": [
+      "cephalosporins"
+    ],
+    "current_medications": [],
+    "ground_truth_diagnosis": "E16.0",
+    "safe_drugs": [
+      "dextrose",
+      "glucagon"
+    ],
+    "unsafe_drugs": [
+      "cephalosporins",
+      "insulin",
+      "metformin",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0167",
+    "age": 75,
+    "gender": "female",
+    "chief_complaint": "urticaria facial swelling throat tightness after eating shellfish with sudden onset",
+    "vitals": {
+      "bp_systolic": 81,
+      "bp_diastolic": 78,
+      "heart_rate": 122,
+      "temperature": 36.6,
+      "spo2": 98,
+      "respiratory_rate": 18
+    },
+    "lab_results": {
+      "troponin_i": 0.013,
+      "bnp": 73,
+      "creatinine": 1.1,
+      "glucose": 89,
+      "wbc": 5.0,
+      "hemoglobin": 13.5
+    },
+    "known_allergies": [
+      "aspirin"
+    ],
+    "current_medications": [
+      "warfarin"
+    ],
+    "ground_truth_diagnosis": "T78.2XXA",
+    "safe_drugs": [
+      "epinephrine",
+      "diphenhydramine",
+      "methylprednisolone"
+    ],
+    "unsafe_drugs": [
+      "metoprolol",
+      "NSAIDs",
+      "aspirin",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0168",
+    "age": 40,
+    "gender": "male",
+    "chief_complaint": "decreased urine output flank pain nausea with associated nausea",
+    "vitals": {
+      "bp_systolic": 135,
+      "bp_diastolic": 84,
+      "heart_rate": 82,
+      "temperature": 37.2,
+      "spo2": 97,
+      "respiratory_rate": 14
+    },
+    "lab_results": {
+      "troponin_i": 0.047,
+      "bnp": 71,
+      "creatinine": 7.9,
+      "glucose": 88,
+      "wbc": 4.6,
+      "hemoglobin": 15.8
+    },
+    "known_allergies": [
+      "latex"
+    ],
+    "current_medications": [
+      "amlodipine"
+    ],
+    "ground_truth_diagnosis": "N17.9",
+    "safe_drugs": [
+      "furosemide",
+      "bicarbonate",
+      "acetaminophen"
+    ],
+    "unsafe_drugs": [
+      "latex",
+      "NSAIDs",
+      "metformin",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0169",
+    "age": 28,
+    "gender": "female",
+    "chief_complaint": "periumbilical pain migrating to right lower quadrant with fever with no prior history",
+    "vitals": {
+      "bp_systolic": 114,
+      "bp_diastolic": 70,
+      "heart_rate": 67,
+      "temperature": 38.3,
+      "spo2": 99,
+      "respiratory_rate": 15
+    },
+    "lab_results": {
+      "troponin_i": 0.017,
+      "bnp": 74,
+      "creatinine": 1.1,
+      "glucose": 95,
+      "wbc": 21.3,
+      "hemoglobin": 16.3
+    },
+    "known_allergies": [],
+    "current_medications": [
+      "omeprazole",
+      "levothyroxine"
+    ],
+    "ground_truth_diagnosis": "K35.80",
+    "safe_drugs": [
+      "piperacillin-tazobactam",
+      "morphine",
+      "ondansetron"
+    ],
+    "unsafe_drugs": [
+      "NSAIDs",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0170",
+    "age": 21,
+    "gender": "female",
+    "chief_complaint": "severe epigastric pain radiating to back nausea vomiting with no prior history",
+    "vitals": {
+      "bp_systolic": 137,
+      "bp_diastolic": 75,
+      "heart_rate": 104,
+      "temperature": 36.7,
+      "spo2": 97,
+      "respiratory_rate": 16
+    },
+    "lab_results": {
+      "troponin_i": 0.032,
+      "bnp": 76,
+      "creatinine": 0.8,
+      "glucose": 307,
+      "wbc": 8.2,
+      "hemoglobin": 13.5
+    },
+    "known_allergies": [
+      "morphine"
+    ],
+    "current_medications": [
+      "metformin"
+    ],
+    "ground_truth_diagnosis": "K85.9",
+    "safe_drugs": [
+      "ondansetron",
+      "acetaminophen"
+    ],
+    "unsafe_drugs": [
+      "opioids",
+      "NSAIDs",
+      "morphine",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0171",
+    "age": 29,
+    "gender": "female",
+    "chief_complaint": "bloody vomit melena hematemesis with dizziness with no prior history",
+    "vitals": {
+      "bp_systolic": 91,
+      "bp_diastolic": 74,
+      "heart_rate": 123,
+      "temperature": 36.7,
+      "spo2": 97,
+      "respiratory_rate": 18
+    },
+    "lab_results": {
+      "troponin_i": 0.074,
+      "bnp": 44,
+      "creatinine": 1.1,
+      "glucose": 96,
+      "wbc": 7.4,
+      "hemoglobin": 7.0
+    },
+    "known_allergies": [
+      "contrast dye"
+    ],
+    "current_medications": [],
+    "ground_truth_diagnosis": "K92.2",
+    "safe_drugs": [
+      "tranexamic-acid",
+      "ondansetron",
+      "furosemide"
+    ],
+    "unsafe_drugs": [
+      "aspirin",
+      "contrast dye",
+      "NSAIDs",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0172",
+    "age": 21,
+    "gender": "female",
+    "chief_complaint": "unresponsive pinpoint pupils slow shallow breathing",
+    "vitals": {
+      "bp_systolic": 124,
+      "bp_diastolic": 70,
+      "heart_rate": 73,
+      "temperature": 36.6,
+      "spo2": 76,
+      "respiratory_rate": 8
+    },
+    "lab_results": {
+      "troponin_i": 0.039,
+      "bnp": 57,
+      "creatinine": 1.2,
+      "glucose": 90,
+      "wbc": 5.1,
+      "hemoglobin": 15.1
+    },
+    "known_allergies": [],
+    "current_medications": [],
+    "ground_truth_diagnosis": "T40.1",
+    "safe_drugs": [
+      "naloxone",
+      "dextrose",
+      "thiamine"
+    ],
+    "unsafe_drugs": [
+      "diazepam",
+      "morphine",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0173",
+    "age": 67,
+    "gender": "female",
+    "chief_complaint": "severe headache visual changes elevated blood pressure in pregnancy with sudden onset",
+    "vitals": {
+      "bp_systolic": 172,
+      "bp_diastolic": 125,
+      "heart_rate": 72,
+      "temperature": 37.1,
+      "spo2": 98,
+      "respiratory_rate": 18
+    },
+    "lab_results": {
+      "troponin_i": 0.012,
+      "bnp": 64,
+      "creatinine": 0.9,
+      "glucose": 103,
+      "wbc": 7.9,
+      "hemoglobin": 14.8
+    },
+    "known_allergies": [
+      "contrast dye"
+    ],
+    "current_medications": [],
+    "ground_truth_diagnosis": "O14.10",
+    "safe_drugs": [
+      "magnesium-sulfate",
+      "labetalol",
+      "methylprednisolone"
+    ],
+    "unsafe_drugs": [
+      "contrast dye",
+      "NSAIDs",
+      "ACE inhibitors",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0174",
+    "age": 80,
+    "gender": "male",
+    "chief_complaint": "tearing chest pain radiating to back sudden onset worsening over past hour",
+    "vitals": {
+      "bp_systolic": 171,
+      "bp_diastolic": 71,
+      "heart_rate": 72,
+      "temperature": 37.1,
+      "spo2": 96,
+      "respiratory_rate": 18
+    },
+    "lab_results": {
+      "troponin_i": 0.048,
+      "bnp": 41,
+      "creatinine": 1.2,
+      "glucose": 91,
+      "wbc": 9.3,
+      "hemoglobin": 13.9
+    },
+    "known_allergies": [
+      "aspirin"
+    ],
+    "current_medications": [],
+    "ground_truth_diagnosis": "I71.0",
+    "safe_drugs": [
+      "labetalol",
+      "morphine",
+      "esmolol"
+    ],
+    "unsafe_drugs": [
+      "aspirin",
+      "thrombolytics"
+    ]
+  },
+  {
+    "patient_id": "P0175",
+    "age": 36,
+    "gender": "male",
+    "chief_complaint": "severe colicky flank pain radiating to groin hematuria with no prior history",
+    "vitals": {
+      "bp_systolic": 117,
+      "bp_diastolic": 86,
+      "heart_rate": 108,
+      "temperature": 37.5,
+      "spo2": 98,
+      "respiratory_rate": 17
+    },
+    "lab_results": {
+      "troponin_i": 0.057,
+      "bnp": 41,
+      "creatinine": 0.9,
+      "glucose": 89,
+      "wbc": 10.4,
+      "hemoglobin": 15.4
+    },
+    "known_allergies": [],
+    "current_medications": [
+      "atorvastatin"
+    ],
+    "ground_truth_diagnosis": "N20.0",
+    "safe_drugs": [
+      "ketorolac",
+      "morphine",
+      "ondansetron"
+    ],
+    "unsafe_drugs": [
+      "metformin",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0176",
+    "age": 63,
+    "gender": "male",
+    "chief_complaint": "crushing chest pain radiating to left arm with diaphoresis with sudden onset",
+    "vitals": {
+      "bp_systolic": 94,
+      "bp_diastolic": 82,
+      "heart_rate": 95,
+      "temperature": 37.2,
+      "spo2": 98,
+      "respiratory_rate": 15
+    },
+    "lab_results": {
+      "troponin_i": 5.42,
+      "bnp": 20,
+      "creatinine": 1.2,
+      "glucose": 115,
+      "wbc": 7.9,
+      "hemoglobin": 15.9
+    },
+    "known_allergies": [
+      "latex"
+    ],
+    "current_medications": [
+      "lisinopril",
+      "levothyroxine"
+    ],
+    "ground_truth_diagnosis": "I21.9",
+    "safe_drugs": [
+      "heparin",
+      "nitroglycerin",
+      "morphine"
+    ],
+    "unsafe_drugs": [
+      "aspirin",
+      "latex",
+      "amiodarone"
+    ]
+  },
+  {
+    "patient_id": "P0177",
+    "age": 36,
+    "gender": "female",
+    "chief_complaint": "intermittent chest tightness worsening at rest",
+    "vitals": {
+      "bp_systolic": 143,
+      "bp_diastolic": 77,
+      "heart_rate": 76,
+      "temperature": 37.5,
+      "spo2": 97,
+      "respiratory_rate": 14
+    },
+    "lab_results": {
+      "troponin_i": 0.132,
+      "bnp": 62,
+      "creatinine": 1.0,
+      "glucose": 113,
+      "wbc": 6.5,
+      "hemoglobin": 12.5
+    },
+    "known_allergies": [
+      "cephalosporins"
+    ],
+    "current_medications": [
+      "lisinopril"
+    ],
+    "ground_truth_diagnosis": "I20.0",
+    "safe_drugs": [
+      "nitroglycerin",
+      "metoprolol",
+      "heparin"
+    ],
+    "unsafe_drugs": [
+      "cephalosporins",
+      "amiodarone",
+      "alteplase"
+    ]
+  },
+  {
+    "patient_id": "P0178",
+    "age": 18,
+    "gender": "male",
+    "chief_complaint": "progressive shortness of breath and leg swelling for 3 days",
+    "vitals": {
+      "bp_systolic": 134,
+      "bp_diastolic": 84,
+      "heart_rate": 100,
+      "temperature": 37.5,
+      "spo2": 87,
+      "respiratory_rate": 17
+    },
+    "lab_results": {
+      "troponin_i": 0.081,
+      "bnp": 1524,
+      "creatinine": 1.0,
+      "glucose": 88,
+      "wbc": 9.5,
+      "hemoglobin": 15.7
+    },
+    "known_allergies": [],
+    "current_medications": [],
+    "ground_truth_diagnosis": "I50.9",
+    "safe_drugs": [
+      "furosemide",
+      "morphine",
+      "nitroglycerin"
+    ],
+    "unsafe_drugs": [
+      "NSAIDs",
+      "aspirin"
+    ]
+  },
+  {
+    "patient_id": "P0179",
+    "age": 55,
+    "gender": "male",
+    "chief_complaint": "sudden palpitations and irregular heartbeat with no prior history",
+    "vitals": {
+      "bp_systolic": 130,
+      "bp_diastolic": 78,
+      "heart_rate": 149,
+      "temperature": 36.6,
+      "spo2": 97,
+      "respiratory_rate": 17
+    },
+    "lab_results": {
+      "troponin_i": 0.023,
+      "bnp": 24,
+      "creatinine": 1.0,
+      "glucose": 113,
+      "wbc": 10.4,
+      "hemoglobin": 13.9
+    },
+    "known_allergies": [],
+    "current_medications": [],
+    "ground_truth_diagnosis": "I48.0",
+    "safe_drugs": [
+      "metoprolol",
+      "amiodarone",
+      "adenosine"
+    ],
+    "unsafe_drugs": [
+      "alteplase"
+    ]
+  },
+  {
+    "patient_id": "P0180",
+    "age": 73,
+    "gender": "male",
+    "chief_complaint": "severe hypotension with cold clammy skin after MI with no prior history",
+    "vitals": {
+      "bp_systolic": 69,
+      "bp_diastolic": 75,
+      "heart_rate": 107,
+      "temperature": 36.6,
+      "spo2": 97,
+      "respiratory_rate": 15
+    },
+    "lab_results": {
+      "troponin_i": 3.86,
+      "bnp": 55,
+      "creatinine": 1.1,
+      "glucose": 108,
+      "wbc": 7.7,
+      "hemoglobin": 15.1
+    },
+    "known_allergies": [
+      "vancomycin"
+    ],
+    "current_medications": [
+      "levothyroxine",
+      "atorvastatin"
+    ],
+    "ground_truth_diagnosis": "R57.0",
+    "safe_drugs": [
+      "dopamine",
+      "norepinephrine",
+      "morphine"
+    ],
+    "unsafe_drugs": [
+      "metoprolol",
+      "vancomycin",
+      "labetalol"
+    ]
+  },
+  {
+    "patient_id": "P0181",
+    "age": 24,
+    "gender": "female",
+    "chief_complaint": "severe headache with blood pressure 220/130 with no prior history",
+    "vitals": {
+      "bp_systolic": 207,
+      "bp_diastolic": 129,
+      "heart_rate": 67,
+      "temperature": 36.8,
+      "spo2": 99,
+      "respiratory_rate": 15
+    },
+    "lab_results": {
+      "troponin_i": 0.018,
+      "bnp": 33,
+      "creatinine": 0.8,
+      "glucose": 94,
+      "wbc": 10.4,
+      "hemoglobin": 14.4
+    },
+    "known_allergies": [
+      "NSAIDs"
+    ],
+    "current_medications": [
+      "warfarin"
+    ],
+    "ground_truth_diagnosis": "I10",
+    "safe_drugs": [
+      "labetalol",
+      "furosemide"
+    ],
+    "unsafe_drugs": [
+      "metoprolol",
+      "NSAIDs",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0182",
+    "age": 29,
+    "gender": "female",
+    "chief_complaint": "severe shortness of breath unable to complete sentences",
+    "vitals": {
+      "bp_systolic": 121,
+      "bp_diastolic": 81,
+      "heart_rate": 77,
+      "temperature": 36.9,
+      "spo2": 88,
+      "respiratory_rate": 29
+    },
+    "lab_results": {
+      "troponin_i": 0.031,
+      "bnp": 49,
+      "creatinine": 0.8,
+      "glucose": 111,
+      "wbc": 6.1,
+      "hemoglobin": 12.7
+    },
+    "known_allergies": [],
+    "current_medications": [],
+    "ground_truth_diagnosis": "J96.00",
+    "safe_drugs": [
+      "furosemide",
+      "morphine",
+      "methylprednisolone"
+    ],
+    "unsafe_drugs": [
+      "metoprolol",
+      "labetalol",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0183",
+    "age": 70,
+    "gender": "male",
+    "chief_complaint": "fever cough with productive sputum and shortness of breath with sudden onset",
+    "vitals": {
+      "bp_systolic": 145,
+      "bp_diastolic": 71,
+      "heart_rate": 77,
+      "temperature": 39.1,
+      "spo2": 94,
+      "respiratory_rate": 18
+    },
+    "lab_results": {
+      "troponin_i": 0.065,
+      "bnp": 79,
+      "creatinine": 0.9,
+      "glucose": 113,
+      "wbc": 24.3,
+      "hemoglobin": 13.7
+    },
+    "known_allergies": [
+      "vancomycin"
+    ],
+    "current_medications": [
+      "atorvastatin",
+      "lisinopril"
+    ],
+    "ground_truth_diagnosis": "J18.9",
+    "safe_drugs": [
+      "ceftriaxone",
+      "acetaminophen"
+    ],
+    "unsafe_drugs": [
+      "vancomycin",
+      "NSAIDs",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0184",
+    "age": 75,
+    "gender": "male",
+    "chief_complaint": "sudden wheezing difficulty breathing not responding to inhaler",
+    "vitals": {
+      "bp_systolic": 120,
+      "bp_diastolic": 76,
+      "heart_rate": 71,
+      "temperature": 36.6,
+      "spo2": 89,
+      "respiratory_rate": 29
+    },
+    "lab_results": {
+      "troponin_i": 0.089,
+      "bnp": 47,
+      "creatinine": 0.8,
+      "glucose": 111,
+      "wbc": 8.3,
+      "hemoglobin": 15.8
+    },
+    "known_allergies": [
+      "penicillin"
+    ],
+    "current_medications": [],
+    "ground_truth_diagnosis": "J45.901",
+    "safe_drugs": [
+      "methylprednisolone",
+      "epinephrine",
+      "magnesium-sulfate"
+    ],
+    "unsafe_drugs": [
+      "metoprolol",
+      "penicillin",
+      "aspirin",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0185",
+    "age": 68,
+    "gender": "female",
+    "chief_complaint": "sudden pleuritic chest pain shortness of breath after long flight",
+    "vitals": {
+      "bp_systolic": 127,
+      "bp_diastolic": 86,
+      "heart_rate": 129,
+      "temperature": 37.4,
+      "spo2": 83,
+      "respiratory_rate": 18
+    },
+    "lab_results": {
+      "troponin_i": 0.057,
+      "bnp": 70,
+      "creatinine": 0.9,
+      "glucose": 98,
+      "wbc": 5.4,
+      "hemoglobin": 14.8
+    },
+    "known_allergies": [
+      "vancomycin"
+    ],
+    "current_medications": [],
+    "ground_truth_diagnosis": "I26.99",
+    "safe_drugs": [
+      "heparin",
+      "alteplase",
+      "morphine"
+    ],
+    "unsafe_drugs": [
+      "aspirin",
+      "vancomycin"
+    ]
+  },
+  {
+    "patient_id": "P0186",
+    "age": 54,
+    "gender": "female",
+    "chief_complaint": "sudden left-sided facial droop arm weakness and slurred speech with associated nausea",
+    "vitals": {
+      "bp_systolic": 185,
+      "bp_diastolic": 78,
+      "heart_rate": 77,
+      "temperature": 37.2,
+      "spo2": 99,
+      "respiratory_rate": 14
+    },
+    "lab_results": {
+      "troponin_i": 0.024,
+      "bnp": 45,
+      "creatinine": 0.8,
+      "glucose": 132,
+      "wbc": 8.6,
+      "hemoglobin": 14.1
+    },
+    "known_allergies": [
+      "aspirin"
+    ],
+    "current_medications": [
+      "levothyroxine",
+      "warfarin"
+    ],
+    "ground_truth_diagnosis": "I63.9",
+    "safe_drugs": [
+      "alteplase",
+      "labetalol",
+      "acetaminophen"
+    ],
+    "unsafe_drugs": [
+      "aspirin",
+      "heparin"
+    ]
+  },
+  {
+    "patient_id": "P0187",
+    "age": 65,
+    "gender": "male",
+    "chief_complaint": "sudden severe headache worst of life with focal neurological deficits with no prior history",
+    "vitals": {
+      "bp_systolic": 197,
+      "bp_diastolic": 79,
+      "heart_rate": 74,
+      "temperature": 36.8,
+      "spo2": 99,
+      "respiratory_rate": 14
+    },
+    "lab_results": {
+      "troponin_i": 0.088,
+      "bnp": 34,
+      "creatinine": 0.8,
+      "glucose": 108,
+      "wbc": 7.2,
+      "hemoglobin": 15.8
+    },
+    "known_allergies": [
+      "vancomycin"
+    ],
+    "current_medications": [
+      "lisinopril",
+      "metoprolol"
+    ],
+    "ground_truth_diagnosis": "I61.9",
+    "safe_drugs": [
+      "labetalol",
+      "acetaminophen",
+      "tranexamic-acid"
+    ],
+    "unsafe_drugs": [
+      "aspirin",
+      "heparin",
+      "vancomycin",
+      "alteplase"
+    ]
+  },
+  {
+    "patient_id": "P0188",
+    "age": 74,
+    "gender": "male",
+    "chief_complaint": "generalized tonic-clonic seizure lasting 3 minutes",
+    "vitals": {
+      "bp_systolic": 136,
+      "bp_diastolic": 85,
+      "heart_rate": 81,
+      "temperature": 38.5,
+      "spo2": 96,
+      "respiratory_rate": 18
+    },
+    "lab_results": {
+      "troponin_i": 0.073,
+      "bnp": 24,
+      "creatinine": 0.9,
+      "glucose": 76,
+      "wbc": 6.9,
+      "hemoglobin": 15.6
+    },
+    "known_allergies": [
+      "sulfa"
+    ],
+    "current_medications": [],
+    "ground_truth_diagnosis": "G40.909",
+    "safe_drugs": [
+      "diazepam",
+      "levetiracetam",
+      "acetaminophen"
+    ],
+    "unsafe_drugs": [
+      "metoprolol",
+      "sulfa",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0189",
+    "age": 43,
+    "gender": "male",
+    "chief_complaint": "fever confusion hypotension suspected infection source with no prior history",
+    "vitals": {
+      "bp_systolic": 81,
+      "bp_diastolic": 71,
+      "heart_rate": 115,
+      "temperature": 38.9,
+      "spo2": 98,
+      "respiratory_rate": 15
+    },
+    "lab_results": {
+      "troponin_i": 0.032,
+      "bnp": 72,
+      "creatinine": 1.9,
+      "glucose": 97,
+      "wbc": 28.1,
+      "hemoglobin": 13.0
+    },
+    "known_allergies": [
+      "vancomycin"
+    ],
+    "current_medications": [
+      "amlodipine"
+    ],
+    "ground_truth_diagnosis": "A41.9",
+    "safe_drugs": [
+      "piperacillin-tazobactam",
+      "norepinephrine"
+    ],
+    "unsafe_drugs": [
+      "vancomycin",
+      "NSAIDs",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0190",
+    "age": 38,
+    "gender": "female",
+    "chief_complaint": "nausea vomiting abdominal pain fruity breath known diabetic",
+    "vitals": {
+      "bp_systolic": 115,
+      "bp_diastolic": 79,
+      "heart_rate": 120,
+      "temperature": 36.9,
+      "spo2": 97,
+      "respiratory_rate": 28
+    },
+    "lab_results": {
+      "troponin_i": 0.072,
+      "bnp": 33,
+      "creatinine": 1.1,
+      "glucose": 662,
+      "wbc": 5.9,
+      "hemoglobin": 13.3
+    },
+    "known_allergies": [],
+    "current_medications": [
+      "metformin",
+      "levothyroxine"
+    ],
+    "ground_truth_diagnosis": "E10.10",
+    "safe_drugs": [
+      "insulin",
+      "bicarbonate",
+      "furosemide"
+    ],
+    "unsafe_drugs": [
+      "metoprolol",
+      "diazepam",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0191",
+    "age": 34,
+    "gender": "male",
+    "chief_complaint": "confusion diaphoresis shakiness in known diabetic with sudden onset",
+    "vitals": {
+      "bp_systolic": 110,
+      "bp_diastolic": 77,
+      "heart_rate": 111,
+      "temperature": 37.1,
+      "spo2": 98,
+      "respiratory_rate": 16
+    },
+    "lab_results": {
+      "troponin_i": 0.044,
+      "bnp": 44,
+      "creatinine": 1.1,
+      "glucose": 54,
+      "wbc": 6.0,
+      "hemoglobin": 14.4
+    },
+    "known_allergies": [
+      "codeine"
+    ],
+    "current_medications": [
+      "lisinopril",
+      "metformin"
+    ],
+    "ground_truth_diagnosis": "E16.0",
+    "safe_drugs": [
+      "dextrose",
+      "glucagon"
+    ],
+    "unsafe_drugs": [
+      "insulin",
+      "codeine",
+      "metformin",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0192",
+    "age": 83,
+    "gender": "female",
+    "chief_complaint": "urticaria facial swelling throat tightness after eating shellfish worsening over past hour",
+    "vitals": {
+      "bp_systolic": 90,
+      "bp_diastolic": 90,
+      "heart_rate": 132,
+      "temperature": 37.1,
+      "spo2": 98,
+      "respiratory_rate": 14
+    },
+    "lab_results": {
+      "troponin_i": 0.049,
+      "bnp": 41,
+      "creatinine": 1.2,
+      "glucose": 105,
+      "wbc": 6.5,
+      "hemoglobin": 13.6
+    },
+    "known_allergies": [
+      "latex"
+    ],
+    "current_medications": [],
+    "ground_truth_diagnosis": "T78.2XXA",
+    "safe_drugs": [
+      "epinephrine",
+      "diphenhydramine",
+      "methylprednisolone"
+    ],
+    "unsafe_drugs": [
+      "metoprolol",
+      "latex",
+      "NSAIDs",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0193",
+    "age": 84,
+    "gender": "male",
+    "chief_complaint": "decreased urine output flank pain nausea with sudden onset",
+    "vitals": {
+      "bp_systolic": 113,
+      "bp_diastolic": 89,
+      "heart_rate": 77,
+      "temperature": 37.2,
+      "spo2": 97,
+      "respiratory_rate": 14
+    },
+    "lab_results": {
+      "troponin_i": 0.062,
+      "bnp": 38,
+      "creatinine": 5.9,
+      "glucose": 98,
+      "wbc": 6.9,
+      "hemoglobin": 15.4
+    },
+    "known_allergies": [],
+    "current_medications": [],
+    "ground_truth_diagnosis": "N17.9",
+    "safe_drugs": [
+      "furosemide",
+      "bicarbonate",
+      "acetaminophen"
+    ],
+    "unsafe_drugs": [
+      "NSAIDs",
+      "metformin",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0194",
+    "age": 61,
+    "gender": "male",
+    "chief_complaint": "periumbilical pain migrating to right lower quadrant with fever with sudden onset",
+    "vitals": {
+      "bp_systolic": 144,
+      "bp_diastolic": 90,
+      "heart_rate": 80,
+      "temperature": 38.8,
+      "spo2": 98,
+      "respiratory_rate": 18
+    },
+    "lab_results": {
+      "troponin_i": 0.034,
+      "bnp": 30,
+      "creatinine": 1.1,
+      "glucose": 113,
+      "wbc": 19.7,
+      "hemoglobin": 13.7
+    },
+    "known_allergies": [],
+    "current_medications": [],
+    "ground_truth_diagnosis": "K35.80",
+    "safe_drugs": [
+      "piperacillin-tazobactam",
+      "morphine",
+      "ondansetron"
+    ],
+    "unsafe_drugs": [
+      "NSAIDs",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0195",
+    "age": 60,
+    "gender": "male",
+    "chief_complaint": "severe epigastric pain radiating to back nausea vomiting with sudden onset",
+    "vitals": {
+      "bp_systolic": 124,
+      "bp_diastolic": 81,
+      "heart_rate": 110,
+      "temperature": 37.2,
+      "spo2": 98,
+      "respiratory_rate": 17
+    },
+    "lab_results": {
+      "troponin_i": 0.073,
+      "bnp": 41,
+      "creatinine": 0.9,
+      "glucose": 193,
+      "wbc": 6.3,
+      "hemoglobin": 15.9
+    },
+    "known_allergies": [
+      "vancomycin"
+    ],
+    "current_medications": [
+      "lisinopril",
+      "levothyroxine"
+    ],
+    "ground_truth_diagnosis": "K85.9",
+    "safe_drugs": [
+      "morphine",
+      "ondansetron",
+      "acetaminophen"
+    ],
+    "unsafe_drugs": [
+      "opioids",
+      "vancomycin",
+      "NSAIDs",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0196",
+    "age": 42,
+    "gender": "male",
+    "chief_complaint": "bloody vomit melena hematemesis with dizziness with associated nausea",
+    "vitals": {
+      "bp_systolic": 84,
+      "bp_diastolic": 86,
+      "heart_rate": 115,
+      "temperature": 36.9,
+      "spo2": 97,
+      "respiratory_rate": 15
+    },
+    "lab_results": {
+      "troponin_i": 0.089,
+      "bnp": 41,
+      "creatinine": 0.9,
+      "glucose": 103,
+      "wbc": 9.9,
+      "hemoglobin": 8.4
+    },
+    "known_allergies": [],
+    "current_medications": [],
+    "ground_truth_diagnosis": "K92.2",
+    "safe_drugs": [
+      "tranexamic-acid",
+      "ondansetron",
+      "furosemide"
+    ],
+    "unsafe_drugs": [
+      "NSAIDs",
+      "aspirin",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0197",
+    "age": 80,
+    "gender": "female",
+    "chief_complaint": "unresponsive pinpoint pupils slow shallow breathing with associated nausea",
+    "vitals": {
+      "bp_systolic": 121,
+      "bp_diastolic": 80,
+      "heart_rate": 85,
+      "temperature": 36.6,
+      "spo2": 84,
+      "respiratory_rate": 4
+    },
+    "lab_results": {
+      "troponin_i": 0.027,
+      "bnp": 69,
+      "creatinine": 0.8,
+      "glucose": 109,
+      "wbc": 5.5,
+      "hemoglobin": 15.6
+    },
+    "known_allergies": [
+      "vancomycin"
+    ],
+    "current_medications": [
+      "omeprazole"
+    ],
+    "ground_truth_diagnosis": "T40.1",
+    "safe_drugs": [
+      "naloxone",
+      "dextrose",
+      "thiamine"
+    ],
+    "unsafe_drugs": [
+      "vancomycin",
+      "morphine",
+      "diazepam",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0198",
+    "age": 69,
+    "gender": "female",
+    "chief_complaint": "severe headache visual changes elevated blood pressure in pregnancy with associated nausea",
+    "vitals": {
+      "bp_systolic": 160,
+      "bp_diastolic": 130,
+      "heart_rate": 65,
+      "temperature": 36.5,
+      "spo2": 97,
+      "respiratory_rate": 16
+    },
+    "lab_results": {
+      "troponin_i": 0.086,
+      "bnp": 77,
+      "creatinine": 0.9,
+      "glucose": 111,
+      "wbc": 7.7,
+      "hemoglobin": 12.6
+    },
+    "known_allergies": [
+      "latex"
+    ],
+    "current_medications": [
+      "amlodipine",
+      "warfarin"
+    ],
+    "ground_truth_diagnosis": "O14.10",
+    "safe_drugs": [
+      "magnesium-sulfate",
+      "labetalol",
+      "methylprednisolone"
+    ],
+    "unsafe_drugs": [
+      "latex",
+      "NSAIDs",
+      "ACE inhibitors",
+      "nitroglycerin"
+    ]
+  },
+  {
+    "patient_id": "P0199",
+    "age": 34,
+    "gender": "male",
+    "chief_complaint": "tearing chest pain radiating to back sudden onset with associated nausea",
+    "vitals": {
+      "bp_systolic": 216,
+      "bp_diastolic": 86,
+      "heart_rate": 83,
+      "temperature": 36.8,
+      "spo2": 96,
+      "respiratory_rate": 14
+    },
+    "lab_results": {
+      "troponin_i": 0.034,
+      "bnp": 38,
+      "creatinine": 0.9,
+      "glucose": 101,
+      "wbc": 8.1,
+      "hemoglobin": 13.9
+    },
+    "known_allergies": [
+      "cephalosporins"
+    ],
+    "current_medications": [
+      "amlodipine"
+    ],
+    "ground_truth_diagnosis": "I71.0",
+    "safe_drugs": [
+      "labetalol",
+      "morphine",
+      "esmolol"
+    ],
+    "unsafe_drugs": [
+      "aspirin",
+      "cephalosporins",
+      "thrombolytics"
+    ]
+  },
+  {
+    "patient_id": "P0200",
+    "age": 42,
+    "gender": "male",
+    "chief_complaint": "severe colicky flank pain radiating to groin hematuria with no prior history",
+    "vitals": {
+      "bp_systolic": 135,
+      "bp_diastolic": 70,
+      "heart_rate": 96,
+      "temperature": 36.7,
+      "spo2": 97,
+      "respiratory_rate": 15
+    },
+    "lab_results": {
+      "troponin_i": 0.069,
+      "bnp": 57,
+      "creatinine": 1.0,
+      "glucose": 88,
+      "wbc": 6.7,
+      "hemoglobin": 15.1
+    },
+    "known_allergies": [],
+    "current_medications": [],
+    "ground_truth_diagnosis": "N20.0",
+    "safe_drugs": [
+      "ketorolac",
+      "morphine",
+      "ondansetron"
+    ],
+    "unsafe_drugs": [
+      "metformin",
+      "nitroglycerin"
+    ]
+  }
+]

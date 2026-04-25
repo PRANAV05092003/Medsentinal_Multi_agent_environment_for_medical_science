@@ -1,0 +1,212 @@
+{
+  "aspirin": {
+    "min_dose_mg": 81,
+    "max_dose_mg": 325,
+    "used_for": ["cardiac", "coronary", "myocardial infarction", "antiplatelet", "fever"],
+    "contraindications": ["peptic ulcer", "bleeding disorder", "aspirin allergy"],
+    "interactions": ["warfarin", "heparin", "clopidogrel", "ibuprofen"]
+  },
+  "nitroglycerin": {
+    "min_dose_mg": 0.3,
+    "max_dose_mg": 0.6,
+    "used_for": ["cardiac", "angina", "chest pain", "coronary", "hypertension"],
+    "contraindications": ["hypotension", "sildenafil use", "severe aortic stenosis"],
+    "interactions": ["sildenafil", "tadalafil", "antihypertensives"]
+  },
+  "morphine": {
+    "min_dose_mg": 2,
+    "max_dose_mg": 10,
+    "used_for": ["pain", "cardiac", "pulmonary edema", "chest pain", "trauma"],
+    "contraindications": ["respiratory depression", "hypotension", "opioid allergy"],
+    "interactions": ["benzodiazepines", "alcohol", "other opioids", "MAO inhibitors"]
+  },
+  "heparin": {
+    "min_dose_mg": 5000,
+    "max_dose_mg": 25000,
+    "used_for": ["cardiac", "coronary", "pulmonary embolism", "deep vein thrombosis", "anticoagulation"],
+    "contraindications": ["active bleeding", "heparin allergy", "HIT"],
+    "interactions": ["warfarin", "aspirin", "NSAIDs", "thrombolytics"]
+  },
+  "epinephrine": {
+    "min_dose_mg": 0.1,
+    "max_dose_mg": 1.0,
+    "used_for": ["anaphylaxis", "allergic reaction", "cardiac arrest", "shock", "bronchospasm"],
+    "contraindications": ["hypertensive crisis", "angle-closure glaucoma"],
+    "interactions": ["beta blockers", "MAO inhibitors", "tricyclics", "antihypertensives"]
+  },
+  "metoprolol": {
+    "min_dose_mg": 5,
+    "max_dose_mg": 50,
+    "used_for": ["cardiac", "hypertension", "atrial fibrillation", "tachycardia", "coronary"],
+    "contraindications": ["bradycardia", "heart block", "asthma", "cardiogenic shock"],
+    "interactions": ["calcium channel blockers", "digoxin", "amiodarone", "clonidine"]
+  },
+  "amiodarone": {
+    "min_dose_mg": 150,
+    "max_dose_mg": 300,
+    "used_for": ["cardiac", "ventricular fibrillation", "ventricular tachycardia", "atrial fibrillation"],
+    "contraindications": ["iodine allergy", "thyroid disease", "pulmonary fibrosis"],
+    "interactions": ["warfarin", "digoxin", "metoprolol", "simvastatin"]
+  },
+  "atropine": {
+    "min_dose_mg": 0.5,
+    "max_dose_mg": 3.0,
+    "used_for": ["bradycardia", "cardiac", "organophosphate poisoning", "heart block"],
+    "contraindications": ["glaucoma", "prostatic hypertrophy", "tachycardia"],
+    "interactions": ["antihistamines", "tricyclics", "phenothiazines"]
+  },
+  "furosemide": {
+    "min_dose_mg": 20,
+    "max_dose_mg": 200,
+    "used_for": ["pulmonary edema", "congestive heart failure", "renal", "hypertension", "fluid overload"],
+    "contraindications": ["anuria", "sulfa allergy", "severe hypovolemia"],
+    "interactions": ["aminoglycosides", "lithium", "digoxin", "NSAIDs"]
+  },
+  "ceftriaxone": {
+    "min_dose_mg": 1000,
+    "max_dose_mg": 2000,
+    "used_for": ["pneumonia", "sepsis", "infectious", "meningitis", "infection", "bacterial"],
+    "contraindications": ["cephalosporin allergy", "penicillin allergy"],
+    "interactions": ["warfarin", "calcium-containing IV solutions"]
+  },
+  "vancomycin": {
+    "min_dose_mg": 500,
+    "max_dose_mg": 2000,
+    "used_for": ["sepsis", "infectious", "MRSA", "bacterial", "endocarditis", "pneumonia"],
+    "contraindications": ["vancomycin allergy", "severe renal impairment"],
+    "interactions": ["aminoglycosides", "loop diuretics", "NSAIDs"]
+  },
+  "piperacillin-tazobactam": {
+    "min_dose_mg": 3375,
+    "max_dose_mg": 4500,
+    "used_for": ["sepsis", "pneumonia", "infectious", "bacterial", "intraabdominal"],
+    "contraindications": ["penicillin allergy", "beta-lactam allergy"],
+    "interactions": ["methotrexate", "aminoglycosides", "anticoagulants"]
+  },
+  "norepinephrine": {
+    "min_dose_mg": 0.01,
+    "max_dose_mg": 3.0,
+    "used_for": ["shock", "septic shock", "hypotension", "vasopressor"],
+    "contraindications": ["hypovolemia without fluid resuscitation", "mesenteric thrombosis"],
+    "interactions": ["MAO inhibitors", "tricyclics", "halothane"]
+  },
+  "dopamine": {
+    "min_dose_mg": 2,
+    "max_dose_mg": 20,
+    "used_for": ["shock", "cardiogenic shock", "hypotension", "cardiac", "renal"],
+    "contraindications": ["pheochromocytoma", "ventricular fibrillation"],
+    "interactions": ["MAO inhibitors", "phenytoin", "beta blockers"]
+  },
+  "labetalol": {
+    "min_dose_mg": 20,
+    "max_dose_mg": 80,
+    "used_for": ["hypertension", "hypertensive emergency", "cardiac", "stroke", "aortic dissection"],
+    "contraindications": ["asthma", "heart block", "cardiogenic shock", "bradycardia"],
+    "interactions": ["calcium channel blockers", "antihypertensives", "tricyclics"]
+  },
+  "alteplase": {
+    "min_dose_mg": 50,
+    "max_dose_mg": 100,
+    "used_for": ["stroke", "pulmonary embolism", "ischemic stroke", "STEMI", "thrombolysis"],
+    "contraindications": ["recent surgery", "bleeding history", "hemorrhagic stroke", "hypertension"],
+    "interactions": ["anticoagulants", "antiplatelet", "heparin", "warfarin"]
+  },
+  "dextrose": {
+    "min_dose_mg": 25000,
+    "max_dose_mg": 50000,
+    "used_for": ["hypoglycemia", "endocrine", "diabetic", "altered mental status", "glucose"],
+    "contraindications": ["hyperglycemia", "intracranial hypertension"],
+    "interactions": ["insulin"]
+  },
+  "insulin": {
+    "min_dose_mg": 5,
+    "max_dose_mg": 50,
+    "used_for": ["hyperglycemia", "DKA", "diabetic ketoacidosis", "endocrine", "glucose"],
+    "contraindications": ["hypoglycemia"],
+    "interactions": ["beta blockers", "corticosteroids", "thiazides", "epinephrine"]
+  },
+  "naloxone": {
+    "min_dose_mg": 0.4,
+    "max_dose_mg": 2.0,
+    "used_for": ["opioid overdose", "toxicological", "altered mental status", "respiratory depression"],
+    "contraindications": ["non-opioid overdose"],
+    "interactions": ["opioids", "buprenorphine"]
+  },
+  "diazepam": {
+    "min_dose_mg": 5,
+    "max_dose_mg": 20,
+    "used_for": ["seizure", "neurological", "status epilepticus", "anxiety", "alcohol withdrawal"],
+    "contraindications": ["respiratory depression", "acute angle-closure glaucoma"],
+    "interactions": ["opioids", "alcohol", "CNS depressants", "cimetidine"]
+  },
+  "levetiracetam": {
+    "min_dose_mg": 500,
+    "max_dose_mg": 1500,
+    "used_for": ["seizure", "neurological", "epilepsy", "status epilepticus"],
+    "contraindications": ["hypersensitivity to levetiracetam"],
+    "interactions": ["CNS depressants", "methotrexate"]
+  },
+  "methylprednisolone": {
+    "min_dose_mg": 40,
+    "max_dose_mg": 1000,
+    "used_for": ["anaphylaxis", "asthma", "allergic reaction", "respiratory", "inflammatory"],
+    "contraindications": ["systemic fungal infection", "live vaccines"],
+    "interactions": ["NSAIDs", "anticoagulants", "diabetes medications", "vaccines"]
+  },
+  "diphenhydramine": {
+    "min_dose_mg": 25,
+    "max_dose_mg": 50,
+    "used_for": ["anaphylaxis", "allergic reaction", "urticaria", "pruritus"],
+    "contraindications": ["acute asthma", "narrow-angle glaucoma", "MAOI use"],
+    "interactions": ["MAO inhibitors", "CNS depressants", "tricyclics"]
+  },
+  "ondansetron": {
+    "min_dose_mg": 4,
+    "max_dose_mg": 8,
+    "used_for": ["nausea", "vomiting", "gastrointestinal", "antiemetic"],
+    "contraindications": ["QT prolongation", "congenital long QT syndrome"],
+    "interactions": ["apomorphine", "QT-prolonging drugs", "serotonergic drugs"]
+  },
+  "ketorolac": {
+    "min_dose_mg": 15,
+    "max_dose_mg": 30,
+    "used_for": ["pain", "renal colic", "musculoskeletal", "trauma", "headache"],
+    "contraindications": ["peptic ulcer", "renal failure", "bleeding", "aspirin allergy"],
+    "interactions": ["anticoagulants", "lithium", "methotrexate", "ACE inhibitors"]
+  },
+  "acetaminophen": {
+    "min_dose_mg": 500,
+    "max_dose_mg": 1000,
+    "used_for": ["fever", "pain", "headache", "analgesic", "antipyretic"],
+    "contraindications": ["hepatic failure", "acetaminophen allergy"],
+    "interactions": ["warfarin", "alcohol", "isoniazid"]
+  },
+  "magnesium-sulfate": {
+    "min_dose_mg": 1000,
+    "max_dose_mg": 4000,
+    "used_for": ["eclampsia", "preeclampsia", "asthma", "ventricular tachycardia", "hypomagnesemia"],
+    "contraindications": ["heart block", "renal failure", "hypermagnesemia"],
+    "interactions": ["calcium channel blockers", "aminoglycosides", "digoxin"]
+  },
+  "adenosine": {
+    "min_dose_mg": 6,
+    "max_dose_mg": 12,
+    "used_for": ["SVT", "supraventricular tachycardia", "cardiac", "arrhythmia"],
+    "contraindications": ["second/third degree heart block", "sick sinus syndrome", "asthma"],
+    "interactions": ["dipyridamole", "carbamazepine", "theophylline", "caffeine"]
+  },
+  "bicarbonate": {
+    "min_dose_mg": 50,
+    "max_dose_mg": 150,
+    "used_for": ["metabolic acidosis", "DKA", "renal", "toxicological", "cardiac arrest"],
+    "contraindications": ["metabolic alkalosis", "hypokalemia", "hypernatremia"],
+    "interactions": ["calcium", "lithium", "tetracyclines"]
+  },
+  "tranexamic-acid": {
+    "min_dose_mg": 1000,
+    "max_dose_mg": 2000,
+    "used_for": ["trauma", "hemorrhage", "bleeding", "surgery", "gastrointestinal bleeding"],
+    "contraindications": ["active thromboembolic disease", "seizure history"],
+    "interactions": ["hormonal contraceptives", "clotting factors", "anticoagulants"]
+  }
+}

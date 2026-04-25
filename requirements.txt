@@ -1,0 +1,27 @@
+# Core runtime
+streamlit>=1.32.0
+anthropic>=0.25.0
+python-dotenv>=1.0.0
+pandas>=2.0.0
+
+# API server (for React UI)
+fastapi>=0.110.0
+uvicorn>=0.27.0
+pydantic>=2.0.0
+httpx>=0.27.0
+websockets>=15.0.0
+
+# OpenEnv framework
+openenv-core>=0.2.3
+
+# RL Training
+trl>=0.8.0
+transformers>=4.40.0
+datasets>=2.18.0
+peft>=0.10.0
+torch>=2.2.0
+unsloth
+
+# Utilities
+matplotlib>=3.8.0
+numpy>=1.26.0

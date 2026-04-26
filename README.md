@@ -48,7 +48,7 @@ tags:
 |---|---|
 | 🚀 HuggingFace Space (live env) | Add after uploading to HF Spaces |
 | 📓 Training Notebook (Colab) | [Open in Colab](https://colab.research.google.com/drive/1jtTyo1IGMs11BDf6VaAHy2SAOzoWFtwo?usp=sharing) |
-| 📝 Full Blog Post | [Blog.md](Blog.md) |
+| 📝 Full Blog Post | [Blog.md](https://huggingface.co/spaces/PRANAV05092003/Medsentinal/blob/main/Blog.md) |
 | 💻 Live Demo (Replit) | [MedSentinel Demo](https://medsentinal-multiagentenvironmentformedicalscience.replit.app) |
 | 🤗 Trained LoRA Weights | Add after HF Hub upload |
 

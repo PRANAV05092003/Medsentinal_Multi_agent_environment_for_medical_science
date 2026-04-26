@@ -49,7 +49,7 @@ tags:
 | 🚀 HuggingFace Space (HF Code) | [Open in HF](https://huggingface.co/spaces/PRANAV05092003/Medsentinal/tree/main) |
 | 🚀 HuggingFace Space (live env) | [Live Demo](https://huggingface.co/spaces/PRANAV05092003/Medsentinal) |
 | 📓 Training Notebook (Colab) | [Open in Colab](https://colab.research.google.com/drive/1jtTyo1IGMs11BDf6VaAHy2SAOzoWFtwo?usp=sharing) |
-| 📝 Full Blog Post | [Blog.md](https://huggingface.co/spaces/PRANAV05092003/Medsentinal/blob/main/Blog.md) |
+| 📝 HuggingFace Blog Post | [Blog.md](https://huggingface.co/spaces/PRANAV05092003/Medsentinal/blob/main/Blog.md) |
 | 💻 Live Demo (Replit) | [MedSentinel Demo](https://medsentinal-multiagentenvironmentformedicalscience.replit.app) |
 | 🤗 Trained LoRA Weights |[ Weights ](https://drive.google.com/drive/folders/18f1pBvxgHi5ZnuKYgOvme4WyzYWIlBHx?usp=sharing)|
 

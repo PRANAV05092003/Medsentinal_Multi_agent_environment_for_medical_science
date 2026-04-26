@@ -25,7 +25,9 @@ tags:
 ### AI that learns to save lives: even when the data fights back
 
 *Multi-Agent Medical RL · Schema Drift Adversarial Training · OpenEnv Hackathon India 2026*
-
+<p align="center">
+  <img src="assets/assets/WhatsApp Image 2026-04-26 at 9.11.00 AM.jpeg" width="100%" alt="med" />
+</p>
 ---
 
 [![Python](https://img.shields.io/badge/Python-3.11-blue?style=flat-square&logo=python)](https://python.org)

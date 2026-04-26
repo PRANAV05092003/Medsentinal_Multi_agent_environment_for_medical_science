@@ -365,7 +365,7 @@ The best part of this project is not the architecture. It is that we caught our 
 **Live Demo (Replit):** [MedSentinel Demo](https://medsentinal-multiagentenvironmentformedicalscience.replit.app)
 
 ```bash
-git clone YOUR_GITHUB_URL
+git clone [GITHUB_URL](https://github.com/PRANAV05092003/Medsentinal_Multi_agent_environment_for_medical_science.git)
 cd medsentinel
 pip install -r requirements.txt
 echo "ANTHROPIC_API_KEY=sk-ant-..." > .env

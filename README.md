@@ -95,7 +95,7 @@ Patient Case (JSON)
                                  does NOT affect reward or training
 
 
-
+```
 ## Agent Details
 
 ### Doctor Agent

@@ -358,6 +358,8 @@ The best part of this project is not the architecture. It is that we caught our 
 
 **HuggingFace Space (live demo):** [Live Demo](https://huggingface.co/spaces/PRANAV05092003/Medsentinal)
 
+**HuggingFace Space (Main):** [HF Main](https://huggingface.co/spaces/PRANAV05092003/Medsentinal/tree/main)
+
 **Training Notebook (Colab):** [Open in Colab](https://colab.research.google.com/drive/1jtTyo1IGMs11BDf6VaAHy2SAOzoWFtwo?usp=sharing)
 
 **Live Demo (Replit):** [MedSentinel Demo](https://medsentinal-multiagentenvironmentformedicalscience.replit.app)
